@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>consent manager test</title>
+	<meta name="generator" content="BBEdit 12.6" />
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- The utag.sync.js script should run as early as possible, preferably
+ in the head of the document. See the Sample HTML for more information -->
+<script src="//tags.tiqcdn.com/utag/services-robert-sabec/consentmanager-2/prod/utag.sync.js"></script>
+
+<script type="text/javascript">
+var utag_data = {
+}
+</script>
+
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+   a='//tags.tiqcdn.com/utag/services-robert-sabec/consentmanager-2/prod/utag.js';
+   //a='/js/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+<h1>consent manager test GITHUB</h1>
+testing urls : <br>
+https://robertsabec.com/?test=gdpr  <br>
+https://robertsabec.com/?test=implicit <br>
+</body>
+</html>
