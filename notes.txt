@@ -1,0 +1,21 @@
+
+// create blog site
+mkdir blog
+cd blog
+
+Start a new Git repository for an existing code base
+$ cd /path/to/my/codebase
+$ git init      (1)
+$ git add .     (2)
+$ git commit    (3)
+
+git commit -m 'init'
+
+1)Create a /path/to/my/codebase/.git directory.
+
+2)Add all existing files to the index.
+
+3)Record the pristine state as the first commit in the history.
+touch index.html
+
+git status
