@@ -28,7 +28,7 @@ twitter_username:
 github_username:  rsabec
 
 # Build settings
-theme: jekyll-theme-slate
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
