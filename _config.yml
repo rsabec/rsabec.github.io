@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Robert Sabec
+title: robertsabec.com
+author: Robert Sabec
 email: roberjsabec@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Robert is a Solutions Engineer at Tealium in San Diego, CA.
@@ -28,7 +29,6 @@ twitter_username:
 github_username:  rsabec
 
 # Build settings
-# Removed minama theme as it is now a regular theme
 theme: minima
 plugins:
   - jekyll-feed
