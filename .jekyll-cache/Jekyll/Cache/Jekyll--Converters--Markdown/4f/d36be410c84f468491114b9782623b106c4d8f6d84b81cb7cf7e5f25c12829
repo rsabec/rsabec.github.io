@@ -1,3 +1,0 @@
-I"ú<p>I typically use my personal site for testing <code class="highlighter-rouge">tags</code> that require https or to provide a way to demo features or a POC to a client. Moving to <a href="https://pages.github.com/">Github pages</a> is free but limited to only serving flat static html pages requiring a change from my original Angular into page.  Github does support <a href="https://github.com/jekyll/jekyll">Jekyll</a> that helps build your site and allows you to locally preview and test changes.</p>
-
-:ET
