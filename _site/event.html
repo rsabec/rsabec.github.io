@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Universal Data Hub using the HTTP API for events</title>
+	<title>Google Tag Manager test</title>
+
+	<script>
+
+dataLayer = [{
+	'pageCategory': 'signup',
+	'visitorType': 'high-value',
+	"event": "checkout",
+	"action": "checkout_load",
+	"shipToCountry": "Canada",
+	"ecommerce": {
+			"checkoutBillingAddress": "Same as shipping",
+			"deliveryOption": "POST",
+			"checkoutLanguage": "en-IE",
+			"checkoutCurrency": "CAD",
+			"customerType": "New",
+			"checkout_PricingModel": 8,
+			"checkout": {
+					"actionField": {
+							"step": 1,
+							"option": "Customer Type: New"
+					},
+					"products": [{
+							"id": "00749194826125",
+							"name": "Monogram Logo Crewneck Sweatshirt",
+							"category": "",
+							"price": 39.75,
+							"quantity": 1,
+							"style": "",
+							"dimension5": "",
+							"dimension6": "",
+							"dimension13": "00749194826125"
+					}]
+			}
+	},
+	"transactionId": "S0FBQUFBRW9BTmYvNXdKYkRRdEhiR1YzdUtlYldyOThjaExlTkJ3NUdZaWlJYUlXcmJCWnYybzlxY0dvMGN6TWFRPT01",
+	"gtm.uniqueEventId": 3
+}];
+</script>
+			<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-N3GTL9Q');</script>
+		<!-- End Google Tag Manager -->
 </head>
 <body>
+<div>GTM test</div>
+	<!--
 <div>Universal Data Hub using the HTTP API for events</div>
-
+-->
+<!--
 <img height="1" width="1" style="display:none" src="//collect.tealiumiq.com/event?tealium_account=services-robert-sabec&tealium_profile=main&tealium_event=test_other_domain_event&foo=bar"/>
 
+<img height="1" width="1" style="display:none" src="https://databridge.tdbtrk.com/databridge/a4pjxo4v/tdb.gif?last_campaign_seen=testRun01&all_campaigns_seen=_APP_testRun01&total_impressions=_INC_1&ad_domains=_APP_robertsabec.com"/>
+-->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3GTL9Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 </body>
 </html>
