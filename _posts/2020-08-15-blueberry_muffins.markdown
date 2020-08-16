@@ -2,7 +2,7 @@
 layout: post
 title:  "Blueberry-Buttermilk Scones"
 date:   2020-08-15 12:56:00 -0800
-categories: Baking Recipes
+categories: Recipes Baking 
 ---
 
 # Best Blueberry-Buttermilk Scones!
