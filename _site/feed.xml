@@ -1,3 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-21T08:49:28-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Hosting My Site on GitHub</title><link href="http://localhost:4000/personal/website/hosting/2020/02/08/move_personal_site_to_github.html" rel="alternate" type="text/html" title="Hosting My Site on GitHub" /><published>2020-02-08T20:51:00-08:00</published><updated>2020-02-08T20:51:00-08:00</updated><id>http://localhost:4000/personal/website/hosting/2020/02/08/move_personal_site_to_github</id><content type="html" xml:base="http://localhost:4000/personal/website/hosting/2020/02/08/move_personal_site_to_github.html">&lt;p&gt;I typically use my personal site for testing client side &lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt; that require https or to provide a way to demo features or a POC to a client. When deciding to move to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github pages&lt;/a&gt; I considered that it is free but limited to only serving static html pages.  This required changing my original Angular page into ‘something else’. I knew I was not interested in spending the time to manually create individual HTML pages, so enter ‘jekyll’.  Github supports &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt; that helps build your site and provides a built in way to locally preview and test changes.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-16T14:35:50-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Blueberry-Buttermilk Scones</title><link href="http://localhost:4000/baking/recipes/2020/08/15/blueberry_muffins.html" rel="alternate" type="text/html" title="Blueberry-Buttermilk Scones" /><published>2020-08-15T13:56:00-07:00</published><updated>2020-08-15T13:56:00-07:00</updated><id>http://localhost:4000/baking/recipes/2020/08/15/blueberry_muffins</id><content type="html" xml:base="http://localhost:4000/baking/recipes/2020/08/15/blueberry_muffins.html">&lt;h1 id=&quot;best-blueberry-buttermilk-scones&quot;&gt;Best Blueberry-Buttermilk Scones!&lt;/h1&gt;
+
+&lt;p&gt;Preheat oven - Convection 375 F&lt;/p&gt;
+
+&lt;p&gt;When mixing dough, less is more, only mix enough to incorporate.&lt;/p&gt;
+
+&lt;p&gt;Use less to no sugar depending on how sweet the blueberries are.&lt;/p&gt;
+
+&lt;p&gt;3 cups ( 15oz ) all purpose flour - APF&lt;/p&gt;
+
+&lt;p&gt;1 cup ( 4oz ) cake flour - not self rising&lt;/p&gt;
+
+&lt;p&gt;6 tablespoons sugar ( see note above )&lt;/p&gt;
+
+&lt;p&gt;5 teaspoons baking powder&lt;/p&gt;
+
+&lt;p&gt;1/2 teaspoon salt&lt;/p&gt;
+
+&lt;p&gt;8 ounces cold unsalted butter&lt;/p&gt;
+
+&lt;p&gt;1 cup ( 1/2 pint ) blueberries&lt;/p&gt;
+
+&lt;p&gt;1 cup chilled water + 4 tablespoons Saco cultured buttmilknpowder ( or 1 cup buttermilk )&lt;/p&gt;
+
+&lt;p&gt;2 large eggs - plus one beaten egg for final egg wash&lt;/p&gt;
+
+&lt;p&gt;1 teaspoon vanilla extract&lt;/p&gt;
+
+&lt;p&gt;I use a baking sheet with a Sitpat but parchment paper can be used in place of the Sitpat. Mix together Dry ingredients including cultured buttermilk powder.  Dice up cold to frozen butter and add to mixer on low.  I will typically cover the mixer bowl with a towel to stop spit-out and increase speed of mixer to pulverized and break up the butter chunks.  With mixer on low add wet ingredients plus blueberries.  Empty out the evenly mixed dough out and divide into two balls.  Roll out each into the desired thickness and cut into wedges.  I typically get 8 scones per dough ball or 16 in total.  Place on cookie sheet with Silpat, brush with egg wash and then into 375-degree oven for 22 minutes, turn once halfway through.  Remove and cool on rack.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/IMG_0708.jpg&quot; alt=&quot;Blueberry-scones&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>Robert Sabec</name></author><summary type="html">Best Blueberry-Buttermilk Scones!</summary></entry><entry><title type="html">Hosting My Site on GitHub</title><link href="http://localhost:4000/personal/website/hosting/2020/02/08/move_personal_site_to_github.html" rel="alternate" type="text/html" title="Hosting My Site on GitHub" /><published>2020-02-08T20:51:00-08:00</published><updated>2020-02-08T20:51:00-08:00</updated><id>http://localhost:4000/personal/website/hosting/2020/02/08/move_personal_site_to_github</id><content type="html" xml:base="http://localhost:4000/personal/website/hosting/2020/02/08/move_personal_site_to_github.html">&lt;p&gt;I typically use my personal site for testing client side &lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt; that require https or to provide a way to demo features or a POC to a client. When deciding to move to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github pages&lt;/a&gt; I considered that it is free but limited to only serving static html pages.  This required changing my original Angular page into ‘something else’. I knew I was not interested in spending the time to manually create individual HTML pages, so enter ‘jekyll’.  Github supports &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt; that helps build your site and provides a built in way to locally preview and test changes.&lt;/p&gt;
 
 &lt;p&gt;Setting up &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;GitHub Pages&lt;/code&gt; only required basic programming skills and beginner Github experience.  I would recommend using GitHub Pages for your personal site.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><summary type="html">I typically use my personal site for testing client side tags that require https or to provide a way to demo features or a POC to a client. When deciding to move to Github pages I considered that it is free but limited to only serving static html pages. This required changing my original Angular page into ‘something else’. I knew I was not interested in spending the time to manually create individual HTML pages, so enter ‘jekyll’. Github supports Jekyll that helps build your site and provides a built in way to locally preview and test changes.</summary></entry></feed>
