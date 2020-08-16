@@ -7,6 +7,8 @@ categories: Recipes Pasta
 
 # Fresh Egg and Extruded Pasta -
 
+These are my notes when experimenting with flour and moister ration in doughs for extruded and egg pasta.  Extruded pasta will typically be a much drier dough.  
+
 # -Fresh Egg Pasta - 
 
 	2 cups ( 10oz ) APF 
