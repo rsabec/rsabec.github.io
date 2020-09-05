@@ -22,12 +22,12 @@ title: robertsabec.com
 author: Robert Sabec
 email: roberjsabec@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Robert is a Solutions Engineer at Tealium in San Diego, CA.
+  Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  rsabec
-google_analytics: UA-48392027-2
+#google_analytics: UA-48392027-2
 
 # Build settings
 theme: minima
