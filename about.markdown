@@ -11,7 +11,7 @@ permalink: /about/
 
   	Engage with customers to provide technical recommendations, debugging and direct integration programming support.
   	
-  Collaborate with enterprise clients, tag-vendors and agencies in various projects inlcuding GDPR and CCPA compliance to meet deadlines.
+  Collaborate with enterprise clients, tag-vendors and agencies in various projects including GDPR and CCPA compliance to meet deadlines.
 
 </li>
 
@@ -27,3 +27,4 @@ permalink: /about/
 
 </ul>
 
+<div> I am an advid cyclist and enjoy gardening, baking artisan bread and working on my culinary skills. </div>
