@@ -31,7 +31,7 @@ One diced carrot.
 
 1 cup heavy cream
 
-Place the butter in pressure cooker on saute, add chopped onions and carrots and season with pich of salt and pepper.  Saute until onions are translucent. Add ginger and saute 5 minutes then add garlic and all spices in the Instant Pot . Saute additional 5 minutes stirring to make sure not to burn the the garlic and spices. Add tomatoes and chicken, stir to incorporate. Secure lid on pressure cooker and cook on high pressure for 15 minutes. Release pressure then add in cream then reset pressure cooker to simmer and occasional stir for 15 additional minutes.  Serve as is or with rice.
+Place the butter in pressure cooker on saute, add chopped onions and carrots and season with pinch of salt and pepper.  Saute until onions are translucent. Add ginger and saute 5 more minutes then add garlic and all spices in the Instant Pot . Saute additional 3 to 5 minutes, stirring to make sure not to burn the the garlic and spices. Add tomatoes and chicken, stir to incorporate. Secure lid on pressure cooker and cook on high pressure for 15 minutes. Release pressure then add in cream then reset pressure cooker to simmer and stir occasionally for 15 additional minutes.  Serve as is or with rice.
 
 
 
