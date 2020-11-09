@@ -7,7 +7,7 @@ categories: Recipes Beef Stew
 
 # Short Ribs .
 
- 6 boneless sort ribs ( one Costco short rib package ).
+ 6 boneless short ribs ( one Costco short rib package ).
 
 One medium yellow onion diced.
 
