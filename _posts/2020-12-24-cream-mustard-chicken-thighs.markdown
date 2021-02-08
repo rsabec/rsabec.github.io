@@ -17,13 +17,13 @@ Thyme -
 
 4 TBS APF
 
-Salt & Pepper
+Salt & Pepper - to taste
 
-Nutmeg
+Nutmeg ( some fresh off microplane  )
 
-Paprika
+Paprika ( pinch )
 
-Cayene pepper
+Cayene pepper ( pinch )
 
 1 to 2 TBS Stone gound mustard
 
@@ -31,11 +31,11 @@ Cayene pepper
 
 1 cup heavy cream
 
-Onion diced
+1 medium Onion diced
 
-Carrot diced
+1 large Carrot diced
 
-Cellery diced
+3 cellery Cellery stalks diced
 
 3 cloves garlic- pressed
 
