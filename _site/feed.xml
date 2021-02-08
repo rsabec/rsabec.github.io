@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-26T17:44:39-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Sous Vide Turkey Thighs</title><link href="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html" rel="alternate" type="text/html" title="Sous Vide Turkey Thighs" /><published>2020-12-24T08:27:00-08:00</published><updated>2020-12-24T08:27:00-08:00</updated><id>http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html">&lt;h1 id=&quot;sous-vide-turkey-thighs&quot;&gt;Sous Vide Turkey Thighs&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-07T18:38:33-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Cream Mustard Chicken Thighs</title><link href="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html" rel="alternate" type="text/html" title="Cream Mustard Chicken Thighs" /><published>2021-02-07T09:00:00-08:00</published><updated>2021-02-07T09:00:00-08:00</updated><id>http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html">&lt;h1 id=&quot;cream-mustard-chicken-thighs&quot;&gt;Cream Mustard Chicken Thighs&lt;/h1&gt;
+
+&lt;p&gt;Two packages Costco chicken thighs&lt;/p&gt;
+
+&lt;p&gt;4 TBS olive Oil&lt;/p&gt;
+
+&lt;p&gt;Thyme -&lt;/p&gt;
+
+&lt;p&gt;2 Bay leaves&lt;/p&gt;
+
+&lt;p&gt;4 TBS APF&lt;/p&gt;
+
+&lt;p&gt;Salt &amp;amp; Pepper&lt;/p&gt;
+
+&lt;p&gt;Nutmeg&lt;/p&gt;
+
+&lt;p&gt;Paprika&lt;/p&gt;
+
+&lt;p&gt;Cayene pepper&lt;/p&gt;
+
+&lt;p&gt;1 to 2 TBS Stone gound mustard&lt;/p&gt;
+
+&lt;p&gt;1 to 2 TBS Grey Pupon Mustard&lt;/p&gt;
+
+&lt;p&gt;1 cup heavy cream&lt;/p&gt;
+
+&lt;p&gt;Onion diced&lt;/p&gt;
+
+&lt;p&gt;Carrot diced&lt;/p&gt;
+
+&lt;p&gt;Cellery diced&lt;/p&gt;
+
+&lt;p&gt;3 cloves garlic- pressed&lt;/p&gt;
+
+&lt;p&gt;1.5 ups white wine ( chardonay )&lt;/p&gt;
+
+&lt;p&gt;2 TBS butter&lt;/p&gt;
+
+&lt;p&gt;Broccoli Florets&lt;/p&gt;
+
+&lt;p&gt;Prepare Broccoli Florets by flash blanching in olive oil and butter.&lt;/p&gt;
+
+&lt;p&gt;Salt pepper and coat chicken thighs with flour.  Brown in olive olive oil and remove from pan.   - add additional olive oil and butter. Saute mirepoix and add bay leaf and thyme- Add garlic at end.  Add white wine and reduce.  Add chicken stock till stir and simmer till combined.  Return thigh to pan and simmer covered for 15 minutes.  Remove thighs, add cream and mustard stir to combine and simmer 5 to 10 minutes. Add pinch grated fresh nutmeg, pinch cayene and paprika. ( check salt and pepper ) Return thighs and add Broccoli Florets to pan.  Simmer till sauce thickens to taste.&lt;/p&gt;
+
+&lt;p&gt;cd Documents/GitHub/rsabec.github.io/&lt;/p&gt;
+
+&lt;p&gt;bundle exec jekyll serve&lt;/p&gt;</content><author><name>Robert Sabec</name></author><summary type="html">Cream Mustard Chicken Thighs</summary></entry><entry><title type="html">Sous Vide Turkey Thighs</title><link href="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html" rel="alternate" type="text/html" title="Sous Vide Turkey Thighs" /><published>2020-12-24T08:27:00-08:00</published><updated>2020-12-24T08:27:00-08:00</updated><id>http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html">&lt;h1 id=&quot;sous-vide-turkey-thighs&quot;&gt;Sous Vide Turkey Thighs&lt;/h1&gt;
 
 &lt;p&gt;Preheat sous vide - Thighs @ 150F ( Breasts @ 131F )&lt;/p&gt;
 
