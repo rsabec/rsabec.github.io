@@ -41,6 +41,8 @@ Cellery diced
 
 1.5 ups white wine ( chardonay )
 
+1/2 can chicken stock - about 8 oz
+
 2 TBS butter
 
 Broccoli Florets 
