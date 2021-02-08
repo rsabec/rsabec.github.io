@@ -47,7 +47,7 @@ Cellery diced
 
 Broccoli Florets 
 
-Prepare Broccoli Florets by flash blanching in olive oil and butter.
+Prepare broccoli florets by lightly sauteing in olive oil and butter and setting aside.
 
 Salt pepper and coat chicken thighs with flour.  Brown in olive olive oil and remove from pan.   - add additional olive oil and butter. Saute mirepoix and add bay leaf and thyme- Add garlic at end.  Add white wine and reduce.  Add chicken stock till stir and simmer till combined.  Return thigh to pan and simmer covered for 15 minutes.  Remove thighs, add cream and mustard stir to combine and simmer 5 to 10 minutes. Add pinch grated fresh nutmeg, pinch cayene and paprika. ( check salt and pepper ) Return thighs and add Broccoli Florets to pan.  Simmer till sauce thickens to taste.
 
