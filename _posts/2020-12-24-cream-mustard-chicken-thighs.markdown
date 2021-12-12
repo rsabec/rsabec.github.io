@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Cream Mustard Chicken Thighs"
+title:  "Chicken Thighs with Cream Mustard"
 date:   2021-02-07 09:00:00 -0800
 categories: Recipes Chicken  
 ---
 
-# Cream Mustard Chicken Thighs 
+# Chicken Thighs with Cream Mustard 
 
 Two packages Costco chicken thighs
 
