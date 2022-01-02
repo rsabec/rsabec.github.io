@@ -1,13 +1,10 @@
-I"�<h1 id="creating-a-blog-and-information-site-for-the-historic-merrit-house-on-orrs-island">Creating a blog and information site for the Historic Merrit House on Orr’s Island.</h1>
+I"�<h1 id="creating-a-blog-and-information-site-for-the-historic-merrit-house-on-orrs-island">Creating a blog and information site for the Historic Merrit House on Orr’s Island.</h1>
 
 <p>1 Purchase Domains merritthouse.info and merritthouse.blog</p>
 
 <p>2 Create new repository on GiHhub ‘merritthouse’</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Turn on GitHub Pages and set source to /root
-* [Configure custom domain]: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
-* https://rsabec.github.io/
-* https://rsabec.github.io/merritthouse
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* https://rsabec.github.io/merritthouse
 </code></pre></div></div>
 
 <p>3 Create A records on DNS</p>
