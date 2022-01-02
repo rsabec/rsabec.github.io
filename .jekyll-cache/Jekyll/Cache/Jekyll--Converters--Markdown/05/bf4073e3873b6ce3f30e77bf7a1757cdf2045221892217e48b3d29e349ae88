@@ -1,4 +1,4 @@
-I"™<h1 id="creating-a-blog-and-information-site-for-the-historic-merrit-house-on-orrs-island">Creating a blog and information site for the Historic Merrit House on Orrâ€™s Island.</h1>
+I"ú<h1 id="creating-a-blog-and-information-site-for-the-historic-merrit-house-on-orrs-island">Creating a blog and information site for the Historic Merrit House on Orrâ€™s Island.</h1>
 
 <p>1 Purchase Domains merritthouse.info and merritthouse.blog</p>
 
@@ -21,5 +21,7 @@
 </code></pre></div></div>
 
 <p>5 Created Domain Pointer to rsabec.github.io/merritthouse</p>
+
+<p>6 Setup Jekyll site on Github  <a href="http://merritthouse.info/">merritthouse.info</a></p>
 
 :ET

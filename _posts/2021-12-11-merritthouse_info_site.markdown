@@ -26,7 +26,10 @@ categories: website
 
 5 Created Domain Pointer to rsabec.github.io/merritthouse
 
+6 Setup Jekyll site on Github - [merritthouse.info][merritt-house]
 
+
+[merritt-house]: http://merritthouse.info/
 
 [github-pages]: https://pages.github.com/
 [jekyll-gh]:   https://github.com/jekyll/jekyll
