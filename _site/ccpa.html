@@ -12,7 +12,7 @@
 
 <!-- The utag.sync.js script should run as early as possible, preferably
  in the head of the document. See the Sample HTML for more information -->
-<script src="//tags.tiqcdn.com/utag/services-robert-sabec/consentmanager-2/prod/utag.sync.js"></script>
+<script src="//tags.tiqcdn.com/utag/services-robert-sabec/ccpa/prod/utag.sync.js"></script>
 
 <script type="text/javascript">
 var utag_data = {
@@ -22,15 +22,13 @@ var utag_data = {
 <!-- Loading script asynchronously -->
 <script type="text/javascript">
     (function(a,b,c,d){
-   a='//tags.tiqcdn.com/utag/services-robert-sabec/consentmanager-2/prod/utag.js';
-   //a='/js/utag.js';
+   a='//tags.tiqcdn.com/utag/services-robert-sabec/ccpa/prod/utag.js';
     b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
     a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
     })();
 </script>
-<h1>consent manager test GITHUB</h1>
+<h1>CCCPA GITHUB</h1>
 testing urls : <br>
-https://robertsabec.com/?test=gdpr  <br>
-https://robertsabec.com/?test=implicit <br>
+https://robertsabec.com  < load rule on ccpa is all pages >
 </body>
 </html>
