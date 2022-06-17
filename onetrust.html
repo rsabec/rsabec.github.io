@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>onetrust test</title>
     <meta name="generator" content="BBEdit 12.6" />
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<!-- The utag.sync.js script should run as early as possible, preferably
+    <!-- The utag.sync.js script should run as early as possible, preferably
  in the head of the document. See the Sample HTML for more information -->
-<script src="//tags.tiqcdn.com/utag/services-robert-sabec/onetrust/prod/utag.sync.js"></script>
+    <script src="//tags.tiqcdn.com/utag/services-robert-sabec/onetrust/prod/utag.sync.js"></script>
 
-<script type="text/javascript">
-var utag_data = {
-}
-</script>
+    <script type="text/javascript">
+        var utag_data = {}
+    </script>
 
-<!-- Loading script asynchronously -->
-<script type="text/javascript">
-    (function(a,b,c,d){
-   a='//tags.tiqcdn.com/utag/services-robert-sabec/onetrust/prod/utag.js';
-   //a='/js/utag.js';
-    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
-    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
-    })();
-</script>
-<div>onetrust test</div>
-<div>onetrust modal would theoretaically be showing now</div>
-</br>
+    <!-- Loading script asynchronously -->
+    <script type="text/javascript">
+        (function(a, b, c, d) {
+            a = '//tags.tiqcdn.com/utag/services-robert-sabec/onetrust/prod/utag.js';
+            //a='/js/utag.js';
+            b = document;
+            c = 'script';
+            d = b.createElement(c);
+            d.src = a;
+            d.type = 'text/java' + c;
+            d.async = true;
+            a = b.getElementsByTagName(c)[0];
+            a.parentNode.insertBefore(d, a);
+        })();
+    </script>
+    <div>onetrust test</div>
+    <div>onetrust modal would theoretaically be showing now</div>
+    </br>
 
-<div>CM explicit is on by 'load rule' for all pages on this test page but our modal display is turned off with cmgeneral template edit - all other explicit modal behaviour is still active</div>
-<div>If you did not want tags held on 'all pages' then adjust the <a href="https://community.tealiumiq.com/t5/iQ-Tag-Management/Explicit-Consent-Prompt-Manager/ta-p/22714">'Explicit Consent Prompt Manager'</a>  </div>
-</br>
-<div>CM explicit hold all tags but omit listed tag(s) and waits for consent decision to fire all queued events</div>
+    <div>CM explicit is on by 'load rule' for all pages on this test page but our modal display is turned off with cmgeneral template edit - all other explicit modal behaviour is still active</div>
+    <div>If you did not want tags held on 'all pages' then adjust the <a href="https://community.tealiumiq.com/t5/iQ-Tag-Management/Explicit-Consent-Prompt-Manager/ta-p/22714">'Explicit Consent Prompt Manager'</a> </div>
+    </br>
+    <div>CM explicit hold all tags but omit listed tag(s) and waits for consent decision to fire all queued events</div>
 
-<div>onetrust should provide method to attach to their consent decision in their modal and pass the value(s) on the first page ( or anytime it is displayed and consent is changed) -</div>
-</br>
-<div> test in the console with utag.gdpr.setConsentValue(1);</div>
-<div>this will trigger the tags held on the first page and set the CONSENTMGR cookie</div>
-</br>
+    <div>onetrust should provide method to attach to their consent decision in their modal and pass the value(s) on the first page ( or anytime it is displayed and consent is changed) -</div>
+    </br>
+    <div> test in the console with utag.gdpr.setConsentValue(1);</div>
+    <div>this will trigger the tags held on the first page and set the CONSENTMGR cookie</div>
+    </br>
 
-<div>you would still need a preloader extension to read the onetrust cookie and write the CONSENTMGR cookie since onetrust recreates their cookies when deleted while we do not automatically remake the CONSENTMGR cookie </div>
-<div>we also would need the 'categories' in the onetrust consent decision and how they relate to the available 15 categories in the <a href="https://community.tealiumiq.com/t5/iQ-Tag-Management/Consent-Preferences-Manager/ta-p/22715">Consent Preferences Manage</a></div>
-<div>the update to the cmGeneral template is one line that deactivates our prompt so it does not display</div>
-<img src="images/cmgeneral1.jpg" alt="cmgeneral">
+    <div>you would still need a preloader extension to read the onetrust cookie and write the CONSENTMGR cookie since onetrust recreates their cookies when deleted while we do not automatically remake the CONSENTMGR cookie </div>
+    <div>we would need the 'categories' in the onetrust consent decision and how they relate to the available 15 categories in the <a href="https://community.tealiumiq.com/t5/iQ-Tag-Management/Consent-Preferences-Manager/ta-p/22715">Consent Preferences Manage</a></div>
+    </br>
+    <div>Screenshot below of the update to the cmGeneral template is one line that deactivates our prompt so it does not display</div>
+    </br>
+
+    <img src="images/cmgeneral1.jpg" alt="cmgeneral">
+    </br>
+    </br>
+    </br>
+
+    <a href="https://docs.tealium.com/platforms/javascript/api/gdpr-functions/">Reference guide for GDPR functions provided by Tealium for JavaScript.</a>
+
+    </br>
 </body>
+
 </html>
