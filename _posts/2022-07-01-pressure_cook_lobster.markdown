@@ -9,6 +9,7 @@ Buy two (2) live lobsters around 2 lbs each.
 
 # -Put in large ( 8 QRT ) Pressure Cooker - 
 
+	Place steamer basket or platform in bottom of pot.
 	3 to 6lbs of Live Whole Lobster - with rubber bands removed. 
 	2.5 cups water
 	2 Tbsp Kosher Salt
@@ -30,6 +31,12 @@ Buy two (2) live lobsters around 2 lbs each.
 Enjoy!
 
 ![Lobster02](/images/lobster02.jpeg)
+
+
+resources - 
+	Allen's Sea Food
+	119 Lookout Point Rd, Harpswell, ME 04079
+	[allens-seafood]: https://goo.gl/maps/Jh9nAGg5fhPyEjwS9
 
 
 [github-pages]: https://pages.github.com/
