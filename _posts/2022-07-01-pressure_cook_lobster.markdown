@@ -32,11 +32,12 @@ Enjoy!
 
 ![Lobster02](/images/lobster02.jpeg)
 
+ 
 
 resources - 
 	Allen's Sea Food
 	119 Lookout Point Rd, Harpswell, ME 04079
-	[allens-seafood]: https://goo.gl/maps/Jh9nAGg5fhPyEjwS9
+	<a href="https://goo.gl/maps/Jh9nAGg5fhPyEjwS9">Allen's Sea Food</a>
 
 
 [github-pages]: https://pages.github.com/
