@@ -1,66 +1,361 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>onetrust test</title>
-    <meta name="generator" content="BBEdit 12.6" />
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.2.1.js"></script>
 </head>
-
 <body>
 
-    <!-- The utag.sync.js script should run as early as possible, preferably
- in the head of the document. See the Sample HTML for more information -->
-    <script src="//tags.tiqcdn.com/utag/services-robert-sabec/onetrust/prod/utag.sync.js"></script>
+<div>onetrust test</div>
+<div>onetrust modal would theoretaically be showing now</div>
+<div>CM explicit is on by load rule but our modal display is turned off with cmgeneral edit - all other explicit modal behaviour is still active</div>
+<div>CM explicit hold all tags but omit listed tag(s) and waits for consent decision to fire all queued events</div>
 
-    <script type="text/javascript">
-        var utag_data = {}
-    </script>
+<div>onetrust should provide method to attach to their consent decision in their modal and pass the value(s) - test with utag.gdpr.setConsentValue(1);</div>
+<script type="text/javascript">
+var utag_data = {
+page_name : 'onetrust'
+}
+</script>
 
-    <!-- Loading script asynchronously -->
-    <script type="text/javascript">
-        (function(a, b, c, d) {
-            a = '//tags.tiqcdn.com/utag/services-robert-sabec/onetrust/prod/utag.js';
-            //a='/js/utag.js';
-            b = document;
-            c = 'script';
-            d = b.createElement(c);
-            d.src = a;
-            d.type = 'text/java' + c;
-            d.async = true;
-            a = b.getElementsByTagName(c)[0];
-            a.parentNode.insertBefore(d, a);
-        })();
-    </script>
-    <div>onetrust test</div>
-    <div>onetrust modal would theoretaically be showing now</div>
-    </br>
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='https://tags.tiqcdn.com/utag/services-robert-sabec/onetrust/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
 
-    <div>CM explicit is on by 'load rule' for all pages on this test page but our modal display is turned off with cmgeneral template edit - all other explicit modal behaviour is still active</div>
-    <div>If you did not want tags held on 'all pages' then adjust the <a href="https://community.tealiumiq.com/t5/iQ-Tag-Management/Explicit-Consent-Prompt-Manager/ta-p/22714">'Explicit Consent Prompt Manager'</a> </div>
-    </br>
-    <div>CM explicit hold all tags but omit listed tag(s) and waits for consent decision to fire all queued events</div>
 
-    <div>onetrust should provide method to attach to their consent decision in their modal and pass the value(s) on the first page ( or anytime it is displayed and consent is changed) -</div>
-    </br>
-    <div> test in the console with utag.gdpr.setConsentValue(1);</div>
-    <div>this will trigger the tags held on the first page and set the CONSENTMGR cookie</div>
-    </br>
+<div>
+https://docs.tealium.com/platforms/javascript/api/gdpr-functions/
+<div>
+utag.gdpr.getConsentState();
+</div>
+<div>
+utag.gdpr.setConsentValue(1);
+</div>
+<div>
+utag.gdpr.setConsentValue(0);
+</div>
+<div>utag.gdpr.setPreferencesValues({
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 1
+})</div>
+<hr>
+/***************************************************************************
+    MODIFYING THE CODE BELOW THIS WILL AFFECT THE CONSENT MANAGEMENT.
+      PLEASE CONTACT SUPPORT FOR ASSISTANCE IF YOU NEED TO MODIFY.
+***************************************************************************/
+(function consent_prompt(){
+  var $el = document.getElementById("consent_prompt_submit"),
+      $modal = document.getElementById("__tealiumGDPRecModal"),
+      $closeBtn = $modal.getElementsByClassName("close_btn_thick")[0],
+      $privacy_pref_optin = document.getElementById("privacy_pref_optin"),
+      $privacy_pref_optout = document.getElementById("privacy_pref_optout");
+  
+  var consentState = utag.gdpr.getConsentState();
+  if (typeof consentState === "number") {
+    if (consentState === 1) {
+      $privacy_pref_optin.checked = true;
+    } else if (consentState === -1){
+      $privacy_pref_optout.checked = true;
+    }
+  } else {
+    $privacy_pref_optin.checked = true;
+  }
+  
+  var callBack = function () {
+    if ($privacy_pref_optin.checked) {
+      utag.gdpr.setConsentValue(1);
+      
+      /** Uncomment this line to allow for view event to be sent.
+ setTimeout(function (){if (window.utag && window.utag.udoname || window.utag_data) {utag.view(window[window.utag && window.utag.udoname || "utag_data"]);}},0);**/
+    } else if ($privacy_pref_optout.checked) {
+      utag.gdpr.setConsentValue(0);
+    } else {
+      return;
+    }
+    closePrompt();
+  };
+  var closePrompt = function(){
+    $modal.style.display = "none";
+  };
+  if (document.addEventListener) {
+    $el.addEventListener("click", callBack, false);
+    $closeBtn.addEventListener("click", closePrompt, false);
+  } else if (document.attachEvent) {
+    $el.attachEvent("click", callBack);
+    $closeBtn.attachEvent("click", closePrompt);
+  } else {
+    $el.onclick = callBack;
+    $closeBtn.onclick = closePrompt;
+  }
+}());
 
-    <div>you would still need a preloader extension to read the onetrust cookie and write the CONSENTMGR cookie since onetrust recreates their cookies when deleted while we do not automatically remake the CONSENTMGR cookie </div>
-    <div>we would need the 'categories' in the onetrust consent decision and how they relate to the available 15 categories in the <a href="https://community.tealiumiq.com/t5/iQ-Tag-Management/Consent-Preferences-Manager/ta-p/22715">Consent Preferences Manage</a></div>
-    </br>
-    <div>Screenshot below of the update to the cmGeneral template is one line that deactivates our prompt so it does not display</div>
-    </br>
+</div>
+    <hr>
+    <div>
+    /***************************************************************************
+    MODIFYING THE CODE BELOW THIS WILL AFFECT THE CONSENT MANAGEMENT.
+      PLEASE CONTACT SUPPORT FOR ASSISTANCE IF YOU NEED TO MODIFY.
+***************************************************************************/
+(function preferences_prompt() {
+  var $el = document.getElementById("preferences_prompt_submit"),
+      $modal = document.getElementById("__tealiumGDPRcpPrefs"),
+      $closeBtn = $modal.getElementsByClassName("close_btn_thick")[0],
+      $body = $modal.getElementsByClassName("consent_preferences")[0],
+      reg_match = /\d+$/,
+      i;
+  
+  var callBack = function () {
+    
+    var inputs = $body.getElementsByClassName("toggle"),
+        cats = {};
+    
+    for (var i = 0; i < inputs.length; i++) {
+      var obj = inputs[i];
+      cats[obj.id.match(reg_match)[0]] = obj.checked ? 1 : 0;
+    }
+    closePrompt();
+    
+    utag.gdpr.setPreferencesValues(cats);
+    /**** Uncomment to allow a view event to take place after preferences have been set
+     setTimeout(function (){if (window.utag && window.utag.udoname || window.utag_data) {utag.view(window[window.utag && window.utag.udoname || "utag_data"]);}},0);
+     ****/
+  };
+  var closePrompt = function () {
+    $modal.style.display = "none";
+  };
+  
+  
+  var consentState = utag.gdpr.getConsentState();
+  if (typeof consentState === "number") {
+    var _state = false;
+    if (consentState === 1 || consentState === -1){
+      _state = consentState === 1;
+    } else {
+      _state = !!utag.gdpr.preferences_prompt.defaultState;
+  }
+  var activeCats = utag.gdpr.getCategories(true);
+  for (var i = 0; i < activeCats.length; i++) {
+    var id = utag.gdpr.preferences_prompt.categories[activeCats[i]].id;
+    document.getElementById("toggle_cat" + id).checked = _state;
+  }
+  } else {
+    for (i = 0; i < consentState.length; i++) {
+      if (consentState[i].ct !== "1") {
+        continue;
+      }
+      var el = document.getElementById("toggle_cat" + (i + 1));
+      if(el){ el.checked = true;}
+    }
+  }
+  
+  
+  if (document.addEventListener) {
+    $el.addEventListener("click", callBack, false);
+    $closeBtn.addEventListener("click", closePrompt, false);
+  } else if (document.attachEvent) {
+    $el.attachEvent("click", callBack);
+    $closeBtn.attachEvent("click", closePrompt);
+  } else {
+    $el.onclick = callBack;
+    $closeBtn.onclick = closePrompt;
+  }
+}());
+    </div>
+    
+    <hr>
+    <div>
+//scope to preloader
+//START preloader TrustArc      
 
-    <img src="images/cmgeneral1.jpg" alt="cmgeneral">
-    </br>
-    </br>
-    </br>
+ if (( location.pathname.indexOf( "/sv-SE/") > -1 && document.URL.indexOf("buygarmintest") > -1)|| (location.pathname.indexOf( "/fr-FR/") > -1 && document.URL.indexOf("buygarmintest") > -1)) {
+ // detection of GDPR will be set on directory path including Sweden or France 
+ var gdpr_country = 1;  //  this may be updated at a later time to a UDO variable indicating country or if GDPR - 08/18/2020
+ // currently if path inludes test for sweden or france it is set to tue
+ 
+if ( ( (document.cookie + '').indexOf('notice_behavior') > -1 ) || (gdpr_country) ) { // update logic for GDPR logic based on pathname sweden or france for POC 08/18/2020
+    var getConsentCookie = function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) === 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    var notice_behavior_cookie = getConsentCookie("notice_behavior");
+    var notice_preferences_cookie = getConsentCookie("notice_preferences");
+    var CONSENTMGRcookieValue = ""; // holds final value to be written to CONSENTMGR cookie
+   
+    if (("" + document.cookie).match("notice_behavior=([^\S;]*)") || gdpr_country ) {
+        var lh = function getDomain(a, b, c) {
+            a = "" + location.hostname;
+            b = a.split(".");
+            c = (/\.co\.|\.com\.|\.org\.|\.edu\.|\.net\.|\.asn\.|\...\.jp$/.test(a)) ? 3 : 2;
+            return b.splice(b.length - c, c).join(".");
+        }
+        var cD = new Date();
+        cD.setDate(cD.getDate() + 1095);
+        var consentGiven = 'true';
+        var notice_behavior_string = notice_behavior_cookie.split(',')[0];
+       
+        //This cookie captures consent type configured: expressed or implied, plus country code.
+        // “expressed,fr”, “implied,us”, or none
+        if (( gdpr_country || notice_behavior_string === "expressed" ) && !notice_preferences_cookie) {
+        //notice_behavior cookie is getting set asynchronously - Garmin aware not dependable to determine GDPR and 
+        //currently on POC they will set based on url path - then possibly moving to include a country code in the UDO.
+            //if notice_behavior cookie contains 'expressed but no notice_preferences cooke then consent = false
+            consentGiven = 'false';
+            // stop normal page load automatic pageview since consent has not been given on 'expressed' page
+            //- This will not stop SPA page view.
+            window.utag_cfg_ovrd = window.utag_cfg_ovrd || {};
+            window.utag_cfg_ovrd.noview = true;
+            //set flag for first pageview with no consent devision on expressed page
+    console.log('********** Tealium - first pageview with no consent decision on expressed page - trustarc modal should be showing on page **********');
+            
+            window.utag_cfg_ovrd.noconsentdecision = true;
 
-    <a href="https://docs.tealium.com/platforms/javascript/api/gdpr-functions/">Reference guide for GDPR functions provided by Tealium for JavaScript.</a>
+        } else if (notice_preferences_cookie) {
+            // notice_preferences cookie
+            //This cookie indicates the user's preference level selection.
+            // 0 means "opted out of Functional/Advertising "
+            // 1 means "opted out of Advertising only"
+            // 2 means "accepted all 3 types of cookies"
+            //Advertisers  if ( parseInt(notice_preferences_cookie) >= 2  )
+            //Functional (typeof d['cp.notice_preferences'] != 'undefined' && parseFloat(d['cp.notice_preferences']) >= parseFloat(1))            
+            //CATEGORIES setting defaulta as 'off' for only required in OMIT list
+            var cats = {};
+            //Analytics
+            cats["1"] = '0';
+            //Affiliates
+            cats["2"] = '0';
+            //Display Ad
+            cats["3"] = '0';
+            //Search
+            cats["4"] = '0';
+            //Email
+            cats["5"] = '0';
+            //Personalization
+            cats["6"] = '0';
+            //Social
+            cats["7"] = '0';
+            //Big Data
+            cats["8"] = '0';
+            //Misc
+            cats["9"] = '0';
+            //Cookie Match
+            cats["10"] = '0';
+            //CDP
+            cats["11"] = '0';
+            //Mobile
+            cats["12"] = '0';
+            //Engagement
+            cats["13"] = '0';
+            //Monitoring
+            cats["14"] = '0';
+            //CRM
+            cats["15"] = '0';
 
-    </br>
+
+            if (parseInt(notice_preferences_cookie) >= 2) { // "accepted all types of cookies"
+                for (let i = 1; i < 16; i++) {
+                    cats['' + i] = '1';
+                }
+            } else if (parseInt(notice_preferences_cookie) >= 1) { //  opted out of /Advertising and setting functional categories
+                //set all non-advertiser categories here.
+                //Analytics
+                cats["1"] = '1';
+                //Affiliates
+                cats["2"] = '1';
+                //Display Ad
+                cats["3"] = '0'; //  display ad turned off as advertiser
+                //Search
+                cats["4"] = '1';
+                //Email
+                cats["5"] = '1';
+                //Personalization
+                cats["6"] = '1';
+                //Social
+                cats["7"] = '1';
+                //Big Data
+                cats["8"] = '1';
+                //Misc
+                cats["9"] = '1';
+                //Cookie Match
+                cats["10"] = '1';
+                //CDP
+                cats["11"] = '1';
+                //Mobile
+                cats["12"] = '1';
+                //Engagement
+                cats["13"] = '1';
+                //Monitoring
+                cats["14"] = '1';
+                //CRM
+                cats["15"] = '1';
+
+            }
+
+
+            var cookieValueText = "CONSENTMGR=" + "c1:" + cats["1"];
+            cookieValueText += "|c2:" + cats["2"];
+            cookieValueText += "|c3:" + cats["3"];
+            cookieValueText += "|c4:" + cats["4"];
+            cookieValueText += "|c5:" + cats["5"];
+            cookieValueText += "|c6:" + cats["6"];
+            cookieValueText += "|c7:" + cats["7"];
+            cookieValueText += "|c8:" + cats["8"];
+            cookieValueText += "|c9:" + cats["9"];
+            cookieValueText += "|c10:" + cats["10"];
+            cookieValueText += "|c11:" + cats["11"];
+            cookieValueText += "|c12:" + cats["12"];
+            cookieValueText += "|c13:" + cats["13"];
+            cookieValueText += "|c14:" + cats["14"];
+            cookieValueText += "|c15:" + cats["15"] + "|ts:" + Date.now() + "|consent:true";
+            CONSENTMGRcookieValue = encodeURI(cookieValueText);
+        }
+        if (!CONSENTMGRcookieValue) {
+            var CONSENTMGRcookieValue = encodeURI("CONSENTMGR=" + "consent:" + consentGiven + "|ts:" + Date.now());
+            
+        }
+        if (!notice_preferences_cookie) {
+            console.log('tealium setting CONSENTMGR cookie on first-page or no consent given yet ** NO notice_preferences cookie :' + CONSENTMGRcookieValue);
+        } else {
+            console.log('tealium setting CONSENTMGR cookie from notice_preferences cookie :' + CONSENTMGRcookieValue);
+        }
+
+        document.cookie = CONSENTMGRcookieValue + ";domain=" + lh() + ";path=/; expires=" + cD.toGMTString() + ";";
+        }
+
+} else {
+   console.log("************************* utag.js missing notice_behavior Cookie on loading of 'first page' ************************");
+}
+
+}
+//END preloader TrustArc 
+    </div>
 </body>
-
 </html>
