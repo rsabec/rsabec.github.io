@@ -9,10 +9,11 @@ Buy two (2) live lobsters around 2 lbs each.
 
 # -Put in large ( 8 QRT ) Pressure Cooker - 
 
-	Place steamer basket or platform in bottom of pot.
-	3 to 6lbs of Live Whole Lobster - with rubber bands removed. 
+	Place steamer basket or platform in bottom of pot. 
 	2.5 cups water
 	2 Tbsp Kosher Salt
+	( substitute fresh seawater if available for water + salt )
+	3 to 6lbs of Live Whole Lobster - with rubber bands removed.
 
 
 # -Set pressure Cooker - 
