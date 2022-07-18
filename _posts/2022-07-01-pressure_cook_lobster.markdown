@@ -13,7 +13,7 @@ Buy two (2) live lobsters around 2 lbs each.
 	2.5 cups water
 	2 Tbsp Kosher Salt
 	( substitute fresh seawater if available for water + salt )
-	3 to 6lbs of Live Whole Lobster - with rubber bands removed.
+	3 to 6lbs of -freshly dispatched- Live Whole Lobster with rubber bands removed.
 
 
 # -Set pressure Cooker - 
