@@ -1,4 +1,116 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-08-07T11:43:23-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Whole Lobster</title><link href="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html" rel="alternate" type="text/html" title="Whole Lobster" /><published>2022-07-01T14:56:00-04:00</published><updated>2022-07-01T14:56:00-04:00</updated><id>http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster</id><content type="html" xml:base="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html">&lt;p&gt;Buy two (2) live lobsters around 2 lbs each.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-25T17:25:04-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Create and Update Jekyll Posts</title><link href="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html" rel="alternate" type="text/html" title="Create and Update Jekyll Posts" /><published>2022-11-24T22:51:00-06:00</published><updated>2022-11-24T22:51:00-06:00</updated><id>http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts</id><content type="html" xml:base="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html">&lt;p&gt;Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
+Find and open an existing post - Copy and ‘save as’ to create a new post.&lt;/p&gt;
+
+&lt;p&gt;Documentation - &lt;a href=&quot;https://jekyllrb.com/docs/posts/&quot;&gt;https://jekyllrb.com/docs/posts/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Open Terminal and change your directory to the jekyll site saved locally on your localhost. &lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Example for my setup ( yours will have different path/filename )&lt;br /&gt;&lt;/p&gt;
+  &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;cd Documents/GitHub/rsabec.github.io/
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Update the file contents: Text formatting links below.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Quick &lt;a href=&quot;http://simpleprimate.com/blog/markdown-basics&quot;&gt;reference&lt;/a&gt; to formatting&lt;/li&gt;
+  &lt;li&gt;How to format &lt;a href=&quot;https://stackoverflow.com/questions/51313127/jekyll-inserting-extra-code-when-generating-blog-posts&quot;&gt;code&lt;/a&gt; snippets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Run the command from that directory to compile and run your site locally to test - &lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;terminal
+bundle exec jekyll serve
+&lt;/code&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/tutorials/using-jekyll-with-bundler/&quot;&gt;bundle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/51157446/whats-the-difference-between-bundle-exec-jekyll-serve-and-jekyll-serve&quot;&gt;stackoverflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can then test your site locally - typically this address will be http://127.0.0.1:4000/ &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Commit your changes to Github and retest:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Github &lt;a href=&quot;https://desktop.github.com/&quot;&gt;Desktop&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Setting up &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;GitHub Pages&lt;/code&gt; only required basic programming skills and beginner Github experience.  I would recommend using GitHub Pages for your personal site.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;Github&lt;/a&gt; pages &lt;br /&gt;
+&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt; Github repo &lt;br /&gt;
+&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; website&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="personal" /><category term="website" /><category term="hosting" /><category term="jekyll" /><summary type="html">Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site. Find and open an existing post - Copy and ‘save as’ to create a new post.</summary></entry><entry><title type="html">Homekit Send a notification from the IFTTT</title><link href="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html" rel="alternate" type="text/html" title="Homekit Send a notification from the IFTTT" /><published>2022-08-28T13:56:00-05:00</published><updated>2022-08-28T13:56:00-05:00</updated><id>http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification</id><content type="html" xml:base="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html">&lt;p&gt;Open the &lt;a href=&quot;https://controllerforhomekit.com/&quot;&gt;Contoller&lt;/a&gt; Application and click on &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Automation&lt;/code&gt; -&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/Controller_add.jpg&quot; alt=&quot;add Automation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Name the New Automation and select &lt;code class=&quot;highlighter-rouge&quot;&gt;Event-Based&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Time-Based&lt;/code&gt;. &lt;br /&gt;
+&lt;img src=&quot;/images/eventbased.jpg&quot; alt=&quot;select event-based&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here I am going to trigger on motion and select &lt;code class=&quot;highlighter-rouge&quot;&gt;If one of these events&lt;/code&gt;
+&lt;img src=&quot;/images/ifOneofTheseevents.jpg&quot; alt=&quot;select one of these events&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Find and select the accessory.
+&lt;img src=&quot;/images/selectAccessory.jpg&quot; alt=&quot;select an accessory&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Add conditions for the selected the accessory.
+&lt;img src=&quot;/images/addConditions.jpg&quot; alt=&quot;add conditions&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Select an existing scene as a placeholder.  This in only to compelte the automation to be able to save it.  We will update this later.
+&lt;img src=&quot;/images/selectScene.jpg&quot; alt=&quot;select scene&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Click the &lt;code class=&quot;highlighter-rouge&quot;&gt;Close&lt;/code&gt; button.
+&lt;img src=&quot;/images/placeholderScene.jpg&quot; alt=&quot;temp scene&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Save&lt;/code&gt; automation.
+&lt;img src=&quot;/images/saveautomation.jpg&quot; alt=&quot;save button&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since Apple has not exposed &lt;code class=&quot;highlighter-rouge&quot;&gt;convert to shortcut&lt;/code&gt; feature we need to switchback to Apple Home application and go to &lt;code class=&quot;highlighter-rouge&quot;&gt;Select Accessories and Scenes.&lt;/code&gt;
+&lt;img src=&quot;/images/selectAccesScenes.jpg&quot; alt=&quot;select accessories and scens&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And then unselect the scene we initially selected as a placeholder.  Go all the way to the bottom and click &lt;code class=&quot;highlighter-rouge&quot;&gt;Convert to Shortcut&lt;/code&gt;.
+&lt;img src=&quot;/images/connvToshortcut.jpg&quot; alt=&quot;connvToshortcut&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Delete scene listed:
+&lt;img src=&quot;/images/connvToshortcut.jpg&quot; alt=&quot;connvToshortcut&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Add Web action - 
+&lt;img src=&quot;/images/selectWeb.jpg&quot; alt=&quot;selectWeb&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Select url for webhook url
+&lt;img src=&quot;/images/selectURL.jpg&quot; alt=&quot;selectURL&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Go to IFTTT and create the webhook.
+&lt;img src=&quot;/images/createbuttonIFTTT.jpg&quot; alt=&quot;createbuttonIFTTT&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/webhookAdd.jpg&quot; alt=&quot;webhookAdd&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/webRequest.jpg&quot; alt=&quot;webRequest&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/triggerMotionDetected.jpg&quot; alt=&quot;triggerMotionDetected&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ThenThat.jpg&quot; alt=&quot;ThenThat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/notifications.jpg&quot; alt=&quot;notifications&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/notificationSimple.jpg&quot; alt=&quot;notificationSimple&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/createAction.jpg&quot; alt=&quot;createAction&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/notificationSimple.jpg&quot; alt=&quot;notificationSimple&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You should endup with a url for the webhook like this -&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;curl -X POST https://maker.ifttt.com/trigger/{event}/with/key/&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Back in Home app add url
+&lt;img src=&quot;/images/webhooookURL.jpg&quot; alt=&quot;webhooookURL&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;get contents of url:
+&lt;img src=&quot;/images/getContents.jpg&quot; alt=&quot;getContents&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;maker.ifttt.com/trigger/GR_LowTempWarning/with/key/XXXXXXXX&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Homekit" /><category term="automation" /><summary type="html">Open the Contoller Application and click on Add Automation -</summary></entry><entry><title type="html">Whole Lobster</title><link href="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html" rel="alternate" type="text/html" title="Whole Lobster" /><published>2022-07-01T13:56:00-05:00</published><updated>2022-07-01T13:56:00-05:00</updated><id>http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster</id><content type="html" xml:base="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html">&lt;p&gt;Buy two (2) live lobsters around 2 lbs each.&lt;/p&gt;
 
 &lt;h1 id=&quot;-put-in-large--8-qrt--pressure-cooker--&quot;&gt;-Put in large ( 8 QRT ) Pressure Cooker -&lt;/h1&gt;
 
@@ -29,7 +141,7 @@
 &lt;p&gt;resources - 
 	Allen’s Sea Food
 	119 Lookout Point Rd, Harpswell, ME 04079
-	&lt;a href=&quot;https://goo.gl/maps/Jh9nAGg5fhPyEjwS9&quot;&gt;Allen’s Sea Food&lt;/a&gt;&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Seafood" /><summary type="html">Buy two (2) live lobsters around 2 lbs each.</summary></entry><entry><title type="html">Merrit House Information Site</title><link href="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html" rel="alternate" type="text/html" title="Merrit House Information Site" /><published>2021-12-11T11:30:00-05:00</published><updated>2021-12-11T11:30:00-05:00</updated><id>http://localhost:4000/website/2021/12/11/merritthouse_info_site</id><content type="html" xml:base="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html">&lt;h1 id=&quot;creating-a-blog-and-information-site-for-the-historic-merrit-house-on-orrs-island&quot;&gt;Creating a blog and information site for the Historic Merrit House on Orr’s Island.&lt;/h1&gt;
+	&lt;a href=&quot;https://goo.gl/maps/Jh9nAGg5fhPyEjwS9&quot;&gt;Allen’s Sea Food&lt;/a&gt;&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Seafood" /><summary type="html">Buy two (2) live lobsters around 2 lbs each.</summary></entry><entry><title type="html">Merrit House Information Site</title><link href="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html" rel="alternate" type="text/html" title="Merrit House Information Site" /><published>2021-12-11T10:30:00-06:00</published><updated>2021-12-11T10:30:00-06:00</updated><id>http://localhost:4000/website/2021/12/11/merritthouse_info_site</id><content type="html" xml:base="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html">&lt;h1 id=&quot;creating-a-blog-and-information-site-for-the-historic-merrit-house-on-orrs-island&quot;&gt;Creating a blog and information site for the Historic Merrit House on Orr’s Island.&lt;/h1&gt;
 
 &lt;p&gt;1 Purchase Domains merritthouse.info and merritthouse.blog&lt;/p&gt;
 
@@ -53,7 +165,7 @@
 
 &lt;p&gt;5 Created Domain Pointer to rsabec.github.io/merritthouse&lt;/p&gt;
 
-&lt;p&gt;6 Setup Jekyll site on Github - &lt;a href=&quot;http://merritthouse.info/&quot;&gt;merritthouse.info&lt;/a&gt;&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="website" /><summary type="html">Creating a blog and information site for the Historic Merrit House on Orr’s Island.</summary></entry><entry><title type="html">Chicken Thighs with Cream Mustard</title><link href="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html" rel="alternate" type="text/html" title="Chicken Thighs with Cream Mustard" /><published>2021-02-07T12:00:00-05:00</published><updated>2021-02-07T12:00:00-05:00</updated><id>http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html">&lt;h1 id=&quot;chicken-thighs-with-cream-mustard&quot;&gt;Chicken Thighs with Cream Mustard&lt;/h1&gt;
+&lt;p&gt;6 Setup Jekyll site on Github - &lt;a href=&quot;http://merritthouse.info/&quot;&gt;merritthouse.info&lt;/a&gt;&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="website" /><summary type="html">Creating a blog and information site for the Historic Merrit House on Orr’s Island.</summary></entry><entry><title type="html">Chicken Thighs with Cream Mustard</title><link href="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html" rel="alternate" type="text/html" title="Chicken Thighs with Cream Mustard" /><published>2021-02-07T11:00:00-06:00</published><updated>2021-02-07T11:00:00-06:00</updated><id>http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html">&lt;h1 id=&quot;chicken-thighs-with-cream-mustard&quot;&gt;Chicken Thighs with Cream Mustard&lt;/h1&gt;
 
 &lt;p&gt;Two packages Costco chicken thighs&lt;/p&gt;
 
@@ -101,7 +213,7 @@
 
 &lt;p&gt;cd Documents/GitHub/rsabec.github.io/&lt;/p&gt;
 
-&lt;p&gt;bundle exec jekyll serve&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><summary type="html">Chicken Thighs with Cream Mustard</summary></entry><entry><title type="html">Sous Vide Turkey Thighs</title><link href="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html" rel="alternate" type="text/html" title="Sous Vide Turkey Thighs" /><published>2020-12-24T11:27:00-05:00</published><updated>2020-12-24T11:27:00-05:00</updated><id>http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html">&lt;h1 id=&quot;sous-vide-turkey-thighs&quot;&gt;Sous Vide Turkey Thighs&lt;/h1&gt;
+&lt;p&gt;bundle exec jekyll serve&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><summary type="html">Chicken Thighs with Cream Mustard</summary></entry><entry><title type="html">Sous Vide Turkey Thighs</title><link href="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html" rel="alternate" type="text/html" title="Sous Vide Turkey Thighs" /><published>2020-12-24T10:27:00-06:00</published><updated>2020-12-24T10:27:00-06:00</updated><id>http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html">&lt;h1 id=&quot;sous-vide-turkey-thighs&quot;&gt;Sous Vide Turkey Thighs&lt;/h1&gt;
 
 &lt;p&gt;Preheat sous vide - Thighs @ 150F ( Breasts @ 131F )&lt;/p&gt;
 
@@ -121,7 +233,7 @@
 
 &lt;p&gt;Remove from sous vide and from bag.  Dry and place in the fridge on a plate or cookie sheet for five to tem minutes right before browning.  ( you can skip the fridge step, it only helps in browning without overcooking ). This final step is for presentation.  Your turkey is already perfectly cooked once you remove from the sous vide.  I usually sear in clarified butter but you can choose to grill, broiler or however to want to put a happy glow on your turkey thighs before serving to your guests.&lt;/p&gt;
 
-&lt;p&gt;Serve with your favorite turkey sides. Since your oven has been free there should be less of a traffic jam in the kitchen!!.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Sous Vide Turkey Thighs</summary></entry><entry><title type="html">Maple Oat Pecan Scones</title><link href="http://localhost:4000/recipes/baking/2020/11/14/maple_oat_pecan_scone.html" rel="alternate" type="text/html" title="Maple Oat Pecan Scones" /><published>2020-11-14T11:27:00-05:00</published><updated>2020-11-14T11:27:00-05:00</updated><id>http://localhost:4000/recipes/baking/2020/11/14/maple_oat_pecan_scone</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/11/14/maple_oat_pecan_scone.html">&lt;h1 id=&quot;maple-oat-pecan-scones&quot;&gt;Maple Oat Pecan Scones&lt;/h1&gt;
+&lt;p&gt;Serve with your favorite turkey sides. Since your oven has been free there should be less of a traffic jam in the kitchen!!.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Sous Vide Turkey Thighs</summary></entry><entry><title type="html">Maple Oat Pecan Scones</title><link href="http://localhost:4000/recipes/baking/2020/11/14/maple_oat_pecan_scone.html" rel="alternate" type="text/html" title="Maple Oat Pecan Scones" /><published>2020-11-14T10:27:00-06:00</published><updated>2020-11-14T10:27:00-06:00</updated><id>http://localhost:4000/recipes/baking/2020/11/14/maple_oat_pecan_scone</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/11/14/maple_oat_pecan_scone.html">&lt;h1 id=&quot;maple-oat-pecan-scones&quot;&gt;Maple Oat Pecan Scones&lt;/h1&gt;
 
 &lt;p&gt;Preheat oven - Convection 400 F&lt;/p&gt;
 
@@ -153,7 +265,7 @@
 
 &lt;p&gt;Serve warm with your favorite jam or preserves.&lt;/p&gt;
 
-&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Maple Oat Pecan Scones</summary></entry><entry><title type="html">Short Ribs</title><link href="http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs.html" rel="alternate" type="text/html" title="Short Ribs" /><published>2020-11-08T11:56:00-05:00</published><updated>2020-11-08T11:56:00-05:00</updated><id>http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs</id><content type="html" xml:base="http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs.html">&lt;h1 id=&quot;short-ribs-&quot;&gt;Short Ribs .&lt;/h1&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Maple Oat Pecan Scones</summary></entry><entry><title type="html">Short Ribs</title><link href="http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs.html" rel="alternate" type="text/html" title="Short Ribs" /><published>2020-11-08T10:56:00-06:00</published><updated>2020-11-08T10:56:00-06:00</updated><id>http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs</id><content type="html" xml:base="http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs.html">&lt;h1 id=&quot;short-ribs-&quot;&gt;Short Ribs .&lt;/h1&gt;
 
 &lt;p&gt;6 boneless short ribs ( one Costco short rib package ).&lt;/p&gt;
 
@@ -189,7 +301,7 @@
 
 &lt;p&gt;Remove short ribs from wine and dry meat.  Researve the wine and veggies/herbs. Season each short rib with salt and pepper then dredge in APF.  Add olive oil to oven proof pot or dutch oven. Brown beef in stages to not crowd the pan.  While browing meet seperate wine from onions/garlic/herbs using a strainer,  keeping the ‘wine’ reserved.  Once the last of beef is browned, remove oil from pot and add new olive oil with 2 tablespoons butter.  Add all veggies to pot, including the carrots and celery with the strained items used in the marinade. Saute till onions are translucent, watch heat to not burn garlic cloves.  Add tomato paste, stir in and cook for a few minutes. Pour in reseved red wine and bring to a boil then simmer apporx ten minutes.  Add salt pepper to initially adjust to taste.  Add Beef to pot and then top off with beef stock to just cover meet.  Bring to a simmer, cover and put in 350F oven.  Remove post every 45 minutes to stir and check for tenderness of meat.  Usualy 90 minutes total in oven is sufficient.  If you want to carmelize the beef and stew more then remove or leave lid askew when placing pot back in after the first 45 minutes.  Remove from oven when fork tender and make any final seasoning adjustments now. Serve with a slice of good artisan bread with butter. :)&lt;/p&gt;
 
-&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry><entry><title type="html">Butter Chicken</title><link href="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html" rel="alternate" type="text/html" title="Butter Chicken" /><published>2020-11-07T11:56:00-05:00</published><updated>2020-11-07T11:56:00-05:00</updated><id>http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html">&lt;h1 id=&quot;butter-chicken-with-carrots-using-a-pressure-cooker&quot;&gt;Butter Chicken with Carrots using a Pressure Cooker.&lt;/h1&gt;
+&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry><entry><title type="html">Butter Chicken</title><link href="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html" rel="alternate" type="text/html" title="Butter Chicken" /><published>2020-11-07T10:56:00-06:00</published><updated>2020-11-07T10:56:00-06:00</updated><id>http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html">&lt;h1 id=&quot;butter-chicken-with-carrots-using-a-pressure-cooker&quot;&gt;Butter Chicken with Carrots using a Pressure Cooker.&lt;/h1&gt;
 
 &lt;p&gt;4 to 6 chicken thighs or substitute any 1.5 to 2 lbs chicken cut up into chunks.&lt;/p&gt;
 
@@ -215,7 +327,7 @@
 
 &lt;p&gt;1 cup heavy cream&lt;/p&gt;
 
-&lt;p&gt;Place the butter in pressure cooker on saute, add chopped onions and carrots and season with pinch of salt and pepper.  Saute until onions are translucent. Add ginger and saute 5 more minutes then add garlic and all spices in the Instant Pot . Saute additional 3 to 5 minutes, stirring to make sure not to burn the the garlic and spices. Add tomatoes and chicken, stir to incorporate. Secure lid on pressure cooker and cook on high pressure for 15 minutes. Release pressure then add in cream then reset pressure cooker to simmer and stir occasionally for 15 additional minutes.  Serve as is or with rice.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><category term="Pressure-Cooker" /><summary type="html">Butter Chicken with Carrots using a Pressure Cooker.</summary></entry><entry><title type="html">Fresh Pasta</title><link href="http://localhost:4000/recipes/pasta/2020/08/16/fresh_pasta.html" rel="alternate" type="text/html" title="Fresh Pasta" /><published>2020-08-16T14:56:00-04:00</published><updated>2020-08-16T14:56:00-04:00</updated><id>http://localhost:4000/recipes/pasta/2020/08/16/fresh_pasta</id><content type="html" xml:base="http://localhost:4000/recipes/pasta/2020/08/16/fresh_pasta.html">&lt;h1 id=&quot;fresh-egg-and-extruded-pasta--&quot;&gt;Fresh Egg and Extruded Pasta -&lt;/h1&gt;
+&lt;p&gt;Place the butter in pressure cooker on saute, add chopped onions and carrots and season with pinch of salt and pepper.  Saute until onions are translucent. Add ginger and saute 5 more minutes then add garlic and all spices in the Instant Pot . Saute additional 3 to 5 minutes, stirring to make sure not to burn the the garlic and spices. Add tomatoes and chicken, stir to incorporate. Secure lid on pressure cooker and cook on high pressure for 15 minutes. Release pressure then add in cream then reset pressure cooker to simmer and stir occasionally for 15 additional minutes.  Serve as is or with rice.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><category term="Pressure-Cooker" /><summary type="html">Butter Chicken with Carrots using a Pressure Cooker.</summary></entry><entry><title type="html">Fresh Pasta</title><link href="http://localhost:4000/recipes/pasta/2020/08/16/fresh_pasta.html" rel="alternate" type="text/html" title="Fresh Pasta" /><published>2020-08-16T13:56:00-05:00</published><updated>2020-08-16T13:56:00-05:00</updated><id>http://localhost:4000/recipes/pasta/2020/08/16/fresh_pasta</id><content type="html" xml:base="http://localhost:4000/recipes/pasta/2020/08/16/fresh_pasta.html">&lt;h1 id=&quot;fresh-egg-and-extruded-pasta--&quot;&gt;Fresh Egg and Extruded Pasta -&lt;/h1&gt;
 
 &lt;p&gt;These are my notes when experimenting with flour and moister ratios in doughs for extruded and egg pasta.  Extruded pasta will typically be a much drier dough.&lt;/p&gt;
 
@@ -259,38 +371,4 @@ TW = 25.87
 
 &lt;p&gt;54% H2O&lt;/p&gt;
 
-&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Pasta" /><summary type="html">Fresh Egg and Extruded Pasta -</summary></entry><entry><title type="html">Blueberry-Buttermilk Scones</title><link href="http://localhost:4000/recipes/baking/2020/08/15/blueberry_muffins.html" rel="alternate" type="text/html" title="Blueberry-Buttermilk Scones" /><published>2020-08-15T16:56:00-04:00</published><updated>2020-08-15T16:56:00-04:00</updated><id>http://localhost:4000/recipes/baking/2020/08/15/blueberry_muffins</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/08/15/blueberry_muffins.html">&lt;h1 id=&quot;best-blueberry-buttermilk-scones&quot;&gt;Best Blueberry-Buttermilk Scones!&lt;/h1&gt;
-
-&lt;p&gt;Preheat oven - Convection 375 F&lt;/p&gt;
-
-&lt;p&gt;When mixing dough, less is more, only mix enough to incorporate.&lt;/p&gt;
-
-&lt;p&gt;Use less to no sugar depending on how sweet the blueberries are.&lt;/p&gt;
-
-&lt;p&gt;3 cups ( 15oz ) all purpose flour - APF&lt;/p&gt;
-
-&lt;p&gt;1 cup ( 4oz ) cake flour - not self rising&lt;/p&gt;
-
-&lt;p&gt;6 tablespoons sugar ( see note above )&lt;/p&gt;
-
-&lt;p&gt;5 teaspoons baking powder&lt;/p&gt;
-
-&lt;p&gt;1/2 teaspoon salt&lt;/p&gt;
-
-&lt;p&gt;8 ounces cold unsalted butter&lt;/p&gt;
-
-&lt;p&gt;1 cup ( 1/2 pint ) blueberries&lt;/p&gt;
-
-&lt;p&gt;1 cup chilled water + 4 tablespoons Saco cultured buttmilknpowder ( or 1 cup buttermilk )&lt;/p&gt;
-
-&lt;p&gt;2 large eggs - plus one beaten egg for final egg wash&lt;/p&gt;
-
-&lt;p&gt;1 teaspoon vanilla extract&lt;/p&gt;
-
-&lt;p&gt;I use a baking sheet with a Sitpat but parchment paper can be used in place of the Sitpat. Mix together Dry ingredients including cultured buttermilk powder.  Dice up cold to frozen butter and add to mixer on low.  I will typically cover the mixer bowl with a towel to stop spit-out and increase speed of mixer to pulverized and break up the butter chunks.  With mixer on low add wet ingredients plus blueberries.  Empty out the evenly mixed dough out and divide into two balls.  Roll out each into the desired thickness and cut into wedges.  I typically get 8 scones per dough ball or 16 in total.  Place on cookie sheet with Silpat, brush with egg wash and then into 375-degree oven for 22 minutes, turn once halfway through.  Remove and cool on rack.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/IMG_0708.jpg&quot; alt=&quot;Blueberry-scones&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Best Blueberry-Buttermilk Scones!</summary></entry><entry><title type="html">Hosting My Site on GitHub</title><link href="http://localhost:4000/personal/website/hosting/2020/02/08/move_personal_site_to_github.html" rel="alternate" type="text/html" title="Hosting My Site on GitHub" /><published>2020-02-08T23:51:00-05:00</published><updated>2020-02-08T23:51:00-05:00</updated><id>http://localhost:4000/personal/website/hosting/2020/02/08/move_personal_site_to_github</id><content type="html" xml:base="http://localhost:4000/personal/website/hosting/2020/02/08/move_personal_site_to_github.html">&lt;p&gt;I typically use my personal site for testing client side &lt;code class=&quot;highlighter-rouge&quot;&gt;tags&lt;/code&gt; that require https or to provide a way to demo features or a POC to a client. When deciding to move to &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github pages&lt;/a&gt; I considered that it is free but limited to only serving static html pages.  This required changing my original Angular page into ‘something else’. I knew I was not interested in spending the time to manually create individual HTML pages, so enter ‘jekyll’.  Github supports &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt; that helps build your site and provides a built in way to locally preview and test changes.&lt;/p&gt;
-
-&lt;p&gt;Setting up &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;GitHub Pages&lt;/code&gt; only required basic programming skills and beginner Github experience.  I would recommend using GitHub Pages for your personal site.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="personal" /><category term="website" /><category term="hosting" /><summary type="html">I typically use my personal site for testing client side tags that require https or to provide a way to demo features or a POC to a client. When deciding to move to Github pages I considered that it is free but limited to only serving static html pages. This required changing my original Angular page into ‘something else’. I knew I was not interested in spending the time to manually create individual HTML pages, so enter ‘jekyll’. Github supports Jekyll that helps build your site and provides a built in way to locally preview and test changes.</summary></entry></feed>
+&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Pasta" /><summary type="html">Fresh Egg and Extruded Pasta -</summary></entry></feed>

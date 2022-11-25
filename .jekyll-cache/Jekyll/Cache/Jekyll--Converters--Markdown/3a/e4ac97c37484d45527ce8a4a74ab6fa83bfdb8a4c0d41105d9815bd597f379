@@ -1,0 +1,14 @@
+I"<p>Open the <a href="https://controllerforhomekit.com/">Contoller</a> Application and click on add Automation -</p>
+
+<p><img src="/images/Controller_add.jpg" alt="add Automation" /></p>
+
+<p>Open Apple Homekit - Sensors - Add utomation based on</p>
+
+<p>Add IFTT action to homekit Temp</p>
+<h1 id="-open-controller-for-homekit-app--">-Open Controller For Homekit App -</h1>
+
+<p>add automation - event based - add start event - select temp sensor -</p>
+
+<p>maker.ifttt.com/trigger/GR_LowTempWarning/with/key/XXXXXXXX</p>
+
+:ET

@@ -1,0 +1,38 @@
+I"�<p>Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
+Find and open an existing post - Copy and ‘save as’ to create a new post.</p>
+
+<p>Documentation - <a href="https://jekyllrb.com/docs/posts/">https://jekyllrb.com/docs/posts/</a></p>
+
+<p>Open Terminal and change your directory to the jekyll site saved locally on your localhost. <br /></p>
+<blockquote>
+  <p>Example for my setup ( yours will have different path/filename )<br /></p>
+  <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">cd Documents/GitHub/rsabec.github.io/
+</span></code></pre></div>  </div>
+</blockquote>
+
+<p>Update the file contents: Text formatting links below.</p>
+<ul>
+  <li>Quick <a href="http://simpleprimate.com/blog/markdown-basics">reference</a> to formatting</li>
+  <li>How to format <a href="https://stackoverflow.com/questions/51313127/jekyll-inserting-extra-code-when-generating-blog-posts">code</a> snippets.</li>
+</ul>
+
+<p>Run the command from that directory to compile and run your site locally to test - <br /></p>
+<blockquote>
+  <p><code class="highlighter-rouge">terminal
+bundle exec jekyll serve
+</code> <br /></p>
+</blockquote>
+
+<p>Documentation:</p>
+<ul>
+  <li><a href="https://jekyllrb.com/tutorials/using-jekyll-with-bundler/">bundle</a></li>
+  <li><a href="https://stackoverflow.com/questions/51157446/whats-the-difference-between-bundle-exec-jekyll-serve-and-jekyll-serve">stackoverflow</a></li>
+</ul>
+
+<p>You can then test your site locally - typically this address will be http://127.0.0.1:4000/ <br /></p>
+
+<p>Setting up <code class="highlighter-rouge">jekyll</code> and <code class="highlighter-rouge">GitHub Pages</code> only required basic programming skills and beginner Github experience.  I would recommend using GitHub Pages for your personal site.</p>
+
+<p><a href="https://pages.github.com/">Github</a> pages <br />
+<a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+:ET
