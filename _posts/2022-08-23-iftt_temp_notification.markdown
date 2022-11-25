@@ -71,7 +71,7 @@ Go to IFTTT and create the webhook.
 ![notificationSimple](/images/notificationSimple.jpg)
 
 You should endup with a url for the webhook like this - 
->curl -X POST https://maker.ifttt.com/trigger/{event}/with/key/{{your key here}}
+>curl -X POST https://maker.ifttt.com/trigger/{event}/with/key/your{key-here}
 
 
 Back in Home app add url
