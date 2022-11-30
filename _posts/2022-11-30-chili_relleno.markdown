@@ -17,7 +17,7 @@ chile relleno recipe
 		separate egg whites and yokes - beat wite to peaks and then incorporate egg yokes back into mixture.  dip relleno into egg white and fry in oil.  
 	cover holes with mixture.  golden brown then turn. remove to plate.	Slice onion and saute.  Add tomatoe sauce - heat to simmer. then add 1/2 can chicken stock.  
 	heat to simer.  salt to taist <br>
-	Add chili relleno to sauce. heat and serve.  
+	Add chile relleno to sauce. heat and serve.  
 	
 	
 	Spanish Rice 
