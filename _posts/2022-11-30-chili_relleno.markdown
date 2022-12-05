@@ -16,7 +16,7 @@ chile relleno recipe
 	Roast peppers over open flame to blackened in parts - do not over cook. Place peppers into a zip lock bag to steam - then peel off skin of pepper.  cut slot in pepper and remove seeds.  stuff with jack cheese and dust with A.P.F.
 		separate egg whites and yokes - beat wite to peaks and then incorporate egg yokes back into mixture.  dip relleno into egg white and fry in oil.  
 	cover holes with mixture.  golden brown then turn. remove to plate.	Slice onion and saute.  Add tomatoe sauce - heat to simmer. then add 1/2 can chicken stock.  
-	heat to simer.  salt to taist <br>
+	heat to simer.  salt to taste <br>
 	Add chile relleno to sauce. heat and serve.  
 	
 	
