@@ -1,4 +1,4 @@
-I"�<p>Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
+I"2	<p>Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
 Find and open an existing post - Copy and ‘save as’ to create a new post.</p>
 
 <p>Documentation - <a href="https://jekyllrb.com/docs/posts/">https://jekyllrb.com/docs/posts/</a></p>
@@ -18,10 +18,12 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.</p
 
 <p>Run the command from that directory to compile and run your site locally to test - <br /></p>
 <blockquote>
-  <p><code class="highlighter-rouge">terminal
-bundle exec jekyll serve
-</code> <br /></p>
+
+  <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">bundle exec jekyll serve
+</span></code></pre></div>  </div>
 </blockquote>
+
+<p><br /></p>
 
 <p>Documentation:</p>
 <ul>

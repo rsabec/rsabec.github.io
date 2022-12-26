@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-05T09:41:59-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T22:51:00-06:00</published><updated>2022-11-29T22:51:00-06:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html">&lt;p&gt;chile relleno recipe&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-26T15:07:01-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Tealium Swift sample App Install</title><link href="http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install.html" rel="alternate" type="text/html" title="Tealium Swift sample App Install" /><published>2022-12-24T10:50:00-06:00</published><updated>2022-12-24T10:50:00-06:00</updated><id>http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install</id><content type="html" xml:base="http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install.html">&lt;p&gt;links for Tealium Swift sample app and Dependencies.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Github &lt;a href=&quot;https://github.com/Tealium/tealium-swift.git&quot;&gt;Tealium/tealium-swift&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; - used to install Cocopods.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/download/all/&quot;&gt;Xcode and Xcode Command Line Tools&lt;/a&gt; - available behind your apple develpper login -&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://formulae.brew.sh/formula/cocoapods#default&quot;&gt;Cocopods&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;Sample App Setup - Swift&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;Have Xcode and Xcode tools downloaded and ready to go.&lt;/li&gt;
+      &lt;li&gt;Follow the link to Homebrew and follow instructions to install on your mac.&lt;/li&gt;
+      &lt;li&gt;Download the Sample app from Tealium’s repo, unzip and place in a uncomplicated directory path such as directly in your ‘Documents’ directory.&lt;/li&gt;
+      &lt;li&gt;Check Homebrew installed on your mac or &lt;a href=&quot;https://brew.sh/&quot;&gt;install it&lt;/a&gt;.
+        &lt;blockquote&gt;
+
+          &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;  /bin/bash -c &quot;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;          &lt;/div&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://formulae.brew.sh/formula/cocoapods#default&quot;&gt;Install Cocopds&lt;/a&gt;
+        &lt;blockquote&gt;
+
+          &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;  /bin/bash -c &quot;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;          &lt;/div&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Open Terminal app and change directories to location of Swift project. If you placed the download into your ‘Documents’ folder then  example below-
+        &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;  cd Documents/mobile/ios/tealium-swift-master/samples/TealiumSwiftExample
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Test what shell you are using . ( Apple set the default shell to the Z shell (zsh). )
+        &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;echo $&lt;/span&gt;0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Run Cocopods install comman in this directory .
+        &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;  pod install
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;p&gt;pod install - returns below errors.&lt;br /&gt;
+Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi –version 1.15.5 &lt;br /&gt;
+Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug –version 1.4.0 &lt;br /&gt;
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine –version 1.2.7 &lt;br /&gt;
+Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb –version 0.8.0 &lt;br /&gt;
+Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs –version 2.1.0 &lt;br /&gt;
+Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc –version 2.4.0 &lt;br /&gt;
+Analyzing dependencies &lt;br /&gt;
+[!] Could not automatically select an Xcode project. Specify one in your Podfile like so: &lt;br /&gt;
+  project ‘path/to/Project.xcodeproj’
+   &lt;br /&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Robert Sabec</name></author><category term="ios" /><category term="code" /><category term="tealium" /><category term="swift" /><summary type="html">links for Tealium Swift sample app and Dependencies. Github Tealium/tealium-swift Homebrew - used to install Cocopods. Xcode and Xcode Command Line Tools - available behind your apple develpper login - Cocopods</summary></entry><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T22:51:00-06:00</published><updated>2022-11-29T22:51:00-06:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html">&lt;p&gt;chile relleno recipe&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;pasilla peppers w/stem&lt;/li&gt;
   &lt;li&gt;tomato sauce - delmonte or heintz&lt;/li&gt;
@@ -46,10 +99,12 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.&lt
 
 &lt;p&gt;Run the command from that directory to compile and run your site locally to test - &lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;terminal
-bundle exec jekyll serve
-&lt;/code&gt; &lt;br /&gt;&lt;/p&gt;
+
+  &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;bundle exec jekyll serve
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;Documentation:&lt;/p&gt;
 &lt;ul&gt;
@@ -329,30 +384,4 @@ bundle exec jekyll serve
 
 &lt;p&gt;Remove short ribs from wine and dry meat.  Researve the wine and veggies/herbs. Season each short rib with salt and pepper then dredge in APF.  Add olive oil to oven proof pot or dutch oven. Brown beef in stages to not crowd the pan.  While browing meet seperate wine from onions/garlic/herbs using a strainer,  keeping the ‘wine’ reserved.  Once the last of beef is browned, remove oil from pot and add new olive oil with 2 tablespoons butter.  Add all veggies to pot, including the carrots and celery with the strained items used in the marinade. Saute till onions are translucent, watch heat to not burn garlic cloves.  Add tomato paste, stir in and cook for a few minutes. Pour in reseved red wine and bring to a boil then simmer apporx ten minutes.  Add salt pepper to initially adjust to taste.  Add Beef to pot and then top off with beef stock to just cover meet.  Bring to a simmer, cover and put in 350F oven.  Remove post every 45 minutes to stir and check for tenderness of meat.  Usualy 90 minutes total in oven is sufficient.  If you want to carmelize the beef and stew more then remove or leave lid askew when placing pot back in after the first 45 minutes.  Remove from oven when fork tender and make any final seasoning adjustments now. Serve with a slice of good artisan bread with butter. :)&lt;/p&gt;
 
-&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry><entry><title type="html">Butter Chicken</title><link href="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html" rel="alternate" type="text/html" title="Butter Chicken" /><published>2020-11-07T10:56:00-06:00</published><updated>2020-11-07T10:56:00-06:00</updated><id>http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html">&lt;h1 id=&quot;butter-chicken-with-carrots-using-a-pressure-cooker&quot;&gt;Butter Chicken with Carrots using a Pressure Cooker.&lt;/h1&gt;
-
-&lt;p&gt;4 to 6 chicken thighs or substitute any 1.5 to 2 lbs chicken cut up into chunks.&lt;/p&gt;
-
-&lt;p&gt;4 tablespoons butter.&lt;/p&gt;
-
-&lt;p&gt;One diced onion.&lt;/p&gt;
-
-&lt;p&gt;One diced carrot.&lt;/p&gt;
-
-&lt;p&gt;2 tablespoons minced fresh ginger.&lt;/p&gt;
-
-&lt;p&gt;3 minced garlic cloves&lt;/p&gt;
-
-&lt;p&gt;1 tablespoon curry powder&lt;/p&gt;
-
-&lt;p&gt;1 teaspoon salt&lt;/p&gt;
-
-&lt;p&gt;2 teaspoons garam masala&lt;/p&gt;
-
-&lt;p&gt;3/4 teaspoon smoked paprika&lt;/p&gt;
-
-&lt;p&gt;1/2 can imported San Marzano tomato - about 14 ounces.&lt;/p&gt;
-
-&lt;p&gt;1 cup heavy cream&lt;/p&gt;
-
-&lt;p&gt;Place the butter in pressure cooker on saute, add chopped onions and carrots and season with pinch of salt and pepper.  Saute until onions are translucent. Add ginger and saute 5 more minutes then add garlic and all spices in the Instant Pot . Saute additional 3 to 5 minutes, stirring to make sure not to burn the the garlic and spices. Add tomatoes and chicken, stir to incorporate. Secure lid on pressure cooker and cook on high pressure for 15 minutes. Release pressure then add in cream then reset pressure cooker to simmer and stir occasionally for 15 additional minutes.  Serve as is or with rice.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><category term="Pressure-Cooker" /><summary type="html">Butter Chicken with Carrots using a Pressure Cooker.</summary></entry></feed>
+&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry></feed>

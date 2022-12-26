@@ -1,0 +1,8 @@
+I"ä<p>links for Tealium Swift sample app and Dependencies.</p>
+<ul>
+  <li>Github <a href="https://github.com/Tealium/tealium-swift.git">Tealium/tealium-swift</a></li>
+  <li><a href="https://brew.sh/">Homebrew</a> - used to install Cocopods.</li>
+  <li><a href="https://developer.apple.com/download/all/">Xcode and Xcode Command Line Tools</a> - available behind your apple develpper login -</li>
+  <li><a href="https://formulae.brew.sh/formula/cocoapods#default">Cocopods</a></li>
+</ul>
+:ET

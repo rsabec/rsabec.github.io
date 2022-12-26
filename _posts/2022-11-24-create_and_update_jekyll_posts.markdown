@@ -23,9 +23,12 @@ Update the file contents: Text formatting links below.
 
 
 Run the command from that directory to compile and run your site locally to test - <br>
->``terminal
+>
+```terminal
 bundle exec jekyll serve
-`` <br>
+```
+
+ <br>
 
 Documentation:
 * [bundle]( https://jekyllrb.com/tutorials/using-jekyll-with-bundler/)

@@ -1,0 +1,56 @@
+I"�<p>links for Tealium Swift sample app and Dependencies.</p>
+<ul>
+  <li>Github <a href="https://github.com/Tealium/tealium-swift.git">Tealium/tealium-swift</a></li>
+  <li><a href="https://brew.sh/">Homebrew</a> - used to install Cocopods.</li>
+  <li><a href="https://developer.apple.com/download/all/">Xcode and Xcode Command Line Tools</a> - available behind your apple develpper login -</li>
+  <li>
+    <p><a href="https://formulae.brew.sh/formula/cocoapods#default">Cocopods</a></p>
+
+    <p>Sample App Setup - Swift</p>
+
+    <ol>
+      <li>Have Xcode and Xcode tools downloaded and ready to go.</li>
+      <li>Follow the link to Homebrew and follow instructions to install on your mac.</li>
+      <li>Download the Sample app from Tealium’s repo, unzip and place in a uncomplicated directory path such as directly in your ‘Documents’ directory.</li>
+      <li>Check Homebrew installed on your mac or <a href="https://brew.sh/">install it</a>.
+        <blockquote>
+
+          <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">  /bin/bash -c "$</span><span class="o">(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="o">)</span><span class="s2">"
+</span></code></pre></div>          </div>
+        </blockquote>
+      </li>
+      <li><a href="https://formulae.brew.sh/formula/cocoapods#default">Install Cocopds</a>
+        <blockquote>
+
+          <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">  /bin/bash -c "$</span><span class="o">(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="o">)</span><span class="s2">"
+</span></code></pre></div>          </div>
+        </blockquote>
+      </li>
+      <li>Open Terminal app and change directories to location of Swift project. If you placed the download into your ‘Documents’ folder then  example below-
+        <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">  cd Documents/mobile/ios/tealium-swift-master/samples/TealiumSwiftExample
+</span></code></pre></div>        </div>
+      </li>
+      <li>Test what shell you are using . ( Apple set the default shell to the Z shell (zsh). )
+        <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">echo $</span>0
+</code></pre></div>        </div>
+      </li>
+      <li>Run Cocopods install comman in this directory .
+        <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">  pod install
+</span></code></pre></div>        </div>
+        <p>pod install
+Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi –version 1.15.5 <br />
+Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug –version 1.4.0 <br />
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine –version 1.2.7 <br />
+Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb –version 0.8.0 <br />
+Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs –version 2.1.0 <br />
+Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc –version 2.4.0 <br />
+Analyzing dependencies <br />
+[!] Could not automatically select an Xcode project. Specify one in your Podfile like so: <br />
+  project ‘path/to/Project.xcodeproj’
+   <br /></p>
+      </li>
+    </ol>
+  </li>
+</ul>
+
+:ET

@@ -1,0 +1,544 @@
+Last login: Fri Dec  9 09:13:31 on console
+chruby: unknown Ruby: ruby-3.1.1
+/Users/robert.sabec/.zshrc:source:6: no such file or directory: /usr/local/share/chruby/chruby.sh
+/Users/robert.sabec/.zshrc:source:9: no such file or directory: /usr/local/share/chruby/chruby.sh
+/Users/robert.sabec/.zshrc:source:10: no such file or directory: /usr/local/share/chruby/auto.sh
+robert.sabec@TEAL-LQ62V2YRWR ~ % brew help
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+robert.sabec@TEAL-LQ62V2YRWR ~ % brew -v
+Homebrew 3.4.11
+Homebrew/homebrew-core (git revision 3bd79962e35; last commit 2022-06-03)
+Homebrew/homebrew-cask (git revision ea945d0705; last commit 2022-06-03)
+robert.sabec@TEAL-LQ62V2YRWR ~ % pod --version
+zsh: command not found: pod
+robert.sabec@TEAL-LQ62V2YRWR ~ % brew install cocoapods
+
+
+Running `brew update --preinstall`...
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+adamstark-audiofile             httm                            pint
+agg                             huggingface-cli                 pipe-rename
+akku                            hwatch                          pixie
+antidote                        hysteria                        pixiewps
+apophenia                       hyx                             pkcs11-tools
+aribb24                         ibazel                          pluto
+astro                           iir1                            poac
+autocorrect                     ijq                             pocl
+aws2-wrap                       install-peerdeps                podman-compose
+aztfy                           interface99                     pomsky
+bazarr                          iptables                        popeye
+bdftopcf                        jackett                         portablegl
+berkeley-db@5                   jaq                             postgresql@15
+bfgminer                        jj                              protobuf@3
+bindgen                         joker                           proxsuite
+brpc                            jscpd                           prql-compiler
+btrfs-progs                     json2tsv                        prr
+buf                             jupp                            psysh
+burst                           kalign                          purescript-language-server
+busted                          keploy                          pymol
+c                               kics                            pymupdf
+c2rust                          kt-connect                      python-build
+camlp-streams                   kubefirst                       python-gdbm@3.11
+cargo-bundle                    kubesess                        python-lsp-server
+cargo-crev                      kubevious                       python-tk@3.11
+cargo-depgraph                  kustomizer                      python-typing-extensions
+cargo-nextest                   leapp-cli                       python@3.11
+cargo-udeps                     levant                          pyyaml
+cargo-zigbuild                  lexicon                         qbe
+cbindgen                        lgeneral                        qsv
+cdsclient                       libbpf                          quilt-installer
+censys                          libdivide                       railway
+cfonts                          libeatmydata                    rdb
+chain-bench                     libemf2svg                      redis@6.2
+circumflex                      libff                           req
+clitest                         libfyaml                        retdec
+cloudflare-wrangler2            libgrapheme                     ripsecrets
+cloudprober                     libisofs                        rnr
+clusterawsadm                   liblbfgs                        rome
+cmctl                           libnetfilter_conntrack          ruff
+cntb                            libnftnl                        rush-parallel
+cocogitto                       libnl                           sambamba
+code-cli                        libobjc2                        sapling
+cog                             libplacebo                      scala@2.13
+commitlint                      libretls                        schemathesis
+conda-zsh-completion            libunibreak                     secp256k1
+corrosion                       liburing                        seven-kingdoms
+countdown                       libvatek                        sgn
+cpp-httplib                     license-eye                     sgr
+cpuid                           licensed                        shaderc
+cql-proxy                       licenseplist                    skaffold@1.39
+create-api                      licensor                        skeema
+crytic-compile                  linux-headers@5.15              slither-analyzer
+curlcpp                         livekit                         smap
+czg                             livekit-cli                     snakefmt
+d2                              llama                           snapcast
+dart-sdk                        llvm@13                         snowball
+datatype99                      llvm@14                         snowflake
+distrobox                       lmfit                           socket_vmnet
+docker-buildx                   luacheck                        solc-select
+doggo                           lucky-commit                    souffle
+dooit                           lunar-date                      spectral-cli
+dotnet@6                        mabel                           speedbump
+dronedb                         maclaunch                       spr
+dsda-doom                       macpine                         sql-language-server
+dufs                            mailsy                          sqlcmd
+dump1090-mutability             manifest-tool                   standard
+dumpling                        mariadb@10.8                    stuffbin
+dunamai                         mariadb@10.9                    stylelint
+dura                            markdown-toc                    svt-av1
+dynein                          markdownlint-cli2               swiftdraw
+echidna                         marksman                        swtpm
+edencommon                      mcap                            synergy-core
+editorconfig-checker            meek                            syslog-ng
+eget                            mesheryctl                      taplo
+emqx                            metalang99                      tart
+enex2notion                     metals                          tbls
+enpass-cli                      metview                         tea
+envd                            mimirtool                       teller
+erigon                          mkp224o                         temporal
+evernote-backup                 mle                             tere
+evtx                            mprocs                          textract
+fastfetch                       mqttui                          tfel
+fastnetmon                      muon                            tlsx
+felinks                         mxnet                           toml-test
+fend                            mycorrhiza                      totp-cli
+ferium                          mypaint-brushes                 toxcore
+flock                           naga-cli                        tproxy
+fonts-encodings                 nali                            treefmt
+fortls                          nap                             tremor-runtime
+fred                            nb                              trezor-bridge
+fuego-firestore                 nemu                            trzsz-go
+gator                           neovide                         ttdl
+gaze                            netcdf-cxx                      tuc
+gcc@11                          netcdf-fortran                  tuntox
+gcem                            nftables                        tut
+gdrive-downloader               nmrpflash                       txt2man
+gebug                           node@18                         typewritten
+gf                              nuraft                          typos-cli
+ghc@8.10                        oak                             unisonlang
+ghc@9.2                         oauth2c                         unxip
+ghorg                           objconv                         uthash
+git-codereview                  ocl-icd                         valijson
+git-delete-merged-branches      ohdear-cli                      vectorscan
+git-machete                     onlykey-agent                   verapdf
+git-sync                        open62541                       verovio
+gnustep-base                    opencl-headers                  vhs
+go-camo                         opencl-icd-loader               vile
+go-task                         openvi                          vineyard
+go@1.18                         osv-scanner                     vulkan-loader
+gobackup                        ouch                            wasm-micro-runtime
+got                             pacmc                           waybackpy
+grammarly-languageserver        page                            weasyprint
+grantlee                        pandemics                       webkitgtk
+graphqxl                        pax                             wikibase-cli
+gum                             pbzx                            x86_64-linux-gnu-binutils
+has                             pdf-diff                        xcodes
+helix                           pferd                           xctesthtmlreport
+hermit                          pg_cron                         xdg-ninja
+highway                         pgsync                          xq
+hof                             php@8.1                         xwin
+hotbuild                        phrase-cli                      zf
+hpp-fcl                         pinocchio                       zx
+==> New Casks
+86box                                           lunacy
+adze                                            macforge
+agi                                             mbcord
+akiflow                                         metadatics
+aliwangwang                                     miaoyan
+amazon-luna                                     micromamba
+ankerslicer                                     mighty-mike
+ankerwork                                       mints
+anytype                                         mixin
+apifox                                          moderndeck
+apipost                                         nanoem
+app-fair                                        neat
+aptakube                                        northern-softworks-cache-cleaner
+arc                                             notesnook
+archy                                           onekey
+arduino-ide                                     opencore-patcher
+ares                                            openlens
+astrofox                                        opensoundmeter
+bambu-studio                                    orangedrangon-android-messages
+battery                                         orion
+beast2                                          orka-vm-tools
+betterandbetter                                 overt
+betterdisplay                                   phpwebstudy
+bing-wallpaper                                  picfindr
+binocs                                          pictureview
+black-light                                     pieces-cli
+black-light-pro                                 planet
+bluebubbles                                     playcover-community
+blurscreen                                      plex-htpc
+bookwright                                      plugdata
+bridge                                          polypad
+buzz                                            postman-cli
+cad-assistant                                   prismlauncher
+cardinal                                        protonmail-import-export
+chipmunk                                        qspace-pro
+chromium-gost                                   quiet-reader
+cider                                           qwerty-fr
+cisdem-duplicate-finder                         random-mouse-clicker
+cleaneronepro                                   rapidapi
+clickshare                                      readdle-spark
+cloud189                                        readmoreading
+color-studio                                    reflect
+cro-mag-rally                                   reflex
+cursr                                           restfox
+dbeaverlite                                     reverso
+dbeaverultimate                                 rnnoise
+dcp-o-matic-editor                              rockboxutility
+decentr                                         sanesidebuttons
+devcleaner                                      scene-maestro
+devsquadron                                     scenica-player
+diffusionbee                                    scrolla
+dixa                                            shop-different
+dmg-canvas                                      slab
+doll                                            slack-cli
+douyin                                          sms-plus
+drawpile                                        snapmaker-luban
+duckduckgo                                      sonixd
+duplicacy-cli                                   spike
+ecamm-live                                      spline
+elephas                                         squash
+elephicon                                       superkey
+eloquent                                        tageditor
+farcaster                                       tailscale
+fertigt-slate                                   tdr-kotelnikov
+filen                                           tdr-nova
+finch                                           tdr-vos-slickeq
+fleet                                           tempbox
+fly-key                                         texifier
+fresh                                           thangs-sync
+gama                                            tl-legacy
+gama-jdk                                        tmpdisk
+gamemaker                                       topaz-denoise-ai
+gamma-control                                   topaz-gigapixel-ai
+genesis-plus                                    topaz-sharpen-ai
+gittyup                                         topaz-video-ai
+glance-chamburr                                 trunk-io
+go-shiori                                       tsh
+goxel                                           twitch-studio
+gyroflow                                        typcn-bilibili
+headlamp                                        ui
+height                                          ukrainian-typographic-keyboard
+hookmark                                        unite-phone
+httpie                                          unraid-usb-creator
+icon-shelf                                      v2ray-unofficial
+imhex                                           ved
+iqmol                                           vero
+jpc-qlcolorcode                                 vincelwt-chatgpt
+juice                                           virtualbuddy
+keet                                            vk-calls
+kigb                                            watchfacestudio
+kopiaui                                         weektodo
+laconvolver                                     wirecast
+languagetool                                    wooshy
+lectrote                                        workman
+lemonlime                                       workspace-one-intelligent-hub
+livebook                                        wow
+localxpose                                      xprocheck
+lookingglassbridge                              yousician
+lookingglassstudio                              yubihsm2-sdk
+
+You have 6 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+
+Warning: Treating cocoapods as a formula. For the cask, use homebrew/cask/cocoapods
+==> Fetching dependencies for cocoapods: ca-certificates, openssl@1.1, readline and ruby
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2022-10-11
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:1b264e579e31b304
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:1b264e579
+######################################################################## 100.0%
+==> Fetching openssl@1.1
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1s
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:c11b17c8b78efa46dac2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:c11b17c8b
+######################################################################## 100.0%
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:9406afa0f7aefbbef37ee19
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:9406afa0f
+######################################################################## 100.0%
+==> Fetching ruby
+==> Downloading https://ghcr.io/v2/homebrew/core/ruby/manifests/3.1.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ruby/blobs/sha256:51db346a102e3985fb4419b5a44
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:51db346a1
+######################################################################## 100.0%
+==> Fetching cocoapods
+==> Downloading https://ghcr.io/v2/homebrew/core/cocoapods/manifests/1.11.3
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:0e8ecf1b4a9028ffca29e1
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:0e8ecf1b4
+######################################################################## 100.0%
+==> Installing dependencies for cocoapods: ca-certificates, openssl@1.1, readline and ruby
+==> Installing cocoapods dependency: ca-certificates
+==> Pouring ca-certificates--2022-10-11.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2022-10-11: 3 files, 225.5KB
+==> Installing cocoapods dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1s.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@1.1/1.1.1s: 8,101 files, 18MB
+==> Installing cocoapods dependency: readline
+==> Pouring readline--8.2.1.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.2.1: 50 files, 1.7MB
+==> Installing cocoapods dependency: ruby
+==> Pouring ruby--3.1.3.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ruby/3.1.3: 16,149 files, 43.3MB
+==> Installing cocoapods
+==> Pouring cocoapods--1.11.3.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cocoapods/1.11.3: 13,496 files, 28.3MB
+==> Running `brew cleanup cocoapods`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Upgrading 1 dependent of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+ruby@3.0 3.0.4 -> 3.0.5
+==> Fetching ruby@3.0
+==> Downloading https://ghcr.io/v2/homebrew/core/ruby/3.0/manifests/3.0.5
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ruby/3.0/blobs/sha256:dd27d5f6f9d3dbe0d0b742b
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:dd27d5f6f
+######################################################################## 100.0%
+==> Upgrading ruby@3.0
+  3.0.4 -> 3.0.5 
+
+==> Pouring ruby@3.0--3.0.5.arm64_monterey.bottle.tar.gz
+==> Caveats
+By default, binaries installed by gem will be placed into:
+  /opt/homebrew/lib/ruby/gems/3.0.0/bin
+
+You may want to add this to your PATH.
+
+ruby@3.0 is keg-only, which means it was not symlinked into /opt/homebrew,
+because this is an alternate version of another formula.
+
+If you need to have ruby@3.0 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/ruby@3.0/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find ruby@3.0 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/ruby@3.0/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/ruby@3.0/include"
+
+==> Summary
+🍺  /opt/homebrew/Cellar/ruby@3.0/3.0.5: 16,297 files, 39.6MB
+==> Running `brew cleanup ruby@3.0`...
+Removing: /opt/homebrew/Cellar/ruby@3.0/3.0.4... (16,329 files, 39.6MB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/ruby@3.0--3.0.4... (11.1MB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/autoconf--2.71... (944.1KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/automake--1.16.5... (970.5KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/bison--3.8.2... (1MB)
+Removing: /opt/homebrew/Cellar/ca-certificates/2022-04-26... (3 files, 215.6KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/ca-certificates--2022-04-26... (121.8KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/chruby--0.3.9... (18.5KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/gdbm--1.23... (269.2KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/libffi--3.4.2... (170.5KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/libyaml--0.2.5... (108.4KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/m4--1.4.19... (256.0KB)
+Removing: /opt/homebrew/Cellar/openssl@1.1/1.1.1o... (8,089 files, 18MB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/openssl@1.1--1.1.1o... (5MB)
+Removing: /opt/homebrew/Cellar/readline/8.1.2... (48 files, 1.7MB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/readline--8.1.2... (560.3KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/ruby-install--0.8.3... (18.0KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/descriptions.json... (337.7KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/cask_descriptions.json... (256.8KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/gdbm_bottle_manifest--1.23... (6.1KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/bison_bottle_manifest--3.8.2... (7.2KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/m4_bottle_manifest--1.4.19... (7.0KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/ruby@3.0_bottle_manifest--3.0.4... (11.6KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2022-04-26... (1.8KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/automake_bottle_manifest--1.16.5... (9.9KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/libyaml_bottle_manifest--0.2.5... (7.5KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/autoconf_bottle_manifest--2.71... (9.4KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/ruby-install_bottle_manifest--0.8.3... (2.0KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/openssl@1.1_bottle_manifest--1.1.1o... (7.6KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/readline_bottle_manifest--8.1.2... (6.6KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/chruby_bottle_manifest--0.3.9... (8.5KB)
+Removing: /Users/robert.sabec/Library/Caches/Homebrew/libffi_bottle_manifest--3.4.2... (7.2KB)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/gdbm... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/libyaml... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/readline... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/ruby-install... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/chruby... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/autoconf... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/m4... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/openssl@1.1... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/ruby@3.0... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/bison... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/automake... (64B)
+Removing: /Users/robert.sabec/Library/Logs/Homebrew/libffi... (64B)
+Pruned 0 symbolic links and 12 directories from /opt/homebrew
+==> Caveats
+==> ruby@3.0
+By default, binaries installed by gem will be placed into:
+  /opt/homebrew/lib/ruby/gems/3.0.0/bin
+
+You may want to add this to your PATH.
+
+ruby@3.0 is keg-only, which means it was not symlinked into /opt/homebrew,
+because this is an alternate version of another formula.
+
+If you need to have ruby@3.0 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/ruby@3.0/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find ruby@3.0 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/ruby@3.0/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/ruby@3.0/include"
+
+robert.sabec@TEAL-LQ62V2YRWR ~ % pod --version         
+Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi --version 1.15.5
+Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug --version 1.4.0
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine --version 1.2.7
+Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb --version 0.8.0
+Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs --version 2.1.0
+Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc --version 2.4.0
+1.11.3
+robert.sabec@TEAL-LQ62V2YRWR ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/sbin/chown -R robert.sabec:admin /opt/homebrew
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 81, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (23/23), done.
+remote: Total 81 (delta 51), reused 71 (delta 51), pack-reused 5
+Unpacking objects: 100% (81/81), 116.74 KiB | 1.88 MiB/s, done.
+From https://github.com/Homebrew/brew
+ * [new branch]          dependabot/bundler/Library/Homebrew/racc-1.6.2 -> origin/dependabot/bundler/Library/Homebrew/racc-1.6.2
+ * [new branch]          dependabot/bundler/Library/Homebrew/rubocop-1.41.1 -> origin/dependabot/bundler/Library/Homebrew/rubocop-1.41.1
+ * [new branch]          less-agressive-core-tap -> origin/less-agressive-core-tap
+ * [new branch]          setup-homebrew-test     -> origin/setup-homebrew-test
+HEAD is now at 895d32212 Merge pull request #14287 from Homebrew/sponsors-maintainers-man-completions
+Updated 1 tap (homebrew/core).
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+robert.sabec@TEAL-LQ62V2YRWR ~ % brew install cocoapods
+
+
+Warning: Treating cocoapods as a formula. For the cask, use homebrew/cask/cocoapods
+Warning: cocoapods 1.11.3 is already installed and up-to-date.
+To reinstall 1.11.3, run:
+  brew reinstall cocoapods
+robert.sabec@TEAL-LQ62V2YRWR ~ % brew reinstall cocoapods
+Warning: Treating cocoapods as a formula. For the cask, use homebrew/cask/cocoapods
+==> Fetching cocoapods
+==> Downloading https://ghcr.io/v2/homebrew/core/cocoapods/manifests/1.11.3
+Already downloaded: /Users/robert.sabec/Library/Caches/Homebrew/downloads/e1e42eaf7a9c48aaa7a74e8eca36666f4b6f6d2aff14c2505bcb6e1d84cfbea5--cocoapods-1.11.3.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/cocoapods/blobs/sha256:0e8ecf1b4a9028ffca29e1bba075b1cf572c
+Already downloaded: /Users/robert.sabec/Library/Caches/Homebrew/downloads/fc3b7e961489f91a4f25fd5faf17e2326a363e31c33abfb9b70897ecee135ee7--cocoapods--1.11.3.arm64_monterey.bottle.tar.gz
+==> Reinstalling cocoapods 
+==> Pouring cocoapods--1.11.3.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cocoapods/1.11.3: 13,496 files, 28.3MB
+==> Running `brew cleanup cocoapods`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+robert.sabec@TEAL-LQ62V2YRWR ~ % 
+
+
+
+robert.sabec@TEAL-LQ62V2YRWR TealiumSwiftExample % pod install
+Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi --version 1.15.5
+Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug --version 1.4.0
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine --version 1.2.7
+Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb --version 0.8.0
+Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs --version 2.1.0
+Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc --version 2.4.0
+Analyzing dependencies
+[!] Could not automatically select an Xcode project. Specify one in your Podfile like so:
+
+    project 'path/to/Project.xcodeproj'
+
+robert.sabec@TEAL-LQ62V2YRWR TealiumSwiftExample % 
+
+
+
+robert.sabec@TEAL-LQ62V2YRWR TealiumSwiftExample %      pod install
+
+Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi --version 1.15.5
+Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug --version 1.4.0
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine --version 1.2.7
+Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb --version 0.8.0
+Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs --version 2.1.0
+Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc --version 2.4.0
+Analyzing dependencies
+[!] Could not automatically select an Xcode project. Specify one in your Podfile like so:
+
+    project 'path/to/Project.xcodeproj'
+
+robert.sabec@TEAL-LQ62V2YRWR TealiumSwiftExample % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
