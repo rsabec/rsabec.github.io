@@ -28,26 +28,17 @@ categories: ios code tealium swift
 	``` 
 	6. Open Terminal app and change directories to location of Swift project. If you placed the download into your 'Documents' folder then  example below- 
 	```terminal
-    cd Documents/mobile/ios/tealium-swift-master/samples/TealiumSwiftExample
+    cd /Users/robert.sabec/Documents/tealium-swift-main/samples/TealiumSwiftExample
 	```
 	7. Test what shell you are using . ( Apple set the default shell to the Z shell (zsh). )
 ```terminal
 echo $0
 ```
-	8. Run Cocopods install comman in this directory .
+   8. Run Cocopods install comman in this directory .
 	```terminal
 	pod install
 	```  
-pod install - returns below errors.<br>
-Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi --version 1.15.5 <br>
-Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug --version 1.4.0 <br>
-Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine --version 1.2.7 <br>
-Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb --version 0.8.0 <br>
-Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs --version 2.1.0 <br>
-Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc --version 2.4.0 <br>
-Analyzing dependencies <br>
-[!] Could not automatically select an Xcode project. Specify one in your Podfile like so: <br>
-    project 'path/to/Project.xcodeproj'
+
 	 <br>
 
 	

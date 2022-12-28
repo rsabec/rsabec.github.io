@@ -1,4 +1,4 @@
-I"k<p>links for Tealium Swift sample app and Dependencies.</p>
+I"@<p>links for Tealium Swift sample app and Dependencies.</p>
 <ul>
   <li>Github <a href="https://github.com/Tealium/tealium-swift.git">Tealium/tealium-swift</a></li>
   <li><a href="https://brew.sh/">Homebrew</a> - used to install Cocopods.</li>
@@ -27,7 +27,7 @@
         </blockquote>
       </li>
       <li>Open Terminal app and change directories to location of Swift project. If you placed the download into your ‘Documents’ folder then  example below-
-        <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">  cd Documents/mobile/ios/tealium-swift-master/samples/TealiumSwiftExample
+        <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">  cd /Users/robert.sabec/Documents/tealium-swift-main/samples/TealiumSwiftExample
 </span></code></pre></div>        </div>
       </li>
       <li>Test what shell you are using . ( Apple set the default shell to the Z shell (zsh). )
@@ -37,19 +37,8 @@
       <li>Run Cocopods install comman in this directory .
         <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">  pod install
 </span></code></pre></div>        </div>
-        <p>pod install
-Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi –version 1.15.5
-Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug –version 1.4.0
-Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine –version 1.2.7
-Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb –version 0.8.0
-Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs –version 2.1.0
-Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc –version 2.4.0
-Analyzing dependencies
-[!] Could not automatically select an Xcode project. Specify one in your Podfile like so:</p>
       </li>
     </ol>
-
-    <p>project ‘path/to/Project.xcodeproj’</p>
 
     <p><br /></p>
   </li>

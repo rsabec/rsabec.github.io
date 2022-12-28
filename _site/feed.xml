@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-26T15:07:01-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Tealium Swift sample App Install</title><link href="http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install.html" rel="alternate" type="text/html" title="Tealium Swift sample App Install" /><published>2022-12-24T10:50:00-06:00</published><updated>2022-12-24T10:50:00-06:00</updated><id>http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install</id><content type="html" xml:base="http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install.html">&lt;p&gt;links for Tealium Swift sample app and Dependencies.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-28T12:53:29-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Tealium Swift sample App Install</title><link href="http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install.html" rel="alternate" type="text/html" title="Tealium Swift sample App Install" /><published>2022-12-24T10:50:00-06:00</published><updated>2022-12-24T10:50:00-06:00</updated><id>http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install</id><content type="html" xml:base="http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install.html">&lt;p&gt;links for Tealium Swift sample app and Dependencies.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Github &lt;a href=&quot;https://github.com/Tealium/tealium-swift.git&quot;&gt;Tealium/tealium-swift&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; - used to install Cocopods.&lt;/li&gt;
@@ -27,7 +27,7 @@
         &lt;/blockquote&gt;
       &lt;/li&gt;
       &lt;li&gt;Open Terminal app and change directories to location of Swift project. If you placed the download into your ‘Documents’ folder then  example below-
-        &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;  cd Documents/mobile/ios/tealium-swift-master/samples/TealiumSwiftExample
+        &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;  cd /Users/robert.sabec/Documents/tealium-swift-main/samples/TealiumSwiftExample
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
       &lt;/li&gt;
       &lt;li&gt;Test what shell you are using . ( Apple set the default shell to the Z shell (zsh). )
@@ -37,19 +37,10 @@
       &lt;li&gt;Run Cocopods install comman in this directory .
         &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;  pod install
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-        &lt;p&gt;pod install - returns below errors.&lt;br /&gt;
-Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi –version 1.15.5 &lt;br /&gt;
-Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug –version 1.4.0 &lt;br /&gt;
-Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine –version 1.2.7 &lt;br /&gt;
-Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb –version 0.8.0 &lt;br /&gt;
-Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs –version 2.1.0 &lt;br /&gt;
-Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc –version 2.4.0 &lt;br /&gt;
-Analyzing dependencies &lt;br /&gt;
-[!] Could not automatically select an Xcode project. Specify one in your Podfile like so: &lt;br /&gt;
-  project ‘path/to/Project.xcodeproj’
-   &lt;br /&gt;&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
+
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Robert Sabec</name></author><category term="ios" /><category term="code" /><category term="tealium" /><category term="swift" /><summary type="html">links for Tealium Swift sample app and Dependencies. Github Tealium/tealium-swift Homebrew - used to install Cocopods. Xcode and Xcode Command Line Tools - available behind your apple develpper login - Cocopods</summary></entry><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T22:51:00-06:00</published><updated>2022-11-29T22:51:00-06:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html">&lt;p&gt;chile relleno recipe&lt;/p&gt;
 &lt;ul&gt;
