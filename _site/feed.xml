@@ -1,235 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-28T12:58:32-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Tealium Swift sample App Install</title><link href="http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install.html" rel="alternate" type="text/html" title="Tealium Swift sample App Install" /><published>2022-12-24T10:50:00-06:00</published><updated>2022-12-24T10:50:00-06:00</updated><id>http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install</id><content type="html" xml:base="http://localhost:4000/ios/code/tealium/swift/2022/12/24/tealium_sample_swift_app_install.html">&lt;p&gt;links for Tealium Swift sample app and Dependencies.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Github &lt;a href=&quot;https://github.com/Tealium/tealium-swift.git&quot;&gt;Tealium/tealium-swift&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; - used to install Cocopods.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.apple.com/download/all/&quot;&gt;Xcode and Xcode Command Line Tools&lt;/a&gt; - available behind your apple develpper login -&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://formulae.brew.sh/formula/cocoapods#default&quot;&gt;Cocopods&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;Sample App Setup - Swift&lt;/p&gt;
-
-    &lt;ol&gt;
-      &lt;li&gt;Have Xcode and Xcode tools downloaded and ready to go.&lt;/li&gt;
-      &lt;li&gt;Follow the link to Homebrew and follow instructions to install on your mac.&lt;/li&gt;
-      &lt;li&gt;Download the Sample app from Tealium’s repo, unzip and place in a uncomplicated directory path such as directly in your ‘Documents’ directory.&lt;/li&gt;
-      &lt;li&gt;Check Homebrew installed on your mac or &lt;a href=&quot;https://brew.sh/&quot;&gt;install it&lt;/a&gt;.
-        &lt;blockquote&gt;
-
-          &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;  /bin/bash -c &quot;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;          &lt;/div&gt;
-        &lt;/blockquote&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://formulae.brew.sh/formula/cocoapods#default&quot;&gt;Install Cocopds&lt;/a&gt;
-        &lt;blockquote&gt;
-
-          &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;  /bin/bash -c &quot;$&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;          &lt;/div&gt;
-        &lt;/blockquote&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Open Terminal app and change directories to location of Swift project. If you placed the download into your ‘Documents’ folder then  example below-
-        &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;  cd /Users/robert.sabec/Documents/tealium-swift-main/samples/TealiumSwiftExample
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Test what shell you are using . ( Apple set the default shell to the Z shell (zsh). )
-        &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;echo $&lt;/span&gt;0
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Run Cocopods install comman in this directory .
-        &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;  pod install
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-        &lt;p&gt;errors &lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;**
-robert.sabec@TEAL-LQ62V2YRWR TealiumSwiftExample % pod install
-Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi –version 1.15.5
-Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug –version 1.4.0
-Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine –version 1.2.7
-Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb –version 0.8.0
-Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs –version 2.1.0
-Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc –version 2.4.0
-Analyzing dependencies
-Adding spec repo &lt;code class=&quot;highlighter-rouge&quot;&gt;trunk&lt;/code&gt; with CDN &lt;code class=&quot;highlighter-rouge&quot;&gt;https://cdn.cocoapods.org/&lt;/code&gt;&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;[!] &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;PBXSourcesBuildPhase UUID=&lt;/code&gt;CF2E310D237622A9000CEDD3&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; attempted to initialize an object with an unknown UUID. &lt;code class=&quot;highlighter-rouge&quot;&gt;CFB6B54F26792F5C00D62D87&lt;/code&gt; for attribute: &lt;code class=&quot;highlighter-rouge&quot;&gt;files&lt;/code&gt;. This can be the result of a merge and the unknown UUID is being discarded.&lt;/p&gt;
-
-&lt;p&gt;[!] &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;PBXSourcesBuildPhase UUID=&lt;/code&gt;CF2E310D237622A9000CEDD3&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; attempted to initialize an object with an unknown UUID. &lt;code class=&quot;highlighter-rouge&quot;&gt;CFB6B55326792F5C00D62D87&lt;/code&gt; for attribute: &lt;code class=&quot;highlighter-rouge&quot;&gt;files&lt;/code&gt;. This can be the result of a merge and the unknown UUID is being discarded.&lt;/p&gt;
-
-&lt;p&gt;[!] &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;PBXSourcesBuildPhase UUID=&lt;/code&gt;CF2E310D237622A9000CEDD3&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; attempted to initialize an object with an unknown UUID. &lt;code class=&quot;highlighter-rouge&quot;&gt;CFB6B55026792F5C00D62D87&lt;/code&gt; for attribute: &lt;code class=&quot;highlighter-rouge&quot;&gt;files&lt;/code&gt;. This can be the result of a merge and the unknown UUID is being discarded.&lt;/p&gt;
-
-&lt;p&gt;[!] &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;PBXFrameworksBuildPhase UUID=&lt;/code&gt;CF2E310E237622A9000CEDD3&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt; attempted to initialize an object with an unknown UUID. &lt;code class=&quot;highlighter-rouge&quot;&gt;CF665AA02673F6EB00742E9D&lt;/code&gt; for attribute: &lt;code class=&quot;highlighter-rouge&quot;&gt;files&lt;/code&gt;. This can be the result of a merge and the unknown UUID is being discarded.
-&amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;: incompatible library version - /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi_c.bundle (LoadError)
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:5:in &lt;code class=&quot;highlighter-rouge&quot;&gt;rescue in &amp;lt;top (required)&amp;gt;&apos;
-	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:2:in &lt;/code&gt;&amp;lt;top (required)&amp;gt;’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/ethon-0.15.0/lib/ethon.rb:3:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;top (required)&amp;gt;&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/typhoeus-1.4.0/lib/typhoeus.rb:2:in &lt;/code&gt;&amp;lt;top (required)&amp;gt;’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:440:in &lt;code class=&quot;highlighter-rouge&quot;&gt;download_typhoeus_impl_async&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:372:in &lt;/code&gt;download_and_save_with_retries_async’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:365:in &lt;code class=&quot;highlighter-rouge&quot;&gt;download_file_async&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:338:in &lt;/code&gt;download_file’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:53:in &lt;code class=&quot;highlighter-rouge&quot;&gt;refresh_metadata&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source.rb:31:in &lt;/code&gt;initialize’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:30:in &lt;code class=&quot;highlighter-rouge&quot;&gt;initialize&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in &lt;/code&gt;new’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in &lt;code class=&quot;highlighter-rouge&quot;&gt;block in source_from_path&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:322:in &lt;/code&gt;source_from_path’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in &lt;code class=&quot;highlighter-rouge&quot;&gt;block in aggregate_with_repos&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in &lt;/code&gt;map’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in &lt;code class=&quot;highlighter-rouge&quot;&gt;aggregate_with_repos&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:26:in &lt;/code&gt;aggregate’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:60:in &lt;code class=&quot;highlighter-rouge&quot;&gt;all&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:173:in &lt;/code&gt;repo_information’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:77:in &lt;code class=&quot;highlighter-rouge&quot;&gt;stack&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:24:in &lt;/code&gt;report’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:66:in &lt;code class=&quot;highlighter-rouge&quot;&gt;report_error&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:396:in &lt;/code&gt;handle_exception’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:337:in &lt;code class=&quot;highlighter-rouge&quot;&gt;rescue in run&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:324:in &lt;/code&gt;run’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in &lt;code class=&quot;highlighter-rouge&quot;&gt;run&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in &lt;/code&gt;&amp;lt;top (required)&amp;gt;’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in &lt;code class=&quot;highlighter-rouge&quot;&gt;load&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in &lt;/code&gt;&amp;lt;main&amp;gt;’
-&amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;: cannot load such file -- 3.1/ffi_c (LoadError)
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:3:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;top (required)&amp;gt;&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/ethon-0.15.0/lib/ethon.rb:3:in &lt;/code&gt;&amp;lt;top (required)&amp;gt;’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/typhoeus-1.4.0/lib/typhoeus.rb:2:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;top (required)&amp;gt;&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:440:in &lt;/code&gt;download_typhoeus_impl_async’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:372:in &lt;code class=&quot;highlighter-rouge&quot;&gt;download_and_save_with_retries_async&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:365:in &lt;/code&gt;download_file_async’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:338:in &lt;code class=&quot;highlighter-rouge&quot;&gt;download_file&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:53:in &lt;/code&gt;refresh_metadata’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source.rb:31:in &lt;code class=&quot;highlighter-rouge&quot;&gt;initialize&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:30:in &lt;/code&gt;initialize’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in &lt;code class=&quot;highlighter-rouge&quot;&gt;new&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in &lt;/code&gt;block in source_from_path’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:322:in &lt;code class=&quot;highlighter-rouge&quot;&gt;source_from_path&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in &lt;/code&gt;block in aggregate_with_repos’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in &lt;code class=&quot;highlighter-rouge&quot;&gt;map&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in &lt;/code&gt;aggregate_with_repos’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:26:in &lt;code class=&quot;highlighter-rouge&quot;&gt;aggregate&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:60:in &lt;/code&gt;all’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:173:in &lt;code class=&quot;highlighter-rouge&quot;&gt;repo_information&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:77:in &lt;/code&gt;stack’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:24:in &lt;code class=&quot;highlighter-rouge&quot;&gt;report&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:66:in &lt;/code&gt;report_error’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:396:in &lt;code class=&quot;highlighter-rouge&quot;&gt;handle_exception&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:337:in &lt;/code&gt;rescue in run’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:324:in &lt;code class=&quot;highlighter-rouge&quot;&gt;run&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in &lt;/code&gt;run’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;top (required)&amp;gt;&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in &lt;/code&gt;load’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;main&amp;gt;&apos;
-&amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’: incompatible library version - /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi_c.bundle (LoadError)
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:5:in &lt;/code&gt;rescue in &amp;lt;top (required)&amp;gt;’
-	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:2:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;top (required)&amp;gt;&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/ethon-0.15.0/lib/ethon.rb:3:in &lt;/code&gt;&amp;lt;top (required)&amp;gt;’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/typhoeus-1.4.0/lib/typhoeus.rb:2:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;top (required)&amp;gt;&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:440:in &lt;/code&gt;download_typhoeus_impl_async’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:372:in &lt;code class=&quot;highlighter-rouge&quot;&gt;download_and_save_with_retries_async&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:365:in &lt;/code&gt;download_file_async’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:338:in &lt;code class=&quot;highlighter-rouge&quot;&gt;download_file&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:53:in &lt;/code&gt;refresh_metadata’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source.rb:31:in &lt;code class=&quot;highlighter-rouge&quot;&gt;initialize&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:30:in &lt;/code&gt;initialize’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in &lt;code class=&quot;highlighter-rouge&quot;&gt;new&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in &lt;/code&gt;block in source_from_path’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:322:in &lt;code class=&quot;highlighter-rouge&quot;&gt;source_from_path&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in &lt;/code&gt;block in sources’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in &lt;code class=&quot;highlighter-rouge&quot;&gt;map&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in &lt;/code&gt;sources’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/repo/add_cdn.rb:38:in &lt;code class=&quot;highlighter-rouge&quot;&gt;block in run&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in &lt;/code&gt;section’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/repo/add_cdn.rb:36:in &lt;code class=&quot;highlighter-rouge&quot;&gt;run&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/sources_manager.rb:45:in &lt;/code&gt;create_source_with_url’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/sources_manager.rb:22:in &lt;code class=&quot;highlighter-rouge&quot;&gt;find_or_create_source_with_url&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:178:in &lt;/code&gt;block in sources’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:177:in &lt;code class=&quot;highlighter-rouge&quot;&gt;map&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:177:in &lt;/code&gt;sources’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1077:in &lt;code class=&quot;highlighter-rouge&quot;&gt;block in resolve_dependencies&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in &lt;/code&gt;section’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1076:in &lt;code class=&quot;highlighter-rouge&quot;&gt;resolve_dependencies&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:124:in &lt;/code&gt;analyze’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:416:in &lt;code class=&quot;highlighter-rouge&quot;&gt;analyze&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:241:in &lt;/code&gt;block in resolve_dependencies’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in &lt;code class=&quot;highlighter-rouge&quot;&gt;section&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:240:in &lt;/code&gt;resolve_dependencies’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:161:in &lt;code class=&quot;highlighter-rouge&quot;&gt;install!&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/install.rb:52:in &lt;/code&gt;run’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:334:in &lt;code class=&quot;highlighter-rouge&quot;&gt;run&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in &lt;/code&gt;run’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;top (required)&amp;gt;&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in &lt;/code&gt;load’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;main&amp;gt;&apos;
-&amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’: cannot load such file – 3.1/ffi_c (LoadError)
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:3:in &lt;/code&gt;&amp;lt;top (required)&amp;gt;’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/ethon-0.15.0/lib/ethon.rb:3:in &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;top (required)&amp;gt;&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/typhoeus-1.4.0/lib/typhoeus.rb:2:in &lt;/code&gt;&amp;lt;top (required)&amp;gt;’
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;code class=&quot;highlighter-rouge&quot;&gt;require&apos;
-	from &amp;lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&amp;gt;:85:in &lt;/code&gt;require’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:440:in &lt;code class=&quot;highlighter-rouge&quot;&gt;download_typhoeus_impl_async&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:372:in &lt;/code&gt;download_and_save_with_retries_async’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:365:in &lt;code class=&quot;highlighter-rouge&quot;&gt;download_file_async&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:338:in &lt;/code&gt;download_file’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:53:in &lt;code class=&quot;highlighter-rouge&quot;&gt;refresh_metadata&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source.rb:31:in &lt;/code&gt;initialize’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:30:in &lt;code class=&quot;highlighter-rouge&quot;&gt;initialize&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in &lt;/code&gt;new’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in &lt;code class=&quot;highlighter-rouge&quot;&gt;block in source_from_path&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:322:in &lt;/code&gt;source_from_path’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in &lt;code class=&quot;highlighter-rouge&quot;&gt;block in sources&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in &lt;/code&gt;map’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in &lt;code class=&quot;highlighter-rouge&quot;&gt;sources&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/repo/add_cdn.rb:38:in &lt;/code&gt;block in run’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in &lt;code class=&quot;highlighter-rouge&quot;&gt;section&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/repo/add_cdn.rb:36:in &lt;/code&gt;run’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/sources_manager.rb:45:in &lt;code class=&quot;highlighter-rouge&quot;&gt;create_source_with_url&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/sources_manager.rb:22:in &lt;/code&gt;find_or_create_source_with_url’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:178:in &lt;code class=&quot;highlighter-rouge&quot;&gt;block in sources&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:177:in &lt;/code&gt;map’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:177:in &lt;code class=&quot;highlighter-rouge&quot;&gt;sources&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1077:in &lt;/code&gt;block in resolve_dependencies’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in &lt;code class=&quot;highlighter-rouge&quot;&gt;section&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1076:in &lt;/code&gt;resolve_dependencies’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:124:in &lt;code class=&quot;highlighter-rouge&quot;&gt;analyze&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:416:in &lt;/code&gt;analyze’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:241:in &lt;code class=&quot;highlighter-rouge&quot;&gt;block in resolve_dependencies&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in &lt;/code&gt;section’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:240:in &lt;code class=&quot;highlighter-rouge&quot;&gt;resolve_dependencies&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:161:in &lt;/code&gt;install!’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/install.rb:52:in &lt;code class=&quot;highlighter-rouge&quot;&gt;run&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:334:in &lt;/code&gt;run’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in &lt;code class=&quot;highlighter-rouge&quot;&gt;run&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in &lt;/code&gt;&amp;lt;top (required)&amp;gt;’
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in &lt;code class=&quot;highlighter-rouge&quot;&gt;load&apos;
-	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in &lt;/code&gt;&amp;lt;main&amp;gt;’
-	 &lt;br /&gt;&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="ios" /><category term="code" /><category term="tealium" /><category term="swift" /><summary type="html">links for Tealium Swift sample app and Dependencies. Github Tealium/tealium-swift Homebrew - used to install Cocopods. Xcode and Xcode Command Line Tools - available behind your apple develpper login - Cocopods</summary></entry><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T22:51:00-06:00</published><updated>2022-11-29T22:51:00-06:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html">&lt;p&gt;chile relleno recipe&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-02T17:52:55-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T22:51:00-06:00</published><updated>2022-11-29T22:51:00-06:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html">&lt;p&gt;chile relleno recipe&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;pasilla peppers w/stem&lt;/li&gt;
   &lt;li&gt;tomato sauce - delmonte or heintz&lt;/li&gt;
@@ -562,4 +331,30 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.&lt
 
 &lt;p&gt;Remove short ribs from wine and dry meat.  Researve the wine and veggies/herbs. Season each short rib with salt and pepper then dredge in APF.  Add olive oil to oven proof pot or dutch oven. Brown beef in stages to not crowd the pan.  While browing meet seperate wine from onions/garlic/herbs using a strainer,  keeping the ‘wine’ reserved.  Once the last of beef is browned, remove oil from pot and add new olive oil with 2 tablespoons butter.  Add all veggies to pot, including the carrots and celery with the strained items used in the marinade. Saute till onions are translucent, watch heat to not burn garlic cloves.  Add tomato paste, stir in and cook for a few minutes. Pour in reseved red wine and bring to a boil then simmer apporx ten minutes.  Add salt pepper to initially adjust to taste.  Add Beef to pot and then top off with beef stock to just cover meet.  Bring to a simmer, cover and put in 350F oven.  Remove post every 45 minutes to stir and check for tenderness of meat.  Usualy 90 minutes total in oven is sufficient.  If you want to carmelize the beef and stew more then remove or leave lid askew when placing pot back in after the first 45 minutes.  Remove from oven when fork tender and make any final seasoning adjustments now. Serve with a slice of good artisan bread with butter. :)&lt;/p&gt;
 
-&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry></feed>
+&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry><entry><title type="html">Butter Chicken</title><link href="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html" rel="alternate" type="text/html" title="Butter Chicken" /><published>2020-11-07T10:56:00-06:00</published><updated>2020-11-07T10:56:00-06:00</updated><id>http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html">&lt;h1 id=&quot;butter-chicken-with-carrots-using-a-pressure-cooker&quot;&gt;Butter Chicken with Carrots using a Pressure Cooker.&lt;/h1&gt;
+
+&lt;p&gt;4 to 6 chicken thighs or substitute any 1.5 to 2 lbs chicken cut up into chunks.&lt;/p&gt;
+
+&lt;p&gt;4 tablespoons butter.&lt;/p&gt;
+
+&lt;p&gt;One diced onion.&lt;/p&gt;
+
+&lt;p&gt;One diced carrot.&lt;/p&gt;
+
+&lt;p&gt;2 tablespoons minced fresh ginger.&lt;/p&gt;
+
+&lt;p&gt;3 minced garlic cloves&lt;/p&gt;
+
+&lt;p&gt;1 tablespoon curry powder&lt;/p&gt;
+
+&lt;p&gt;1 teaspoon salt&lt;/p&gt;
+
+&lt;p&gt;2 teaspoons garam masala&lt;/p&gt;
+
+&lt;p&gt;3/4 teaspoon smoked paprika&lt;/p&gt;
+
+&lt;p&gt;1/2 can imported San Marzano tomato - about 14 ounces.&lt;/p&gt;
+
+&lt;p&gt;1 cup heavy cream&lt;/p&gt;
+
+&lt;p&gt;Place the butter in pressure cooker on saute, add chopped onions and carrots and season with pinch of salt and pepper.  Saute until onions are translucent. Add ginger and saute 5 more minutes then add garlic and all spices in the Instant Pot . Saute additional 3 to 5 minutes, stirring to make sure not to burn the the garlic and spices. Add tomatoes and chicken, stir to incorporate. Secure lid on pressure cooker and cook on high pressure for 15 minutes. Release pressure then add in cream then reset pressure cooker to simmer and stir occasionally for 15 additional minutes.  Serve as is or with rice.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><category term="Pressure-Cooker" /><summary type="html">Butter Chicken with Carrots using a Pressure Cooker.</summary></entry></feed>
