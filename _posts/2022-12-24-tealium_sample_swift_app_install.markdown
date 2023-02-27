@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tealium Swift sample App Install"
-date:   2023-12-24 08:50:00 -0800
+date:   2025-12-24 08:50:00 -0800
 categories: ios code tealium swift
 ---
 
