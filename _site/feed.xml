@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-30T12:32:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T23:51:00-05:00</published><updated>2022-11-29T23:51:00-05:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html">&lt;p&gt;chile relleno recipe&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-30T16:19:36-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Lentil Sausage Soup</title><link href="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html" rel="alternate" type="text/html" title="Lentil Sausage Soup" /><published>2023-09-30T13:00:00-04:00</published><updated>2023-09-30T13:00:00-04:00</updated><id>http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup</id><content type="html" xml:base="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html">&lt;h1 id=&quot;lentil-sausage-soup---pressure-cooker-10min--or-slow-cook-4-hours-&quot;&gt;Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )&lt;/h1&gt;
+
+&lt;p&gt;One package of Italian Sausages ( usually 6 )&lt;/p&gt;
+
+&lt;p&gt;2 TBS butter&lt;/p&gt;
+
+&lt;p&gt;1 medium onion diced or chopped&lt;/p&gt;
+
+&lt;p&gt;2 TBS chopped fresh ginger&lt;/p&gt;
+
+&lt;p&gt;1 Clove garlic with germ removed, diced&lt;/p&gt;
+
+&lt;p&gt;1 small can fire roasted chiles, like ortega or substitute roasted Anaheim or poblano&lt;/p&gt;
+
+&lt;p&gt;2 TSP garam masala&lt;/p&gt;
+
+&lt;p&gt;1 lb rinsed lentils&lt;/p&gt;
+
+&lt;p&gt;Cayene pepper ( pinch )&lt;/p&gt;
+
+&lt;p&gt;2 to 3 strips lb bacon diced ( optional )&lt;/p&gt;
+
+&lt;p&gt;8 cups chicken broth&lt;/p&gt;
+
+&lt;p&gt;Sour cream or yogurt to garnish top when served&lt;/p&gt;
+
+&lt;p&gt;Brown and render diced bacon ( optional).  Remove Bacon and add Sausage and butter till lightly browned then remove.  Saute onion few minutes then add ginger for a few more then garlic at end.  Add gram masala to toast.  Be carefule not to burn or overcook when adding garlic or garam masala.&lt;/p&gt;
+
+&lt;p&gt;Add whole sausage and bacon back in, then broth and lentils.  Set pressure cooker to high and 10 minutes and allow natural release of pressure.&lt;/p&gt;
+
+&lt;p&gt;Serve with dollop of sour cream or yogurt.  If only serving two then cut lentils and broth in half.&lt;/p&gt;
+
+&lt;p&gt;cd GitHub/rsabec.github.io/&lt;/p&gt;
+
+&lt;p&gt;bundle exec jekyll serve&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Lentil" /><category term="Soup" /><summary type="html">Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )</summary></entry><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T23:51:00-05:00</published><updated>2022-11-29T23:51:00-05:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html">&lt;p&gt;chile relleno recipe&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;pasilla peppers w/stem&lt;/li&gt;
   &lt;li&gt;tomato sauce - delmonte or heintz&lt;/li&gt;
@@ -331,30 +365,4 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.&lt
 
 &lt;p&gt;Remove short ribs from wine and dry meat.  Researve the wine and veggies/herbs. Season each short rib with salt and pepper then dredge in APF.  Add olive oil to oven proof pot or dutch oven. Brown beef in stages to not crowd the pan.  While browing meet seperate wine from onions/garlic/herbs using a strainer,  keeping the ‘wine’ reserved.  Once the last of beef is browned, remove oil from pot and add new olive oil with 2 tablespoons butter.  Add all veggies to pot, including the carrots and celery with the strained items used in the marinade. Saute till onions are translucent, watch heat to not burn garlic cloves.  Add tomato paste, stir in and cook for a few minutes. Pour in reseved red wine and bring to a boil then simmer apporx ten minutes.  Add salt pepper to initially adjust to taste.  Add Beef to pot and then top off with beef stock to just cover meet.  Bring to a simmer, cover and put in 350F oven.  Remove post every 45 minutes to stir and check for tenderness of meat.  Usualy 90 minutes total in oven is sufficient.  If you want to carmelize the beef and stew more then remove or leave lid askew when placing pot back in after the first 45 minutes.  Remove from oven when fork tender and make any final seasoning adjustments now. Serve with a slice of good artisan bread with butter. :)&lt;/p&gt;
 
-&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry><entry><title type="html">Butter Chicken</title><link href="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html" rel="alternate" type="text/html" title="Butter Chicken" /><published>2020-11-07T11:56:00-05:00</published><updated>2020-11-07T11:56:00-05:00</updated><id>http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/pressure-cooker/2020/11/07/butter_chicken.html">&lt;h1 id=&quot;butter-chicken-with-carrots-using-a-pressure-cooker&quot;&gt;Butter Chicken with Carrots using a Pressure Cooker.&lt;/h1&gt;
-
-&lt;p&gt;4 to 6 chicken thighs or substitute any 1.5 to 2 lbs chicken cut up into chunks.&lt;/p&gt;
-
-&lt;p&gt;4 tablespoons butter.&lt;/p&gt;
-
-&lt;p&gt;One diced onion.&lt;/p&gt;
-
-&lt;p&gt;One diced carrot.&lt;/p&gt;
-
-&lt;p&gt;2 tablespoons minced fresh ginger.&lt;/p&gt;
-
-&lt;p&gt;3 minced garlic cloves&lt;/p&gt;
-
-&lt;p&gt;1 tablespoon curry powder&lt;/p&gt;
-
-&lt;p&gt;1 teaspoon salt&lt;/p&gt;
-
-&lt;p&gt;2 teaspoons garam masala&lt;/p&gt;
-
-&lt;p&gt;3/4 teaspoon smoked paprika&lt;/p&gt;
-
-&lt;p&gt;1/2 can imported San Marzano tomato - about 14 ounces.&lt;/p&gt;
-
-&lt;p&gt;1 cup heavy cream&lt;/p&gt;
-
-&lt;p&gt;Place the butter in pressure cooker on saute, add chopped onions and carrots and season with pinch of salt and pepper.  Saute until onions are translucent. Add ginger and saute 5 more minutes then add garlic and all spices in the Instant Pot . Saute additional 3 to 5 minutes, stirring to make sure not to burn the the garlic and spices. Add tomatoes and chicken, stir to incorporate. Secure lid on pressure cooker and cook on high pressure for 15 minutes. Release pressure then add in cream then reset pressure cooker to simmer and stir occasionally for 15 additional minutes.  Serve as is or with rice.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><category term="Pressure-Cooker" /><summary type="html">Butter Chicken with Carrots using a Pressure Cooker.</summary></entry></feed>
+&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry></feed>
