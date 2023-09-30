@@ -1,0 +1,16 @@
+current directory: /Users/rsabec/GitHub/rsabec.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/rsabec/.rubies/ruby-3.1.3/bin/ruby -I /Users/rsabec/.rubies/ruby-3.1.3/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/rsabec/GitHub/rsabec.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230930-89011-cpkeo3 sitelibdir\=./.gem.20230930-89011-cpkeo3 clean
+
+current directory: /Users/rsabec/GitHub/rsabec.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230930-89011-cpkeo3 sitelibdir\=./.gem.20230930-89011-cpkeo3
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/rsabec/GitHub/rsabec.github.io/vendor/bundle/ruby/3.1.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20230930-89011-cpkeo3 sitelibdir\=./.gem.20230930-89011-cpkeo3 install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20230930-89011-cpkeo3
