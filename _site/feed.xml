@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-30T16:19:36-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Lentil Sausage Soup</title><link href="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html" rel="alternate" type="text/html" title="Lentil Sausage Soup" /><published>2023-09-30T13:00:00-04:00</published><updated>2023-09-30T13:00:00-04:00</updated><id>http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup</id><content type="html" xml:base="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html">&lt;h1 id=&quot;lentil-sausage-soup---pressure-cooker-10min--or-slow-cook-4-hours-&quot;&gt;Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-05T16:20:48-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Blueberry Cobbler</title><link href="http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler.html" rel="alternate" type="text/html" title="Blueberry Cobbler" /><published>2024-06-05T13:00:00-04:00</published><updated>2024-06-05T13:00:00-04:00</updated><id>http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler.html">&lt;h1 id=&quot;blueberry-cobbler&quot;&gt;Blueberry Cobbler&lt;/h1&gt;
+
+&lt;p&gt;Berries&lt;/p&gt;
+
+&lt;p&gt;4 1/2 cups fresh blueberries with either lemon zest and juice or rasberries.&lt;/p&gt;
+
+&lt;p&gt;1/3 cup sugar&lt;/p&gt;
+
+&lt;p&gt;1 tablespoon all-purpose flour or corn starch&lt;/p&gt;
+
+&lt;p&gt;Consider adding Vanlla or cinnamon for a vairation. - 1/2 teaspoons pure vanilla extract and or 1 teaspoon ground cinnamon in to berries or scone dough ?&lt;/p&gt;
+
+&lt;p&gt;Dough&lt;/p&gt;
+
+&lt;p&gt;1 1/2 cups all-purpose flour&lt;/p&gt;
+
+&lt;p&gt;1/2 teaspoon kosher salt&lt;/p&gt;
+
+&lt;p&gt;1 1/2 tablespoons sugar&lt;/p&gt;
+
+&lt;p&gt;2 1/2 teaspoons baking powder&lt;/p&gt;
+
+&lt;p&gt;6 tablespoons cold unsalted butter, cut into diced into small  pieces ( or grated on a cheese grater ? )&lt;/p&gt;
+
+&lt;p&gt;3/4 cup chilled water + 3 tablespoons Saco cultured buttmilknpowder ( or 1/2 cup buttermilk and 1/4 cup heavy cream.&lt;/p&gt;
+
+&lt;p&gt;( should you add an egg ? )&lt;/p&gt;
+
+&lt;p&gt;Heat the oven to 375 degrees. To prepare the berries, place in a bowl and toss with the sugar and flour. Set aside.
+Dice up cold to frozen butter and add to mixer on low.  I will typically cover the mixer bowl with a towel to stop spit-out and increase speed of mixer to pulverized and break up the butter chunks.  With mixer on low add wet ingredients (cream and or butter milk, eggs ( if using powder butermilk then water) all together lightly beaten or mixed before adding into mixer. brush with egg wash and sprinkple with sugar &lt;/p&gt;
+
+&lt;p&gt;Put the blueberries mixture into a baking dish. Make 1/2 thick scone sized dogh patties. Place them on top of the berries. Bake until the topping is brown and the juices bubble thickly around it, about 35 to 40 minutes.&lt;/p&gt;
+
+&lt;p&gt;cd GitHub/rsabec.github.io/&lt;/p&gt;
+
+&lt;p&gt;bundle exec jekyll serve&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Blueberry Cobbler</summary></entry><entry><title type="html">Lentil Sausage Soup</title><link href="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html" rel="alternate" type="text/html" title="Lentil Sausage Soup" /><published>2023-09-30T13:00:00-04:00</published><updated>2023-09-30T13:00:00-04:00</updated><id>http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup</id><content type="html" xml:base="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html">&lt;h1 id=&quot;lentil-sausage-soup---pressure-cooker-10min--or-slow-cook-4-hours-&quot;&gt;Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )&lt;/h1&gt;
 
 &lt;p&gt;One package of Italian Sausages ( usually 6 )&lt;/p&gt;
 
@@ -329,40 +364,4 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.&lt
 
 &lt;p&gt;Serve warm with your favorite jam or preserves.&lt;/p&gt;
 
-&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Maple Oat Pecan Scones</summary></entry><entry><title type="html">Short Ribs</title><link href="http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs.html" rel="alternate" type="text/html" title="Short Ribs" /><published>2020-11-08T11:56:00-05:00</published><updated>2020-11-08T11:56:00-05:00</updated><id>http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs</id><content type="html" xml:base="http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs.html">&lt;h1 id=&quot;short-ribs-&quot;&gt;Short Ribs .&lt;/h1&gt;
-
-&lt;p&gt;6 boneless short ribs ( one Costco short rib package ).&lt;/p&gt;
-
-&lt;p&gt;One medium yellow onion diced.&lt;/p&gt;
-
-&lt;p&gt;Three whole garlic cloves smashed and peeled.&lt;/p&gt;
-
-&lt;p&gt;Eight springs thyme.&lt;/p&gt;
-
-&lt;p&gt;10 to 12 whole peppercorns.&lt;/p&gt;
-
-&lt;p&gt;1 teaspoon salt.&lt;/p&gt;
-
-&lt;p&gt;Two bay leaves.&lt;/p&gt;
-
-&lt;p&gt;1/4 cup APF.&lt;/p&gt;
-
-&lt;p&gt;One bottle red wine ( Masi Campofiorin or similar blend )&lt;/p&gt;
-
-&lt;p&gt;Two diced carrot.&lt;/p&gt;
-
-&lt;p&gt;Four diced celery stalks.&lt;/p&gt;
-
-&lt;p&gt;3 tablespoon olive oil ( twice if you remove and replace oil after browing the meat ).&lt;/p&gt;
-
-&lt;p&gt;Two tablesppos butter.&lt;/p&gt;
-
-&lt;p&gt;Two tablespoons tomato paste.&lt;/p&gt;
-
-&lt;p&gt;Beef stock ( enough to add to cover meat - 6 to 10 oz.)&lt;/p&gt;
-
-&lt;p&gt;Cut each of the long short ribs info three sections. Layer these with the onion, thyme, garlic in a food grade container that will hold all the beef and wine. ( Cambro square 4 quart container ) Do not add the carrots and celery to the marinade.  Add peppercorns, salt and entire bottle of wine.  Cover with lid and refrigerate 4 to 6 hours.&lt;/p&gt;
-
-&lt;p&gt;Remove short ribs from wine and dry meat.  Researve the wine and veggies/herbs. Season each short rib with salt and pepper then dredge in APF.  Add olive oil to oven proof pot or dutch oven. Brown beef in stages to not crowd the pan.  While browing meet seperate wine from onions/garlic/herbs using a strainer,  keeping the ‘wine’ reserved.  Once the last of beef is browned, remove oil from pot and add new olive oil with 2 tablespoons butter.  Add all veggies to pot, including the carrots and celery with the strained items used in the marinade. Saute till onions are translucent, watch heat to not burn garlic cloves.  Add tomato paste, stir in and cook for a few minutes. Pour in reseved red wine and bring to a boil then simmer apporx ten minutes.  Add salt pepper to initially adjust to taste.  Add Beef to pot and then top off with beef stock to just cover meet.  Bring to a simmer, cover and put in 350F oven.  Remove post every 45 minutes to stir and check for tenderness of meat.  Usualy 90 minutes total in oven is sufficient.  If you want to carmelize the beef and stew more then remove or leave lid askew when placing pot back in after the first 45 minutes.  Remove from oven when fork tender and make any final seasoning adjustments now. Serve with a slice of good artisan bread with butter. :)&lt;/p&gt;
-
-&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry></feed>
+&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Maple Oat Pecan Scones</summary></entry></feed>
