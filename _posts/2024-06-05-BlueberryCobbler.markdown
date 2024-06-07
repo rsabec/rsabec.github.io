@@ -9,7 +9,7 @@ categories: Recipes Baking
 
 Berries
 
-4 1/2 cups fresh blueberries with either lemon zest and juice or rasberries.
+2 to 2 1/2 pints of fresh blueberries with either lemon zest and juice or rasberries.
 
 1/3 cup sugar
 
