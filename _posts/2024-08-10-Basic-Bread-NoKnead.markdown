@@ -26,7 +26,7 @@ categories: Recipes Artisan Bread
 	12 oz water with dry ingredients in mixing bowl
 
 
-# -PLace in container to raise 18 hours-
+# -Place in container to raise 18 hours-
 	
 	18 hours at room temperature- you may extend time in fridge if needed .
 
