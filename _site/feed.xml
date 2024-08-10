@@ -1,368 +1,593 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-30T16:19:36-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Lentil Sausage Soup</title><link href="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html" rel="alternate" type="text/html" title="Lentil Sausage Soup" /><published>2023-09-30T13:00:00-04:00</published><updated>2023-09-30T13:00:00-04:00</updated><id>http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup</id><content type="html" xml:base="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html">&lt;h1 id=&quot;lentil-sausage-soup---pressure-cooker-10min--or-slow-cook-4-hours-&quot;&gt;Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-10T12:39:11-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Ingredients for Basic Yeasted No Knead Bread</title><link href="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html" rel="alternate" type="text/html" title="Ingredients for Basic Yeasted No Knead Bread" /><published>2024-08-10T05:00:00-04:00</published><updated>2024-08-10T05:00:00-04:00</updated><id>http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead</id><content type="html" xml:base="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html"><![CDATA[<h1 id="no-knead-bread---clay-baker-in-typical-oven"><a href="https://breadtopia.com/no-knead-bread/">No Knead Bread</a> - <a href="https://breadtopia.com/store/oblong-cloche/">Clay Baker</a> in typical oven</h1>
 
-&lt;p&gt;One package of Italian Sausages ( usually 6 )&lt;/p&gt;
+<dl>
+  <dt>3 Cups Bread</dt>
+  <dd>-1 cup/4.25 oz <a href="https://www.amazon.com/Antimo-Caputo-Chefs-00-Flour/dp/B0038ZS6PU">OO Flour</a> with 2 cups/10.5 oz <a href="https://shop.kingarthurbaking.com/items/bread-flour/">Bread Flour Flour</a></dd>
+  <dt>1/4 tsp <a href="https://shop.kingarthurbaking.com/items/saf-red-instant-yeast">SAF Red Instant Yeast</a></dt>
+ <dt>1 1/2 tsp Morton coarse kosher salt </dt>
+ <dt>1 1/2 cups - 12 oz - purified or spring water</dt>
+</dl>
 
-&lt;p&gt;2 TBS butter&lt;/p&gt;
+<h1 id="-mix-dry-ingredients-together--">-Mix dry ingredients together -</h1>
 
-&lt;p&gt;1 medium onion diced or chopped&lt;/p&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Flour, salt and yeast
+</code></pre></div></div>
 
-&lt;p&gt;2 TBS chopped fresh ginger&lt;/p&gt;
+<h1 id="-mix-in-water-until-the-water-is-incorporated--">-Mix in water until the water is incorporated -</h1>
 
-&lt;p&gt;1 Clove garlic with germ removed, diced&lt;/p&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>12 oz water with dry ingredients in mixing bowl
+</code></pre></div></div>
 
-&lt;p&gt;1 small can fire roasted chiles, like ortega or substitute roasted Anaheim or poblano&lt;/p&gt;
+<h1 id="-place-in-container-to-raise-18-hours-">-PLace in container to raise 18 hours-</h1>
 
-&lt;p&gt;2 TSP garam masala&lt;/p&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>18 hours at room temperature- you may extend time in fridge if needed .
+</code></pre></div></div>
 
-&lt;p&gt;1 lb rinsed lentils&lt;/p&gt;
+<h1 id="-fold-onto-silpat-">-Fold onto silpat-</h1>
 
-&lt;p&gt;Cayene pepper ( pinch )&lt;/p&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cover loosley with plastic and rest for 15 minutes
+</code></pre></div></div>
 
-&lt;p&gt;2 to 3 strips lb bacon diced ( optional )&lt;/p&gt;
+<h1 id="-transfer-to-proofing-basket-">-Transfer to proofing basket-</h1>
 
-&lt;p&gt;8 cups chicken broth&lt;/p&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Cover with towel and let rise for 1 1/2 hours	
+</code></pre></div></div>
 
-&lt;p&gt;Sour cream or yogurt to garnish top when served&lt;/p&gt;
+<h1 id="-bake-in-clay-baker-preheated-in-500-f-oven-">-Bake in clay baker preheated in 500 F oven-</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Transfer from proofing basket to preheated clay baker with cover on into 500 F oven for 30 mintutes
+</code></pre></div></div>
 
-&lt;p&gt;Brown and render diced bacon ( optional).  Remove Bacon and add Sausage and butter till lightly browned then remove.  Saute onion few minutes then add ginger for a few more then garlic at end.  Add gram masala to toast.  Be carefule not to burn or overcook when adding garlic or garam masala.&lt;/p&gt;
+<h1 id="-remove-cover-reduce-heat-to-450-f-rotate-positions-and-bake-an-additional-15-minutesr-">-Remove cover, reduce heat to 450 F, rotate positions and bake an additional 15 minutesr-</h1>
 
-&lt;p&gt;Add whole sausage and bacon back in, then broth and lentils.  Set pressure cooker to high and 10 minutes and allow natural release of pressure.&lt;/p&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Adjust temp or time depending on oven	 
+</code></pre></div></div>
 
-&lt;p&gt;Serve with dollop of sour cream or yogurt.  If only serving two then cut lentils and broth in half.&lt;/p&gt;
+<h1 id="-remove-from-oven-and-place-bread-directly-on-cooling-rack">-remove from oven and place bread directly on cooling rack</h1>
 
-&lt;p&gt;cd GitHub/rsabec.github.io/&lt;/p&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Bread will continue to 'bake' while it sits for the next 30 to 45 minutes as it cools.
+</code></pre></div></div>
 
-&lt;p&gt;bundle exec jekyll serve&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Lentil" /><category term="Soup" /><summary type="html">Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )</summary></entry><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T23:51:00-05:00</published><updated>2022-11-29T23:51:00-05:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html">&lt;p&gt;chile relleno recipe&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;pasilla peppers w/stem&lt;/li&gt;
-  &lt;li&gt;tomato sauce - delmonte or heintz&lt;/li&gt;
-  &lt;li&gt;yellow or white onion&lt;/li&gt;
-  &lt;li&gt;montery jack cheese&lt;/li&gt;
-  &lt;li&gt;A.P.F.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;one egg per pasilla&lt;/p&gt;
+<h1 id="-share-your-bread-with-friends">-Share your bread with friends</h1>
 
-    &lt;p&gt;Roast peppers over open flame to blackened in parts - do not over cook. Place peppers into a zip lock bag to steam - then peel off skin of pepper.  cut slot in pepper and remove seeds.  stuff with jack cheese and dust with A.P.F.
-      separate egg whites and yokes - beat wite to peaks and then incorporate egg yokes back into mixture.  dip relleno into egg white and fry in oil.&lt;br /&gt;
-  cover holes with mixture.  golden brown then turn. remove to plate.	Slice onion and saute.  Add tomatoe sauce - heat to simmer. then add 1/2 can chicken stock.&lt;br /&gt;
-  heat to simer.  salt to taste &lt;br /&gt;
-  Add chile relleno to sauce. heat and serve.&lt;/p&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> Bread... that this house may never know hunger.  Salt... that life may always have flavor.  And wine... that joy and prosperity may reign forever.
+</code></pre></div></div>
 
-    &lt;p&gt;Spanish Rice&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;one cup rice&lt;/li&gt;
-      &lt;li&gt;one cup h20&lt;/li&gt;
-      &lt;li&gt;one cup chx stock&lt;/li&gt;
-      &lt;li&gt;one tomato&lt;/li&gt;
-      &lt;li&gt;one quarter oinion&lt;/li&gt;
-      &lt;li&gt;1/4 cup Oil&lt;/li&gt;
-    &lt;/ul&gt;
+<iframe src="https://drive.google.com/file/d/1FxA2-zhG-CJlcbA14CJiL7LeWhqoEMIk/preview" width="200" height="150" allow="autoplay"></iframe>
 
-    &lt;p&gt;Blend tomato in 1/2 cup water.  add oil into pan - heat and add onion and rice -  toast rice to golden brown.  add tomatoe mixture - boil to cook tomato.  add last 1/2 cup water and 1 cup chx stock.  Bring to a boil then set to simmer.  cover and cook until moister absorbed into rice&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Robert Sabec</name></author><category term="recipes" /><category term="mexican" /><summary type="html">chile relleno recipe pasilla peppers w/stem tomato sauce - delmonte or heintz yellow or white onion montery jack cheese A.P.F. one egg per pasilla Roast peppers over open flame to blackened in parts - do not over cook. Place peppers into a zip lock bag to steam - then peel off skin of pepper. cut slot in pepper and remove seeds. stuff with jack cheese and dust with A.P.F. separate egg whites and yokes - beat wite to peaks and then incorporate egg yokes back into mixture. dip relleno into egg white and fry in oil. cover holes with mixture. golden brown then turn. remove to plate. Slice onion and saute. Add tomatoe sauce - heat to simmer. then add 1/2 can chicken stock. heat to simer. salt to taste Add chile relleno to sauce. heat and serve. Spanish Rice one cup rice one cup h20 one cup chx stock one tomato one quarter oinion 1/4 cup Oil</summary></entry><entry><title type="html">Create and Update Jekyll Posts</title><link href="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html" rel="alternate" type="text/html" title="Create and Update Jekyll Posts" /><published>2022-11-24T23:51:00-05:00</published><updated>2022-11-24T23:51:00-05:00</updated><id>http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts</id><content type="html" xml:base="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html">&lt;p&gt;Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
-Find and open an existing post - Copy and ‘save as’ to create a new post.&lt;/p&gt;
+<p><br /></p>
 
-&lt;p&gt;Documentation - &lt;a href=&quot;https://jekyllrb.com/docs/posts/&quot;&gt;https://jekyllrb.com/docs/posts/&lt;/a&gt;&lt;/p&gt;
+<p>If you have any question please watch the video at breadtopia provided in the link near the top.</p>
 
-&lt;p&gt;Open Terminal and change your directory to the jekyll site saved locally on your localhost. &lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Example for my setup ( yours will have different path/filename )&lt;br /&gt;&lt;/p&gt;
-  &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;cd Documents/GitHub/rsabec.github.io/
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-&lt;/blockquote&gt;
+<p>cd GitHub/rsabec.github.io/</p>
 
-&lt;p&gt;Update the file contents: Text formatting links below.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Quick &lt;a href=&quot;http://simpleprimate.com/blog/markdown-basics&quot;&gt;reference&lt;/a&gt; to formatting&lt;/li&gt;
-  &lt;li&gt;How to format &lt;a href=&quot;https://stackoverflow.com/questions/51313127/jekyll-inserting-extra-code-when-generating-blog-posts&quot;&gt;code&lt;/a&gt; snippets.&lt;/li&gt;
-&lt;/ul&gt;
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Artisan" /><category term="Bread" /><summary type="html"><![CDATA[No Knead Bread - Clay Baker in typical oven]]></summary></entry><entry><title type="html">Tealium Swift sample App Install</title><link href="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html" rel="alternate" type="text/html" title="Tealium Swift sample App Install" /><published>2024-02-04T11:50:00-05:00</published><updated>2024-02-04T11:50:00-05:00</updated><id>http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install</id><content type="html" xml:base="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html"><![CDATA[<p>links for Tealium Swift sample app and Dependencies.</p>
+<ul>
+  <li>Github <a href="https://github.com/Tealium/tealium-swift.git">Tealium/tealium-swift</a></li>
+  <li><a href="https://brew.sh/">Homebrew</a> - used to install Cocopods.</li>
+  <li><a href="https://developer.apple.com/download/all/">Xcode and Xcode Command Line Tools</a> - available behind your apple develpper login -</li>
+  <li>
+    <p><a href="https://formulae.brew.sh/formula/cocoapods#default">Cocopods</a></p>
 
-&lt;p&gt;Run the command from that directory to compile and run your site locally to test - &lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
+    <p>Sample App Setup - Swift</p>
 
-  &lt;div class=&quot;language-terminal highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;go&quot;&gt;bundle exec jekyll serve
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
-&lt;/blockquote&gt;
+    <ol>
+      <li>Have Xcode and Xcode tools downloaded and ready to go.</li>
+      <li>Follow the link to Homebrew and follow instructions to install on your mac.</li>
+      <li>Download the Sample app from Tealium’s repo, unzip and place in a uncomplicated directory path such as directly in your ‘Documents’ directory.</li>
+      <li>Check Homebrew installed on your mac or <a href="https://brew.sh/">install it</a>.
+        <blockquote>
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+          <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">  /bin/bash -c "$</span><span class="o">(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="o">)</span><span class="s2">"
+</span></code></pre></div>          </div>
+        </blockquote>
+      </li>
+      <li><a href="https://formulae.brew.sh/formula/cocoapods#default">Install Cocopds</a>
+        <blockquote>
 
-&lt;p&gt;Documentation:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/tutorials/using-jekyll-with-bundler/&quot;&gt;bundle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/51157446/whats-the-difference-between-bundle-exec-jekyll-serve-and-jekyll-serve&quot;&gt;stackoverflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+          <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">  /bin/bash -c "$</span><span class="o">(</span>curl <span class="nt">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="o">)</span><span class="s2">"
+</span></code></pre></div>          </div>
+        </blockquote>
+      </li>
+      <li>Open Terminal app and change directories to location of Swift project. If you placed the download into your ‘Documents’ folder then  example below-
+        <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">  cd /Users/robert.sabec/Documents/tealium-swift-main/samples/TealiumSwiftExample
+</span></code></pre></div>        </div>
+      </li>
+      <li>Test what shell you are using . ( Apple set the default shell to the Z shell (zsh). )
+        <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">echo $</span>0
+</code></pre></div>        </div>
+      </li>
+      <li>Run Cocopods install comman in this directory .
+        <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">  pod install
+</span></code></pre></div>        </div>
+        <p>errors <strong>**</strong><strong>**</strong><strong>**</strong><strong>**</strong><strong>**</strong>**
+robert.sabec@TEAL-LQ62V2YRWR TealiumSwiftExample % pod install
+Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi –version 1.15.5
+Ignoring debug-1.4.0 because its extensions are not built. Try: gem pristine debug –version 1.4.0
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine –version 1.2.7
+Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb –version 0.8.0
+Ignoring rbs-2.1.0 because its extensions are not built. Try: gem pristine rbs –version 2.1.0
+Ignoring sassc-2.4.0 because its extensions are not built. Try: gem pristine sassc –version 2.4.0
+Analyzing dependencies
+Adding spec repo <code class="language-plaintext highlighter-rouge">trunk</code> with CDN <code class="language-plaintext highlighter-rouge">https://cdn.cocoapods.org/</code></p>
+      </li>
+    </ol>
+  </li>
+</ul>
 
-&lt;p&gt;You can then test your site locally - typically this address will be http://127.0.0.1:4000/ &lt;br /&gt;&lt;/p&gt;
+<p>[!] <code class="language-plaintext highlighter-rouge">&lt;PBXSourcesBuildPhase UUID=</code>CF2E310D237622A9000CEDD3<code class="language-plaintext highlighter-rouge">&gt;</code> attempted to initialize an object with an unknown UUID. <code class="language-plaintext highlighter-rouge">CFB6B54F26792F5C00D62D87</code> for attribute: <code class="language-plaintext highlighter-rouge">files</code>. This can be the result of a merge and the unknown UUID is being discarded.</p>
 
-&lt;p&gt;Commit your changes to Github and retest:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Github &lt;a href=&quot;https://desktop.github.com/&quot;&gt;Desktop&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>[!] <code class="language-plaintext highlighter-rouge">&lt;PBXSourcesBuildPhase UUID=</code>CF2E310D237622A9000CEDD3<code class="language-plaintext highlighter-rouge">&gt;</code> attempted to initialize an object with an unknown UUID. <code class="language-plaintext highlighter-rouge">CFB6B55326792F5C00D62D87</code> for attribute: <code class="language-plaintext highlighter-rouge">files</code>. This can be the result of a merge and the unknown UUID is being discarded.</p>
 
-&lt;p&gt;Setting up &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;GitHub Pages&lt;/code&gt; only required basic programming skills and beginner Github experience.  I would recommend using GitHub Pages for your personal site.&lt;/p&gt;
+<p>[!] <code class="language-plaintext highlighter-rouge">&lt;PBXSourcesBuildPhase UUID=</code>CF2E310D237622A9000CEDD3<code class="language-plaintext highlighter-rouge">&gt;</code> attempted to initialize an object with an unknown UUID. <code class="language-plaintext highlighter-rouge">CFB6B55026792F5C00D62D87</code> for attribute: <code class="language-plaintext highlighter-rouge">files</code>. This can be the result of a merge and the unknown UUID is being discarded.</p>
 
-&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;Github&lt;/a&gt; pages &lt;br /&gt;
-&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt; Github repo &lt;br /&gt;
-&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; website&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="personal" /><category term="website" /><category term="hosting" /><category term="jekyll" /><summary type="html">Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site. Find and open an existing post - Copy and ‘save as’ to create a new post.</summary></entry><entry><title type="html">Homekit Send a notification from the IFTTT</title><link href="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html" rel="alternate" type="text/html" title="Homekit Send a notification from the IFTTT" /><published>2022-08-28T14:56:00-04:00</published><updated>2022-08-28T14:56:00-04:00</updated><id>http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification</id><content type="html" xml:base="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html">&lt;p&gt;Open the &lt;a href=&quot;https://controllerforhomekit.com/&quot;&gt;Contoller&lt;/a&gt; Application and click on &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Automation&lt;/code&gt; -&lt;/p&gt;
+<p>[!] <code class="language-plaintext highlighter-rouge">&lt;PBXFrameworksBuildPhase UUID=</code>CF2E310E237622A9000CEDD3<code class="language-plaintext highlighter-rouge">&gt;</code> attempted to initialize an object with an unknown UUID. <code class="language-plaintext highlighter-rouge">CF665AA02673F6EB00742E9D</code> for attribute: <code class="language-plaintext highlighter-rouge">files</code>. This can be the result of a merge and the unknown UUID is being discarded.
+&lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require': incompatible library version - /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi_c.bundle (LoadError)
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:5:in <code class="language-plaintext highlighter-rouge">rescue in &lt;top (required)&gt;'
+	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:2:in </code>&lt;top (required)&gt;’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/ethon-0.15.0/lib/ethon.rb:3:in <code class="language-plaintext highlighter-rouge">&lt;top (required)&gt;'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/typhoeus-1.4.0/lib/typhoeus.rb:2:in </code>&lt;top (required)&gt;’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:440:in <code class="language-plaintext highlighter-rouge">download_typhoeus_impl_async'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:372:in </code>download_and_save_with_retries_async’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:365:in <code class="language-plaintext highlighter-rouge">download_file_async'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:338:in </code>download_file’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:53:in <code class="language-plaintext highlighter-rouge">refresh_metadata'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source.rb:31:in </code>initialize’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:30:in <code class="language-plaintext highlighter-rouge">initialize'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in </code>new’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in <code class="language-plaintext highlighter-rouge">block in source_from_path'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:322:in </code>source_from_path’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in <code class="language-plaintext highlighter-rouge">block in aggregate_with_repos'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in </code>map’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in <code class="language-plaintext highlighter-rouge">aggregate_with_repos'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:26:in </code>aggregate’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:60:in <code class="language-plaintext highlighter-rouge">all'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:173:in </code>repo_information’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:77:in <code class="language-plaintext highlighter-rouge">stack'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:24:in </code>report’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:66:in <code class="language-plaintext highlighter-rouge">report_error'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:396:in </code>handle_exception’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:337:in <code class="language-plaintext highlighter-rouge">rescue in run'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:324:in </code>run’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in <code class="language-plaintext highlighter-rouge">run'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in </code>&lt;top (required)&gt;’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in <code class="language-plaintext highlighter-rouge">load'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in </code>&lt;main&gt;’
+&lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require': cannot load such file -- 3.1/ffi_c (LoadError)
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:3:in <code class="language-plaintext highlighter-rouge">&lt;top (required)&gt;'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/ethon-0.15.0/lib/ethon.rb:3:in </code>&lt;top (required)&gt;’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/typhoeus-1.4.0/lib/typhoeus.rb:2:in <code class="language-plaintext highlighter-rouge">&lt;top (required)&gt;'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:440:in </code>download_typhoeus_impl_async’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:372:in <code class="language-plaintext highlighter-rouge">download_and_save_with_retries_async'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:365:in </code>download_file_async’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:338:in <code class="language-plaintext highlighter-rouge">download_file'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:53:in </code>refresh_metadata’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source.rb:31:in <code class="language-plaintext highlighter-rouge">initialize'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:30:in </code>initialize’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in <code class="language-plaintext highlighter-rouge">new'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in </code>block in source_from_path’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:322:in <code class="language-plaintext highlighter-rouge">source_from_path'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in </code>block in aggregate_with_repos’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in <code class="language-plaintext highlighter-rouge">map'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:331:in </code>aggregate_with_repos’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:26:in <code class="language-plaintext highlighter-rouge">aggregate'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:60:in </code>all’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:173:in <code class="language-plaintext highlighter-rouge">repo_information'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:77:in </code>stack’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface/error_report.rb:24:in <code class="language-plaintext highlighter-rouge">report'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:66:in </code>report_error’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:396:in <code class="language-plaintext highlighter-rouge">handle_exception'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:337:in </code>rescue in run’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:324:in <code class="language-plaintext highlighter-rouge">run'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in </code>run’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in <code class="language-plaintext highlighter-rouge">&lt;top (required)&gt;'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in </code>load’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in <code class="language-plaintext highlighter-rouge">&lt;main&gt;'
+&lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’: incompatible library version - /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi_c.bundle (LoadError)
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:5:in </code>rescue in &lt;top (required)&gt;’
+	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:2:in <code class="language-plaintext highlighter-rouge">&lt;top (required)&gt;'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/ethon-0.15.0/lib/ethon.rb:3:in </code>&lt;top (required)&gt;’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/typhoeus-1.4.0/lib/typhoeus.rb:2:in <code class="language-plaintext highlighter-rouge">&lt;top (required)&gt;'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:440:in </code>download_typhoeus_impl_async’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:372:in <code class="language-plaintext highlighter-rouge">download_and_save_with_retries_async'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:365:in </code>download_file_async’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:338:in <code class="language-plaintext highlighter-rouge">download_file'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:53:in </code>refresh_metadata’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source.rb:31:in <code class="language-plaintext highlighter-rouge">initialize'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:30:in </code>initialize’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in <code class="language-plaintext highlighter-rouge">new'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in </code>block in source_from_path’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:322:in <code class="language-plaintext highlighter-rouge">source_from_path'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in </code>block in sources’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in <code class="language-plaintext highlighter-rouge">map'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in </code>sources’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/repo/add_cdn.rb:38:in <code class="language-plaintext highlighter-rouge">block in run'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in </code>section’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/repo/add_cdn.rb:36:in <code class="language-plaintext highlighter-rouge">run'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/sources_manager.rb:45:in </code>create_source_with_url’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/sources_manager.rb:22:in <code class="language-plaintext highlighter-rouge">find_or_create_source_with_url'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:178:in </code>block in sources’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:177:in <code class="language-plaintext highlighter-rouge">map'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:177:in </code>sources’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1077:in <code class="language-plaintext highlighter-rouge">block in resolve_dependencies'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in </code>section’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1076:in <code class="language-plaintext highlighter-rouge">resolve_dependencies'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:124:in </code>analyze’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:416:in <code class="language-plaintext highlighter-rouge">analyze'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:241:in </code>block in resolve_dependencies’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in <code class="language-plaintext highlighter-rouge">section'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:240:in </code>resolve_dependencies’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:161:in <code class="language-plaintext highlighter-rouge">install!'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/install.rb:52:in </code>run’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:334:in <code class="language-plaintext highlighter-rouge">run'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in </code>run’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in <code class="language-plaintext highlighter-rouge">&lt;top (required)&gt;'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in </code>load’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in <code class="language-plaintext highlighter-rouge">&lt;main&gt;'
+&lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’: cannot load such file – 3.1/ffi_c (LoadError)
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from /Users/robert.sabec/.gem/ruby/3.1.2/gems/ffi-1.15.5/lib/ffi.rb:3:in </code>&lt;top (required)&gt;’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/ethon-0.15.0/lib/ethon.rb:3:in <code class="language-plaintext highlighter-rouge">&lt;top (required)&gt;'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/typhoeus-1.4.0/lib/typhoeus.rb:2:in </code>&lt;top (required)&gt;’
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in <code class="language-plaintext highlighter-rouge">require'
+	from &lt;internal:/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb&gt;:85:in </code>require’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:440:in <code class="language-plaintext highlighter-rouge">download_typhoeus_impl_async'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:372:in </code>download_and_save_with_retries_async’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:365:in <code class="language-plaintext highlighter-rouge">download_file_async'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:338:in </code>download_file’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:53:in <code class="language-plaintext highlighter-rouge">refresh_metadata'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source.rb:31:in </code>initialize’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/cdn_source.rb:30:in <code class="language-plaintext highlighter-rouge">initialize'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in </code>new’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:315:in <code class="language-plaintext highlighter-rouge">block in source_from_path'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:322:in </code>source_from_path’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in <code class="language-plaintext highlighter-rouge">block in sources'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in </code>map’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-core-1.11.3/lib/cocoapods-core/source/manager.rb:53:in <code class="language-plaintext highlighter-rouge">sources'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/repo/add_cdn.rb:38:in </code>block in run’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in <code class="language-plaintext highlighter-rouge">section'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/repo/add_cdn.rb:36:in </code>run’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/sources_manager.rb:45:in <code class="language-plaintext highlighter-rouge">create_source_with_url'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/sources_manager.rb:22:in </code>find_or_create_source_with_url’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:178:in <code class="language-plaintext highlighter-rouge">block in sources'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:177:in </code>map’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:177:in <code class="language-plaintext highlighter-rouge">sources'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1077:in </code>block in resolve_dependencies’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in <code class="language-plaintext highlighter-rouge">section'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:1076:in </code>resolve_dependencies’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer/analyzer.rb:124:in <code class="language-plaintext highlighter-rouge">analyze'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:416:in </code>analyze’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:241:in <code class="language-plaintext highlighter-rouge">block in resolve_dependencies'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/user_interface.rb:64:in </code>section’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:240:in <code class="language-plaintext highlighter-rouge">resolve_dependencies'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/installer.rb:161:in </code>install!’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/install.rb:52:in <code class="language-plaintext highlighter-rouge">run'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:334:in </code>run’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in <code class="language-plaintext highlighter-rouge">run'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in </code>&lt;top (required)&gt;’
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in <code class="language-plaintext highlighter-rouge">load'
+	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in </code>&lt;main&gt;’
+	 <br /></p>]]></content><author><name>Robert Sabec</name></author><category term="ios" /><category term="code" /><category term="tealium" /><category term="swift" /><summary type="html"><![CDATA[links for Tealium Swift sample app and Dependencies. Github Tealium/tealium-swift Homebrew - used to install Cocopods. Xcode and Xcode Command Line Tools - available behind your apple develpper login - Cocopods]]></summary></entry><entry><title type="html">Lentil Sausage Soup</title><link href="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html" rel="alternate" type="text/html" title="Lentil Sausage Soup" /><published>2023-09-30T13:00:00-04:00</published><updated>2023-09-30T13:00:00-04:00</updated><id>http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup</id><content type="html" xml:base="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html"><![CDATA[<h1 id="lentil-sausage-soup---pressure-cooker-10min--or-slow-cook-4-hours-">Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )</h1>
 
-&lt;p&gt;&lt;img src=&quot;/images/Controller_add.jpg&quot; alt=&quot;add Automation&quot; /&gt;&lt;/p&gt;
+<p>One package of Italian Sausages ( usually 6 )</p>
 
-&lt;p&gt;Name the New Automation and select &lt;code class=&quot;highlighter-rouge&quot;&gt;Event-Based&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Time-Based&lt;/code&gt;. &lt;br /&gt;
-&lt;img src=&quot;/images/eventbased.jpg&quot; alt=&quot;select event-based&quot; /&gt;&lt;/p&gt;
+<p>2 TBS butter</p>
 
-&lt;p&gt;Here I am going to trigger on motion and select &lt;code class=&quot;highlighter-rouge&quot;&gt;If one of these events&lt;/code&gt;
-&lt;img src=&quot;/images/ifOneofTheseevents.jpg&quot; alt=&quot;select one of these events&quot; /&gt;&lt;/p&gt;
+<p>1 medium onion diced or chopped</p>
 
-&lt;p&gt;Find and select the accessory.
-&lt;img src=&quot;/images/selectAccessory.jpg&quot; alt=&quot;select an accessory&quot; /&gt;&lt;/p&gt;
+<p>2 TBS chopped fresh ginger</p>
 
-&lt;p&gt;Add conditions for the selected the accessory.
-&lt;img src=&quot;/images/addConditions.jpg&quot; alt=&quot;add conditions&quot; /&gt;&lt;/p&gt;
+<p>1 Clove garlic with germ removed, diced</p>
 
-&lt;p&gt;Select an existing scene as a placeholder.  This in only to compelte the automation to be able to save it.  We will update this later.
-&lt;img src=&quot;/images/selectScene.jpg&quot; alt=&quot;select scene&quot; /&gt;&lt;/p&gt;
+<p>1 small can fire roasted chiles, like ortega or substitute roasted Anaheim or poblano</p>
 
-&lt;p&gt;Click the &lt;code class=&quot;highlighter-rouge&quot;&gt;Close&lt;/code&gt; button.
-&lt;img src=&quot;/images/placeholderScene.jpg&quot; alt=&quot;temp scene&quot; /&gt;&lt;/p&gt;
+<p>2 TSP garam masala</p>
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Save&lt;/code&gt; automation.
-&lt;img src=&quot;/images/saveautomation.jpg&quot; alt=&quot;save button&quot; /&gt;&lt;/p&gt;
+<p>1 lb rinsed lentils</p>
 
-&lt;p&gt;Since Apple has not exposed &lt;code class=&quot;highlighter-rouge&quot;&gt;convert to shortcut&lt;/code&gt; feature we need to switchback to Apple Home application and go to &lt;code class=&quot;highlighter-rouge&quot;&gt;Select Accessories and Scenes.&lt;/code&gt;
-&lt;img src=&quot;/images/selectAccesScenes.jpg&quot; alt=&quot;select accessories and scens&quot; /&gt;&lt;/p&gt;
+<p>Cayene pepper ( pinch )</p>
 
-&lt;p&gt;And then unselect the scene we initially selected as a placeholder.  Go all the way to the bottom and click &lt;code class=&quot;highlighter-rouge&quot;&gt;Convert to Shortcut&lt;/code&gt;.
-&lt;img src=&quot;/images/connvToshortcut.jpg&quot; alt=&quot;connvToshortcut&quot; /&gt;&lt;/p&gt;
+<p>2 to 3 strips lb bacon diced ( optional )</p>
 
-&lt;p&gt;Delete scene listed:
-&lt;img src=&quot;/images/connvToshortcut.jpg&quot; alt=&quot;connvToshortcut&quot; /&gt;&lt;/p&gt;
+<p>8 cups chicken broth</p>
 
-&lt;p&gt;Add Web action - 
-&lt;img src=&quot;/images/selectWeb.jpg&quot; alt=&quot;selectWeb&quot; /&gt;&lt;/p&gt;
+<p>Sour cream or yogurt to garnish top when served</p>
 
-&lt;p&gt;Select url for webhook url
-&lt;img src=&quot;/images/selectURL.jpg&quot; alt=&quot;selectURL&quot; /&gt;&lt;/p&gt;
+<p>Brown and render diced bacon ( optional).  Remove Bacon and add Sausage and butter till lightly browned then remove.  Saute onion few minutes then add ginger for a few more then garlic at end.  Add gram masala to toast.  Be carefule not to burn or overcook when adding garlic or garam masala.</p>
 
-&lt;p&gt;Go to IFTTT and create the webhook.
-&lt;img src=&quot;/images/createbuttonIFTTT.jpg&quot; alt=&quot;createbuttonIFTTT&quot; /&gt;&lt;/p&gt;
+<p>Add whole sausage and bacon back in, then broth and lentils.  Set pressure cooker to high and 10 minutes and allow natural release of pressure.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/webhookAdd.jpg&quot; alt=&quot;webhookAdd&quot; /&gt;&lt;/p&gt;
+<p>Serve with dollop of sour cream or yogurt.  If only serving two then cut lentils and broth in half.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/webRequest.jpg&quot; alt=&quot;webRequest&quot; /&gt;&lt;/p&gt;
+<p>cd GitHub/rsabec.github.io/</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/triggerMotionDetected.jpg&quot; alt=&quot;triggerMotionDetected&quot; /&gt;&lt;/p&gt;
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Lentil" /><category term="Soup" /><summary type="html"><![CDATA[Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )]]></summary></entry><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T23:51:00-05:00</published><updated>2022-11-29T23:51:00-05:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html"><![CDATA[<p>chile relleno recipe</p>
+<ul>
+  <li>pasilla peppers w/stem</li>
+  <li>tomato sauce - delmonte or heintz</li>
+  <li>yellow or white onion</li>
+  <li>montery jack cheese</li>
+  <li>A.P.F.</li>
+  <li>
+    <p>one egg per pasilla</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/ThenThat.jpg&quot; alt=&quot;ThenThat&quot; /&gt;&lt;/p&gt;
+    <p>Roast peppers over open flame to blackened in parts - do not over cook. Place peppers into a zip lock bag to steam - then peel off skin of pepper.  cut slot in pepper and remove seeds.  stuff with jack cheese and dust with A.P.F.
+      separate egg whites and yokes - beat wite to peaks and then incorporate egg yokes back into mixture.  dip relleno into egg white and fry in oil.<br />
+  cover holes with mixture.  golden brown then turn. remove to plate.	Slice onion and saute.  Add tomatoe sauce - heat to simmer. then add 1/2 can chicken stock.<br />
+  heat to simer.  salt to taste <br />
+  Add chile relleno to sauce. heat and serve.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/notifications.jpg&quot; alt=&quot;notifications&quot; /&gt;&lt;/p&gt;
+    <p>Spanish Rice</p>
+    <ul>
+      <li>one cup rice</li>
+      <li>one cup h20</li>
+      <li>one cup chx stock</li>
+      <li>one tomato</li>
+      <li>one quarter oinion</li>
+      <li>1/4 cup Oil</li>
+    </ul>
 
-&lt;p&gt;&lt;img src=&quot;/images/notificationSimple.jpg&quot; alt=&quot;notificationSimple&quot; /&gt;&lt;/p&gt;
+    <p>Blend tomato in 1/2 cup water.  add oil into pan - heat and add onion and rice -  toast rice to golden brown.  add tomatoe mixture - boil to cook tomato.  add last 1/2 cup water and 1 cup chx stock.  Bring to a boil then set to simmer.  cover and cook until moister absorbed into rice</p>
+  </li>
+</ul>]]></content><author><name>Robert Sabec</name></author><category term="recipes" /><category term="mexican" /><summary type="html"><![CDATA[chile relleno recipe pasilla peppers w/stem tomato sauce - delmonte or heintz yellow or white onion montery jack cheese A.P.F. one egg per pasilla Roast peppers over open flame to blackened in parts - do not over cook. Place peppers into a zip lock bag to steam - then peel off skin of pepper. cut slot in pepper and remove seeds. stuff with jack cheese and dust with A.P.F. separate egg whites and yokes - beat wite to peaks and then incorporate egg yokes back into mixture. dip relleno into egg white and fry in oil. cover holes with mixture. golden brown then turn. remove to plate. Slice onion and saute. Add tomatoe sauce - heat to simmer. then add 1/2 can chicken stock. heat to simer. salt to taste Add chile relleno to sauce. heat and serve. Spanish Rice one cup rice one cup h20 one cup chx stock one tomato one quarter oinion 1/4 cup Oil]]></summary></entry><entry><title type="html">Create and Update Jekyll Posts</title><link href="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html" rel="alternate" type="text/html" title="Create and Update Jekyll Posts" /><published>2022-11-24T23:51:00-05:00</published><updated>2022-11-24T23:51:00-05:00</updated><id>http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts</id><content type="html" xml:base="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html"><![CDATA[<p>Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
+Find and open an existing post - Copy and ‘save as’ to create a new post.</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/createAction.jpg&quot; alt=&quot;createAction&quot; /&gt;&lt;/p&gt;
+<p>Documentation - <a href="https://jekyllrb.com/docs/posts/">https://jekyllrb.com/docs/posts/</a></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/notificationSimple.jpg&quot; alt=&quot;notificationSimple&quot; /&gt;&lt;/p&gt;
+<p>Open Terminal and change your directory to the jekyll site saved locally on your localhost. <br /></p>
+<blockquote>
+  <p>Example for my setup ( yours will have different path/filename )<br /></p>
+  <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">cd Documents/GitHub/rsabec.github.io/
+</span></code></pre></div>  </div>
+</blockquote>
 
-&lt;p&gt;You should endup with a url for the webhook like this -&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;curl -X POST https://maker.ifttt.com/trigger/{event}/with/key/your{key-here}&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>Update the file contents: Text formatting links below.</p>
+<ul>
+  <li>Quick <a href="http://simpleprimate.com/blog/markdown-basics">reference</a> to formatting</li>
+  <li>How to format <a href="https://stackoverflow.com/questions/51313127/jekyll-inserting-extra-code-when-generating-blog-posts">code</a> snippets.</li>
+</ul>
 
-&lt;p&gt;Back in Home app add url
-&lt;img src=&quot;/images/webhooookURL.jpg&quot; alt=&quot;webhooookURL&quot; /&gt;&lt;/p&gt;
+<p>Run the command from that directory to compile and run your site locally to test - <br /></p>
+<blockquote>
 
-&lt;p&gt;get contents of url:
-&lt;img src=&quot;/images/getContents.jpg&quot; alt=&quot;getContents&quot; /&gt;&lt;/p&gt;
+  <div class="language-terminal highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">bundle exec jekyll serve
+</span></code></pre></div>  </div>
+</blockquote>
 
-&lt;p&gt;maker.ifttt.com/trigger/GR_LowTempWarning/with/key/XXXXXXXX&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Homekit" /><category term="automation" /><summary type="html">Open the Contoller Application and click on Add Automation -</summary></entry><entry><title type="html">Whole Lobster</title><link href="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html" rel="alternate" type="text/html" title="Whole Lobster" /><published>2022-07-01T14:56:00-04:00</published><updated>2022-07-01T14:56:00-04:00</updated><id>http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster</id><content type="html" xml:base="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html">&lt;p&gt;Buy two (2) live lobsters around 2 lbs each.&lt;/p&gt;
+<p><br /></p>
 
-&lt;h1 id=&quot;-put-in-large--8-qrt--pressure-cooker--&quot;&gt;-Put in large ( 8 QRT ) Pressure Cooker -&lt;/h1&gt;
+<p>Documentation:</p>
+<ul>
+  <li><a href="https://jekyllrb.com/tutorials/using-jekyll-with-bundler/">bundle</a></li>
+  <li><a href="https://stackoverflow.com/questions/51157446/whats-the-difference-between-bundle-exec-jekyll-serve-and-jekyll-serve">stackoverflow</a></li>
+</ul>
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Place steamer basket or platform in bottom of pot. 
+<p>You can then test your site locally - typically this address will be http://127.0.0.1:4000/ <br /></p>
+
+<p>Commit your changes to Github and retest:</p>
+<ul>
+  <li>Github <a href="https://desktop.github.com/">Desktop</a><br /></li>
+</ul>
+
+<p>Setting up <code class="language-plaintext highlighter-rouge">jekyll</code> and <code class="language-plaintext highlighter-rouge">GitHub Pages</code> only required basic programming skills and beginner Github experience.  I would recommend using GitHub Pages for your personal site.</p>
+
+<p><a href="https://pages.github.com/">Github</a> pages <br />
+<a href="https://github.com/jekyll/jekyll">Jekyll</a> Github repo <br />
+<a href="https://jekyllrb.com/">Jekyll</a> website</p>]]></content><author><name>Robert Sabec</name></author><category term="personal" /><category term="website" /><category term="hosting" /><category term="jekyll" /><summary type="html"><![CDATA[Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site. Find and open an existing post - Copy and ‘save as’ to create a new post.]]></summary></entry><entry><title type="html">Homekit Send a notification from the IFTTT</title><link href="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html" rel="alternate" type="text/html" title="Homekit Send a notification from the IFTTT" /><published>2022-08-28T14:56:00-04:00</published><updated>2022-08-28T14:56:00-04:00</updated><id>http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification</id><content type="html" xml:base="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html"><![CDATA[<p>Open the <a href="https://controllerforhomekit.com/">Contoller</a> Application and click on <code class="language-plaintext highlighter-rouge">Add Automation</code> -</p>
+
+<p><img src="/images/Controller_add.jpg" alt="add Automation" /></p>
+
+<p>Name the New Automation and select <code class="language-plaintext highlighter-rouge">Event-Based</code> or <code class="language-plaintext highlighter-rouge">Time-Based</code>. <br />
+<img src="/images/eventbased.jpg" alt="select event-based" /></p>
+
+<p>Here I am going to trigger on motion and select <code class="language-plaintext highlighter-rouge">If one of these events</code>
+<img src="/images/ifOneofTheseevents.jpg" alt="select one of these events" /></p>
+
+<p>Find and select the accessory.
+<img src="/images/selectAccessory.jpg" alt="select an accessory" /></p>
+
+<p>Add conditions for the selected the accessory.
+<img src="/images/addConditions.jpg" alt="add conditions" /></p>
+
+<p>Select an existing scene as a placeholder.  This in only to compelte the automation to be able to save it.  We will update this later.
+<img src="/images/selectScene.jpg" alt="select scene" /></p>
+
+<p>Click the <code class="language-plaintext highlighter-rouge">Close</code> button.
+<img src="/images/placeholderScene.jpg" alt="temp scene" /></p>
+
+<p><code class="language-plaintext highlighter-rouge">Save</code> automation.
+<img src="/images/saveautomation.jpg" alt="save button" /></p>
+
+<p>Since Apple has not exposed <code class="language-plaintext highlighter-rouge">convert to shortcut</code> feature we need to switchback to Apple Home application and go to <code class="language-plaintext highlighter-rouge">Select Accessories and Scenes.</code>
+<img src="/images/selectAccesScenes.jpg" alt="select accessories and scens" /></p>
+
+<p>And then unselect the scene we initially selected as a placeholder.  Go all the way to the bottom and click <code class="language-plaintext highlighter-rouge">Convert to Shortcut</code>.
+<img src="/images/connvToshortcut.jpg" alt="connvToshortcut" /></p>
+
+<p>Delete scene listed:
+<img src="/images/connvToshortcut.jpg" alt="connvToshortcut" /></p>
+
+<p>Add Web action - 
+<img src="/images/selectWeb.jpg" alt="selectWeb" /></p>
+
+<p>Select url for webhook url
+<img src="/images/selectURL.jpg" alt="selectURL" /></p>
+
+<p>Go to IFTTT and create the webhook.
+<img src="/images/createbuttonIFTTT.jpg" alt="createbuttonIFTTT" /></p>
+
+<p><img src="/images/webhookAdd.jpg" alt="webhookAdd" /></p>
+
+<p><img src="/images/webRequest.jpg" alt="webRequest" /></p>
+
+<p><img src="/images/triggerMotionDetected.jpg" alt="triggerMotionDetected" /></p>
+
+<p><img src="/images/ThenThat.jpg" alt="ThenThat" /></p>
+
+<p><img src="/images/notifications.jpg" alt="notifications" /></p>
+
+<p><img src="/images/notificationSimple.jpg" alt="notificationSimple" /></p>
+
+<p><img src="/images/createAction.jpg" alt="createAction" /></p>
+
+<p><img src="/images/notificationSimple.jpg" alt="notificationSimple" /></p>
+
+<p>You should endup with a url for the webhook like this -</p>
+<blockquote>
+  <p>curl -X POST https://maker.ifttt.com/trigger/{event}/with/key/your{key-here}</p>
+</blockquote>
+
+<p>Back in Home app add url
+<img src="/images/webhooookURL.jpg" alt="webhooookURL" /></p>
+
+<p>get contents of url:
+<img src="/images/getContents.jpg" alt="getContents" /></p>
+
+<p>maker.ifttt.com/trigger/GR_LowTempWarning/with/key/XXXXXXXX</p>]]></content><author><name>Robert Sabec</name></author><category term="Homekit" /><category term="automation" /><summary type="html"><![CDATA[Open the Contoller Application and click on Add Automation -]]></summary></entry><entry><title type="html">Whole Lobster</title><link href="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html" rel="alternate" type="text/html" title="Whole Lobster" /><published>2022-07-01T14:56:00-04:00</published><updated>2022-07-01T14:56:00-04:00</updated><id>http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster</id><content type="html" xml:base="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html"><![CDATA[<p>Buy two (2) live lobsters around 2 lbs each.</p>
+
+<h1 id="-put-in-large--8-qrt--pressure-cooker--">-Put in large ( 8 QRT ) Pressure Cooker -</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Place steamer basket or platform in bottom of pot. 
 2.5 cups water
 2 Tbsp Kosher Salt
 ( substitute fresh seawater if available for water + salt )
 3 to 6lbs of -freshly dispatched- Live Whole Lobster with rubber bands removed.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;h1 id=&quot;-set-pressure-cooker--&quot;&gt;-Set pressure Cooker -&lt;/h1&gt;
+<h1 id="-set-pressure-cooker--">-Set pressure Cooker -</h1>
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;4 minutes Pressure Cook - Manual High pressure setting
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4 minutes Pressure Cook - Manual High pressure setting
 -Quick Pressure Release-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;h1 id=&quot;-serve-hot-with-butter-&quot;&gt;-Serve hot with butter-&lt;/h1&gt;
+<h1 id="-serve-hot-with-butter-">-Serve hot with butter-</h1>
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Butter heated and clarified 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Butter heated and clarified 
+</code></pre></div></div>
 
-&lt;p&gt;&lt;img src=&quot;/images/lobster01.jpeg&quot; alt=&quot;Lobster01&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/lobster01.jpeg" alt="Lobster01" /></p>
 
-&lt;p&gt;Enjoy!&lt;/p&gt;
+<p>Enjoy!</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/lobster02.jpeg&quot; alt=&quot;Lobster02&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/lobster02.jpeg" alt="Lobster02" /></p>
 
-&lt;p&gt;resources - 
+<p>resources - 
 	Allen’s Sea Food
 	119 Lookout Point Rd, Harpswell, ME 04079
-	&lt;a href=&quot;https://goo.gl/maps/Jh9nAGg5fhPyEjwS9&quot;&gt;Allen’s Sea Food&lt;/a&gt;&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Seafood" /><summary type="html">Buy two (2) live lobsters around 2 lbs each.</summary></entry><entry><title type="html">Merrit House Information Site</title><link href="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html" rel="alternate" type="text/html" title="Merrit House Information Site" /><published>2021-12-11T11:30:00-05:00</published><updated>2021-12-11T11:30:00-05:00</updated><id>http://localhost:4000/website/2021/12/11/merritthouse_info_site</id><content type="html" xml:base="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html">&lt;h1 id=&quot;creating-a-blog-and-information-site-for-the-historic-merrit-house-on-orrs-island&quot;&gt;Creating a blog and information site for the Historic Merrit House on Orr’s Island.&lt;/h1&gt;
+	<a href="https://goo.gl/maps/Jh9nAGg5fhPyEjwS9">Allen’s Sea Food</a></p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Seafood" /><summary type="html"><![CDATA[Buy two (2) live lobsters around 2 lbs each.]]></summary></entry><entry><title type="html">Merrit House Information Site</title><link href="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html" rel="alternate" type="text/html" title="Merrit House Information Site" /><published>2021-12-11T11:30:00-05:00</published><updated>2021-12-11T11:30:00-05:00</updated><id>http://localhost:4000/website/2021/12/11/merritthouse_info_site</id><content type="html" xml:base="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html"><![CDATA[<h1 id="creating-a-blog-and-information-site-for-the-historic-merrit-house-on-orrs-island">Creating a blog and information site for the Historic Merrit House on Orr’s Island.</h1>
 
-&lt;p&gt;1 Purchase Domains merritthouse.info and merritthouse.blog&lt;/p&gt;
+<p>1 Purchase Domains merritthouse.info and merritthouse.blog</p>
 
-&lt;p&gt;2 Create new repository on GiHhub ‘merritthouse’&lt;/p&gt;
+<p>2 Create new repository on GiHhub ‘merritthouse’</p>
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* https://rsabec.github.io/merritthouse
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* https://rsabec.github.io/merritthouse
+</code></pre></div></div>
 
-&lt;p&gt;3 Create A records on DNS&lt;/p&gt;
+<p>3 Create A records on DNS</p>
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* 185.199.108.153
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* 185.199.108.153
 * 185.199.109.153
 * 185.199.110.153
 * 185.199.111.153
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</code></pre></div></div>
 
-&lt;p&gt;4 Created CNAME record on DNS&lt;/p&gt;
+<p>4 Created CNAME record on DNS</p>
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* www CNAME merritthouse.info
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* www CNAME merritthouse.info
+</code></pre></div></div>
 
-&lt;p&gt;5 Created Domain Pointer to rsabec.github.io/merritthouse&lt;/p&gt;
+<p>5 Created Domain Pointer to rsabec.github.io/merritthouse</p>
 
-&lt;p&gt;6 Setup Jekyll site on Github - &lt;a href=&quot;http://merritthouse.info/&quot;&gt;merritthouse.info&lt;/a&gt;&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="website" /><summary type="html">Creating a blog and information site for the Historic Merrit House on Orr’s Island.</summary></entry><entry><title type="html">Chicken Thighs with Cream Mustard</title><link href="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html" rel="alternate" type="text/html" title="Chicken Thighs with Cream Mustard" /><published>2021-02-07T12:00:00-05:00</published><updated>2021-02-07T12:00:00-05:00</updated><id>http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html">&lt;h1 id=&quot;chicken-thighs-with-cream-mustard&quot;&gt;Chicken Thighs with Cream Mustard&lt;/h1&gt;
+<p>6 Setup Jekyll site on Github - <a href="http://merritthouse.info/">merritthouse.info</a></p>]]></content><author><name>Robert Sabec</name></author><category term="website" /><summary type="html"><![CDATA[Creating a blog and information site for the Historic Merrit House on Orr’s Island.]]></summary></entry><entry><title type="html">Chicken Thighs with Cream Mustard</title><link href="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html" rel="alternate" type="text/html" title="Chicken Thighs with Cream Mustard" /><published>2021-02-07T12:00:00-05:00</published><updated>2021-02-07T12:00:00-05:00</updated><id>http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/2021/02/07/cream-mustard-chicken-thighs.html"><![CDATA[<h1 id="chicken-thighs-with-cream-mustard">Chicken Thighs with Cream Mustard</h1>
 
-&lt;p&gt;Two packages Costco chicken thighs&lt;/p&gt;
+<p>Two packages Costco chicken thighs</p>
 
-&lt;p&gt;4 TBS olive Oil&lt;/p&gt;
+<p>4 TBS olive Oil</p>
 
-&lt;p&gt;Thyme -&lt;/p&gt;
+<p>Thyme -</p>
 
-&lt;p&gt;2 Bay leaves&lt;/p&gt;
+<p>2 Bay leaves</p>
 
-&lt;p&gt;4 TBS APF&lt;/p&gt;
+<p>4 TBS APF</p>
 
-&lt;p&gt;Salt &amp;amp; Pepper - to taste&lt;/p&gt;
+<p>Salt &amp; Pepper - to taste</p>
 
-&lt;p&gt;Nutmeg ( some fresh off microplane  )&lt;/p&gt;
+<p>Nutmeg ( some fresh off microplane  )</p>
 
-&lt;p&gt;Paprika ( pinch )&lt;/p&gt;
+<p>Paprika ( pinch )</p>
 
-&lt;p&gt;Cayene pepper ( pinch )&lt;/p&gt;
+<p>Cayene pepper ( pinch )</p>
 
-&lt;p&gt;1 to 2 TBS Stone gound mustard&lt;/p&gt;
+<p>1 to 2 TBS Stone gound mustard</p>
 
-&lt;p&gt;1 to 2 TBS Grey Pupon Mustard&lt;/p&gt;
+<p>1 to 2 TBS Grey Pupon Mustard</p>
 
-&lt;p&gt;1 cup heavy cream&lt;/p&gt;
+<p>1 cup heavy cream</p>
 
-&lt;p&gt;1 medium Onion diced&lt;/p&gt;
+<p>1 medium Onion diced</p>
 
-&lt;p&gt;1 large Carrot diced&lt;/p&gt;
+<p>1 large Carrot diced</p>
 
-&lt;p&gt;3 cellery Cellery stalks diced&lt;/p&gt;
+<p>3 cellery Cellery stalks diced</p>
 
-&lt;p&gt;3 cloves garlic- pressed&lt;/p&gt;
+<p>3 cloves garlic- pressed</p>
 
-&lt;p&gt;1.5 ups white wine ( chardonay )&lt;/p&gt;
+<p>1.5 ups white wine ( chardonay )</p>
 
-&lt;p&gt;1/2 can chicken stock - about 8 oz&lt;/p&gt;
+<p>1/2 can chicken stock - about 8 oz</p>
 
-&lt;p&gt;2 TBS butter&lt;/p&gt;
+<p>2 TBS butter</p>
 
-&lt;p&gt;Broccoli Florets&lt;/p&gt;
+<p>Broccoli Florets</p>
 
-&lt;p&gt;Prepare broccoli florets by lightly sauteing in olive oil and butter and setting aside.&lt;/p&gt;
+<p>Prepare broccoli florets by lightly sauteing in olive oil and butter and setting aside.</p>
 
-&lt;p&gt;Salt pepper and coat chicken thighs with flour.  Brown in olive olive oil and remove from pan.   - add additional olive oil and butter. Saute mirepoix and add bay leaf and thyme- Add garlic at end.  Add white wine and reduce.  Add chicken stock till stir and simmer till combined.  Return thigh to pan and simmer covered for 15 minutes.  Remove thighs, add cream and mustard stir to combine and simmer 5 to 10 minutes. Add pinch grated fresh nutmeg, pinch cayene and paprika. ( check salt and pepper ) Return thighs and add Broccoli Florets to pan.  Simmer till sauce thickens to taste.&lt;/p&gt;
+<p>Salt pepper and coat chicken thighs with flour.  Brown in olive olive oil and remove from pan.   - add additional olive oil and butter. Saute mirepoix and add bay leaf and thyme- Add garlic at end.  Add white wine and reduce.  Add chicken stock till stir and simmer till combined.  Return thigh to pan and simmer covered for 15 minutes.  Remove thighs, add cream and mustard stir to combine and simmer 5 to 10 minutes. Add pinch grated fresh nutmeg, pinch cayene and paprika. ( check salt and pepper ) Return thighs and add Broccoli Florets to pan.  Simmer till sauce thickens to taste.</p>
 
-&lt;p&gt;cd Documents/GitHub/rsabec.github.io/&lt;/p&gt;
+<p>cd Documents/GitHub/rsabec.github.io/</p>
 
-&lt;p&gt;bundle exec jekyll serve&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><summary type="html">Chicken Thighs with Cream Mustard</summary></entry><entry><title type="html">Sous Vide Turkey Thighs</title><link href="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html" rel="alternate" type="text/html" title="Sous Vide Turkey Thighs" /><published>2020-12-24T11:27:00-05:00</published><updated>2020-12-24T11:27:00-05:00</updated><id>http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html">&lt;h1 id=&quot;sous-vide-turkey-thighs&quot;&gt;Sous Vide Turkey Thighs&lt;/h1&gt;
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><summary type="html"><![CDATA[Chicken Thighs with Cream Mustard]]></summary></entry><entry><title type="html">Sous Vide Turkey Thighs</title><link href="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html" rel="alternate" type="text/html" title="Sous Vide Turkey Thighs" /><published>2020-12-24T11:27:00-05:00</published><updated>2020-12-24T11:27:00-05:00</updated><id>http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html"><![CDATA[<h1 id="sous-vide-turkey-thighs">Sous Vide Turkey Thighs</h1>
 
-&lt;p&gt;Preheat sous vide - Thighs @ 150F ( Breasts @ 131F )&lt;/p&gt;
+<p>Preheat sous vide - Thighs @ 150F ( Breasts @ 131F )</p>
 
-&lt;p&gt;3 to 4 Turkey Thighs ( or breasts )&lt;/p&gt;
+<p>3 to 4 Turkey Thighs ( or breasts )</p>
 
-&lt;p&gt;3 TBS olive Oil&lt;/p&gt;
+<p>3 TBS olive Oil</p>
 
-&lt;p&gt;Herbs of choice - I prefer sage - few leaves per thigh.&lt;/p&gt;
+<p>Herbs of choice - I prefer sage - few leaves per thigh.</p>
 
-&lt;p&gt;Clarified butter&lt;/p&gt;
+<p>Clarified butter</p>
 
-&lt;p&gt;You can choose to sear and brown the turkey thighs before you place in a vacuum sealed bag for the souse vide. This will add a bit more flavor.  You will ultimately sear them at the end to finish for presentation. Dry off your thighs with a paper towel then sear and brown in a hot skillet with olive oil.&lt;/p&gt;
+<p>You can choose to sear and brown the turkey thighs before you place in a vacuum sealed bag for the souse vide. This will add a bit more flavor.  You will ultimately sear them at the end to finish for presentation. Dry off your thighs with a paper towel then sear and brown in a hot skillet with olive oil.</p>
 
-&lt;p&gt;Once removed from heat place in bags with sage, salt and sugar.  ( or whatever you want with your turkey ) I will assume you have used a sous vide and are familiar with use and preparing items in a sealed bag.&lt;/p&gt;
+<p>Once removed from heat place in bags with sage, salt and sugar.  ( or whatever you want with your turkey ) I will assume you have used a sous vide and are familiar with use and preparing items in a sealed bag.</p>
 
-&lt;p&gt;Sous vide your thighs 12 to 24 hours.  This time span gives you flexibility on when you complete the preration before serving.  They are done at 12 hours but can remain in the sous vide for up to 24 hours.&lt;/p&gt;
+<p>Sous vide your thighs 12 to 24 hours.  This time span gives you flexibility on when you complete the preration before serving.  They are done at 12 hours but can remain in the sous vide for up to 24 hours.</p>
 
-&lt;p&gt;Remove from sous vide and from bag.  Dry and place in the fridge on a plate or cookie sheet for five to tem minutes right before browning.  ( you can skip the fridge step, it only helps in browning without overcooking ). This final step is for presentation.  Your turkey is already perfectly cooked once you remove from the sous vide.  I usually sear in clarified butter but you can choose to grill, broiler or however to want to put a happy glow on your turkey thighs before serving to your guests.&lt;/p&gt;
+<p>Remove from sous vide and from bag.  Dry and place in the fridge on a plate or cookie sheet for five to tem minutes right before browning.  ( you can skip the fridge step, it only helps in browning without overcooking ). This final step is for presentation.  Your turkey is already perfectly cooked once you remove from the sous vide.  I usually sear in clarified butter but you can choose to grill, broiler or however to want to put a happy glow on your turkey thighs before serving to your guests.</p>
 
-&lt;p&gt;Serve with your favorite turkey sides. Since your oven has been free there should be less of a traffic jam in the kitchen!!.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Sous Vide Turkey Thighs</summary></entry><entry><title type="html">Maple Oat Pecan Scones</title><link href="http://localhost:4000/recipes/baking/2020/11/14/maple_oat_pecan_scone.html" rel="alternate" type="text/html" title="Maple Oat Pecan Scones" /><published>2020-11-14T11:27:00-05:00</published><updated>2020-11-14T11:27:00-05:00</updated><id>http://localhost:4000/recipes/baking/2020/11/14/maple_oat_pecan_scone</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/11/14/maple_oat_pecan_scone.html">&lt;h1 id=&quot;maple-oat-pecan-scones&quot;&gt;Maple Oat Pecan Scones&lt;/h1&gt;
-
-&lt;p&gt;Preheat oven - Convection 400 F&lt;/p&gt;
-
-&lt;p&gt;When mixing dough, less is more, only mix enough to incorporate.&lt;/p&gt;
-
-&lt;p&gt;3 1/2 cups ( 17.5oz or 1lb 1.5oz ) all purpose flour - APF&lt;/p&gt;
-
-&lt;p&gt;1 cup ( 5oz ) whole wheat flour&lt;/p&gt;
-
-&lt;p&gt;1 cup oats.  ( this can be Coach’s Oats or Quaker Oats - you can experiments with which one you like better or use the one you have on hand )&lt;/p&gt;
-
-&lt;p&gt;2 tablespoons sugar&lt;/p&gt;
-
-&lt;p&gt;2 tablespoons baking powder&lt;/p&gt;
-
-&lt;p&gt;2 teaspoons salt&lt;/p&gt;
-
-&lt;p&gt;1lb cold unsalted butter - cut into small diced pieces.&lt;/p&gt;
-
-&lt;p&gt;1/2 cup chilled maple syrup ( preferably Vermont )&lt;/p&gt;
-
-&lt;p&gt;1/2 cup chilled water + 2 tablespoons Saco cultured buttmilknpowder ( or 1/2 cup buttermilk )&lt;/p&gt;
-
-&lt;p&gt;4 large eggs - plus one beaten egg for final egg wash&lt;/p&gt;
-
-&lt;p&gt;1 cup lightly roasted and hand crushed pecans ( you can roast raw pecans in 375 oven till fragrant - about 6 minutes, then let cool to room temp before adding to recipe )&lt;/p&gt;
-
-&lt;p&gt;I use a baking sheet with a Sitpat but parchment paper can be used in place of the Sitpat. Mix together most Dry ingredients including cultured buttermilk powder ( not the pecans ) .  Dice up cold to frozen butter and add to mixer on low.  I will typically cover the mixer bowl with a towel to stop spit-out and increase speed of mixer to pulverized and break up the butter chunks.  With mixer on low add wet ingredients (maple syrup, eggs and water all together lightly beaten or mixed before adding into mixer). As the dough is coming together in the mixer add the hand crushed pecans. Adding pecans near the end will help maintain the larger chunks. Empty out the evenly mixed dough out and divide into two balls.  Roll out each into the desired thickness and cut into wedges.  I typically get 8 scones per dough ball or 16 in total.  Place on cookie sheet with Silpat, brush with egg wash and sprinkle additional sugar. Place into a 400-degree oven for about 22 minutes, turn once halfway through.  Remove and cool on rack.&lt;/p&gt;
-
-&lt;p&gt;Serve warm with your favorite jam or preserves.&lt;/p&gt;
-
-&lt;p&gt;Enjoy!&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html">Maple Oat Pecan Scones</summary></entry><entry><title type="html">Short Ribs</title><link href="http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs.html" rel="alternate" type="text/html" title="Short Ribs" /><published>2020-11-08T11:56:00-05:00</published><updated>2020-11-08T11:56:00-05:00</updated><id>http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs</id><content type="html" xml:base="http://localhost:4000/recipes/beef/stew/2020/11/08/short_ribs.html">&lt;h1 id=&quot;short-ribs-&quot;&gt;Short Ribs .&lt;/h1&gt;
-
-&lt;p&gt;6 boneless short ribs ( one Costco short rib package ).&lt;/p&gt;
-
-&lt;p&gt;One medium yellow onion diced.&lt;/p&gt;
-
-&lt;p&gt;Three whole garlic cloves smashed and peeled.&lt;/p&gt;
-
-&lt;p&gt;Eight springs thyme.&lt;/p&gt;
-
-&lt;p&gt;10 to 12 whole peppercorns.&lt;/p&gt;
-
-&lt;p&gt;1 teaspoon salt.&lt;/p&gt;
-
-&lt;p&gt;Two bay leaves.&lt;/p&gt;
-
-&lt;p&gt;1/4 cup APF.&lt;/p&gt;
-
-&lt;p&gt;One bottle red wine ( Masi Campofiorin or similar blend )&lt;/p&gt;
-
-&lt;p&gt;Two diced carrot.&lt;/p&gt;
-
-&lt;p&gt;Four diced celery stalks.&lt;/p&gt;
-
-&lt;p&gt;3 tablespoon olive oil ( twice if you remove and replace oil after browing the meat ).&lt;/p&gt;
-
-&lt;p&gt;Two tablesppos butter.&lt;/p&gt;
-
-&lt;p&gt;Two tablespoons tomato paste.&lt;/p&gt;
-
-&lt;p&gt;Beef stock ( enough to add to cover meat - 6 to 10 oz.)&lt;/p&gt;
-
-&lt;p&gt;Cut each of the long short ribs info three sections. Layer these with the onion, thyme, garlic in a food grade container that will hold all the beef and wine. ( Cambro square 4 quart container ) Do not add the carrots and celery to the marinade.  Add peppercorns, salt and entire bottle of wine.  Cover with lid and refrigerate 4 to 6 hours.&lt;/p&gt;
-
-&lt;p&gt;Remove short ribs from wine and dry meat.  Researve the wine and veggies/herbs. Season each short rib with salt and pepper then dredge in APF.  Add olive oil to oven proof pot or dutch oven. Brown beef in stages to not crowd the pan.  While browing meet seperate wine from onions/garlic/herbs using a strainer,  keeping the ‘wine’ reserved.  Once the last of beef is browned, remove oil from pot and add new olive oil with 2 tablespoons butter.  Add all veggies to pot, including the carrots and celery with the strained items used in the marinade. Saute till onions are translucent, watch heat to not burn garlic cloves.  Add tomato paste, stir in and cook for a few minutes. Pour in reseved red wine and bring to a boil then simmer apporx ten minutes.  Add salt pepper to initially adjust to taste.  Add Beef to pot and then top off with beef stock to just cover meet.  Bring to a simmer, cover and put in 350F oven.  Remove post every 45 minutes to stir and check for tenderness of meat.  Usualy 90 minutes total in oven is sufficient.  If you want to carmelize the beef and stew more then remove or leave lid askew when placing pot back in after the first 45 minutes.  Remove from oven when fork tender and make any final seasoning adjustments now. Serve with a slice of good artisan bread with butter. :)&lt;/p&gt;
-
-&lt;p&gt;A good Cabenet accompanies well. Recomendation - any Pride or Sequoia Grove.&lt;/p&gt;</content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Stew" /><summary type="html">Short Ribs .</summary></entry></feed>
+<p>Serve with your favorite turkey sides. Since your oven has been free there should be less of a traffic jam in the kitchen!!.</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html"><![CDATA[Sous Vide Turkey Thighs]]></summary></entry></feed>

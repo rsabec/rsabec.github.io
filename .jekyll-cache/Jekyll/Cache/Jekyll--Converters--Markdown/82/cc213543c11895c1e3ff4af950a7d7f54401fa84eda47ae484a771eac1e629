@@ -1,4 +1,4 @@
-I"2	<p>Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
+I"X	<p>Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
 Find and open an existing post - Copy and ‘save as’ to create a new post.</p>
 
 <p>Documentation - <a href="https://jekyllrb.com/docs/posts/">https://jekyllrb.com/docs/posts/</a></p>
@@ -38,7 +38,7 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.</p
   <li>Github <a href="https://desktop.github.com/">Desktop</a><br /></li>
 </ul>
 
-<p>Setting up <code class="highlighter-rouge">jekyll</code> and <code class="highlighter-rouge">GitHub Pages</code> only required basic programming skills and beginner Github experience.  I would recommend using GitHub Pages for your personal site.</p>
+<p>Setting up <code class="language-plaintext highlighter-rouge">jekyll</code> and <code class="language-plaintext highlighter-rouge">GitHub Pages</code> only required basic programming skills and beginner Github experience.  I would recommend using GitHub Pages for your personal site.</p>
 
 <p><a href="https://pages.github.com/">Github</a> pages <br />
 <a href="https://github.com/jekyll/jekyll">Jekyll</a> Github repo <br />

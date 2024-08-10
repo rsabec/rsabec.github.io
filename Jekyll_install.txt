@@ -1,0 +1,220 @@
+install homebrew ( software package management system)
+
+How to Set Bash as the Default Shell on Mac
+  Matt Cone       January 15, 2021      Tutorials Mac Developer
+
+Every new Mac uses the Z shell (Zsh) by default, but you can quickly and easily switch the default shell back to Bash. There are several reasons you might want to do this. For example, you may need to be using the bash shell to execute bash scripts on a Mac.
+
+ Tip: Not sure what shell your Mac is using? You can check using the instructions in How to Tell What Shell Your Mac is Using.
+Here’s how to set Bash as the default shell on your Mac:
+
+Open your Terminal application.
+
+Type the following command and press Return:
+
+chsh -s /bin/bash
+Enter your account password when prompted.
+
+That’s it! Your Mac will now use Bash as the default shell.
+
+Alternately you can use this command - 
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+//**************************** terminal window
+Last login: Sun Jul  9 11:20:03 on ttys000
+rsabec@roberts-mini ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+==> The following new directories will be created:
+/opt/homebrew/bin
+/opt/homebrew/etc
+/opt/homebrew/include
+/opt/homebrew/lib
+/opt/homebrew/sbin
+/opt/homebrew/share
+/opt/homebrew/var
+/opt/homebrew/opt
+/opt/homebrew/share/zsh
+/opt/homebrew/share/zsh/site-functions
+/opt/homebrew/var/homebrew
+/opt/homebrew/var/homebrew/linked
+/opt/homebrew/Cellar
+/opt/homebrew/Caskroom
+/opt/homebrew/Frameworks
+
+Press RETURN/ENTER to continue or any other key to abort:
+
+// ********************Warnings in terminal at completions ******************************
+
+Warning: /opt/homebrew/bin is not in your PATH.
+  Instructions on how to configure your shell for Homebrew
+  can be found in the 'Next steps' section below.
+==> Installation successful!
+
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these two commands in your terminal to add Homebrew to your PATH:
+    (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/rsabec/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+    
+    // ********* entered in terminal *********
+    rsabec@roberts-mini ~ %  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/rsabec/.zprofile
+rsabec@roberts-mini ~ % eval "$(/opt/homebrew/bin/brew shellenv)"
+rsabec@roberts-mini ~ % 
+
+//******************************************  brew help or man brew
+rsabec@roberts-mini ~ % brew config
+HOMEBREW_VERSION: 4.0.28
+ORIGIN: https://github.com/Homebrew/brew
+HEAD: 2b4cfb033757b63ab0b128d01c58db76480956f9
+Last commit: 4 days ago
+Core tap JSON: 09 Jul 15:27 UTC
+HOMEBREW_PREFIX: /opt/homebrew
+HOMEBREW_CASK_OPTS: []
+HOMEBREW_MAKE_JOBS: 10
+Homebrew Ruby: 2.6.10 => /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby
+CPU: 10-core 64-bit arm_blizzard_avalanche
+Clang: 14.0.3 build 1403
+Git: 2.39.2 => /Applications/Xcode.app/Contents/Developer/usr/bin/git
+Curl: 7.88.1 => /usr/bin/curl
+macOS: 13.4.1-arm64
+CLT: 14.3.1.0.1.1683849156
+Xcode: 14.3.1
+Rosetta 2: false
+
+
+//*********** install Ruby
+
+rsabec@roberts-mini ~ % brew install chruby ruby-install xz
+Running `brew update --auto-update`...
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+bacon                      hoverfly                   sqlpage
+blink                      ittapi                     strip-nondeterminism
+botan@2                    mailpit                    webpod
+couchbase-shell            mvt                        wget2
+crystalline                neonctl                    woof-doom
+dysk                       pixi                       wpscan
+erg                        pylyzer                    yyjson
+espflash                   ruff-lsp
+go-feature-flag            solr@8.11
+==> New Casks
+ente            glaze           maa             mycard          poe
+
+==> Fetching chruby
+==> Downloading https://ghcr.io/v2/homebrew/core/chruby/manifests/0.3.9-1
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/chruby/blobs/sha256:977cf9319a2
+######################################################################### 100.0%
+==> Fetching dependencies for ruby-install: xz
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.4.3
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:179cc5316bed5c4
+######################################################################### 100.0%
+==> Fetching ruby-install
+==> Downloading https://ghcr.io/v2/homebrew/core/ruby-install/manifests/0.9.1
+######################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ruby-install/blobs/sha256:6e6ee
+######################################################################### 100.0%
+==> Pouring chruby--0.3.9.all.bottle.1.tar.gz
+==> Caveats
+Add the following to the ~/.bash_profile or ~/.zshrc file:
+  source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+
+To enable auto-switching of Rubies specified by .ruby-version files,
+add the following to ~/.bash_profile or ~/.zshrc:
+  source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+==> Summary
+🍺  /opt/homebrew/Cellar/chruby/0.3.9: 12 files, 51.2KB
+==> Running `brew cleanup chruby`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Installing dependencies for ruby-install: xz
+==> Installing ruby-install dependency: xz
+==> Pouring xz--5.4.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.4.3: 162 files, 2.6MB
+==> Installing ruby-install
+==> Pouring ruby-install--0.9.1.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ruby-install/0.9.1: 30 files, 86.6KB
+==> Running `brew cleanup ruby-install`...
+==> Running `brew cleanup xz`...
+==> Caveats
+==> chruby
+Add the following to the ~/.bash_profile or ~/.zshrc file:
+  source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+
+To enable auto-switching of Rubies specified by .ruby-version files,
+add the following to ~/.bash_profile or ~/.zshrc:
+  source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+rsabec@roberts-mini ~ % 
+
+
+ (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/rsabec/.zprofile
+
+
+ruby-install ruby 3.1.3
+
+installing bundled gem cache:       /Users/rsabec/.rubies/ruby-3.1.3/lib/ruby/gems/3.1.0/cache
+>>> Successfully installed ruby 3.1.3 into /Users/rsabec/.rubies/ruby-3.1.3
+
+//************************* 
+ echo 'source /opt/homebrew/opt/chruby/share/chruby/chruby.sh' >> /Users/rsabec/.zprofile
+echo 'source /opt/homebrew/opt/chruby/share/chruby/auto.sh >> /Users/rsabec/.zprofile
+echo "chruby ruby-3.1.3" >> /Users/rsabec/.zprofile
+//******************************************************
+
+
+
+
+
+echo "chruby ruby-3.1.3" >> ~/.zshrc # run 'chruby' to see actual version
+
+gem install jekyll
+
+	
+Parsing documentation for jekyll-4.3.2
+Installing ri documentation for jekyll-4.3.2
+Done installing documentation for webrick, unicode-display_width, terminal-table, safe_yaml, rouge, forwardable-extended, pathutil, mercenary, liquid, kramdown, kramdown-parser-gfm, ffi, rb-inotify, rb-fsevent, listen, jekyll-watch, google-protobuf, sass-embedded, jekyll-sass-converter, concurrent-ruby, i18n, http_parser.rb, eventmachine, em-websocket, colorator, public_suffix, addressable, jekyll after 9 seconds
+28 gems installed
+
+cd Documents/GitHub/rsabec.github.io/
+bundle exec jekyll serve
+
+
+Could not find gem 'jekyll (~> 4.0.0)' in locally installed gems.
+Run `bundle install` to install missing gems.
+rsabec@roberts-mini rsabec.github.io % bundle install
+-------------------------------------------------------------------------------------
+Jekyll 4.0 comes with some major changes, notably:
+
+  * Our `link` tag now comes with the `relative_url` filter incorporated into it.
+    You should no longer prepend `{{ site.baseurl }}` to `{% link foo.md %}`
+    For further details: https://github.com/jekyll/jekyll/pull/6727
+
+  * Our `post_url` tag now comes with the `relative_url` filter incorporated into it.
+    You shouldn't prepend `{{ site.baseurl }}` to `{% post_url 2019-03-27-hello %}`
+    For further details: https://github.com/jekyll/jekyll/pull/7589
+
+  * Support for deprecated configuration options has been removed. We will no longer
+    output a warning and gracefully assign their values to the newer counterparts
+    internally.
+-------------------------------------------------------------------------------------
