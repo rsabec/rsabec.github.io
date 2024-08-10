@@ -38,7 +38,7 @@ categories: Recipes Artisan Bread
 	
 	Cover with towel and let rise for 1 1/2 hours	
 
-# -Bake in clay baker preheated in 500 F oven-
+# -Bake in clay baker preheated in 500 F oven- 30 minutes
 	Transfer from proofing basket to preheated clay baker with cover on into 500 F oven for 30 mintutes
 
 # -Remove cover, reduce heat to 450 F, rotate positions and bake an additional 15 minutesr-
