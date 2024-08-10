@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-10T12:39:11-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Ingredients for Basic Yeasted No Knead Bread</title><link href="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html" rel="alternate" type="text/html" title="Ingredients for Basic Yeasted No Knead Bread" /><published>2024-08-10T05:00:00-04:00</published><updated>2024-08-10T05:00:00-04:00</updated><id>http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead</id><content type="html" xml:base="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html"><![CDATA[<h1 id="no-knead-bread---clay-baker-in-typical-oven"><a href="https://breadtopia.com/no-knead-bread/">No Knead Bread</a> - <a href="https://breadtopia.com/store/oblong-cloche/">Clay Baker</a> in typical oven</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-10T12:40:13-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Ingredients for Basic Yeasted No Knead Bread</title><link href="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html" rel="alternate" type="text/html" title="Ingredients for Basic Yeasted No Knead Bread" /><published>2024-08-10T05:00:00-04:00</published><updated>2024-08-10T05:00:00-04:00</updated><id>http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead</id><content type="html" xml:base="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html"><![CDATA[<h1 id="no-knead-bread---clay-baker-in-typical-oven"><a href="https://breadtopia.com/no-knead-bread/">No Knead Bread</a> - <a href="https://breadtopia.com/store/oblong-cloche/">Clay Baker</a> in typical oven</h1>
 
 <dl>
   <dt>3 Cups Bread</dt>
@@ -60,7 +60,46 @@
 
 <p>cd GitHub/rsabec.github.io/</p>
 
-<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Artisan" /><category term="Bread" /><summary type="html"><![CDATA[No Knead Bread - Clay Baker in typical oven]]></summary></entry><entry><title type="html">Tealium Swift sample App Install</title><link href="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html" rel="alternate" type="text/html" title="Tealium Swift sample App Install" /><published>2024-02-04T11:50:00-05:00</published><updated>2024-02-04T11:50:00-05:00</updated><id>http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install</id><content type="html" xml:base="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html"><![CDATA[<p>links for Tealium Swift sample app and Dependencies.</p>
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Artisan" /><category term="Bread" /><summary type="html"><![CDATA[No Knead Bread - Clay Baker in typical oven]]></summary></entry><entry><title type="html">Blueberry Cobbler</title><link href="http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler.html" rel="alternate" type="text/html" title="Blueberry Cobbler" /><published>2024-06-05T13:00:00-04:00</published><updated>2024-06-05T13:00:00-04:00</updated><id>http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler.html"><![CDATA[<h1 id="blueberry-cobbler">Blueberry Cobbler</h1>
+<hr />
+
+<p>Berries</p>
+
+<p>2 to 2 1/2 pints of fresh blueberries with either lemon zest and juice or rasberries.</p>
+
+<p>1/3 cup sugar</p>
+
+<p>1 tablespoon all-purpose flour.</p>
+<hr />
+
+<p>Dough Recipe</p>
+
+<p>1 1/2 cups all-purpose flour</p>
+
+<p>1/2 teaspoon kosher salt</p>
+
+<p>1 1/2 tablespoons sugar</p>
+
+<p>2 1/2 teaspoons baking powder</p>
+
+<p>6 tablespoons cold unsalted butter, cut or diced into diced into small pieces.</p>
+
+<p>3/4 cup chilled water + 3 tablespoons Saco cultured buttmilknpowder ( or you can use a combination of 1/2 cup buttermilk and 1/4 cup heavy cream ) .</p>
+
+<hr />
+
+<p>Heat the oven to 375 degrees. To prepare the berries, place in a bowl and toss with the sugar and flour. Set aside.
+Dice up cold to frozen butter and add to mixer on low.  I will typically cover the mixer bowl with a towel to stop spit-out and increase speed of mixer to pulverized and break up the butter chunks.  With mixer on low add wet ingredients (cream and or butter milk, eggs ( if using powder butermilk then water) all together lightly beaten or mixed before adding into mixer. brush with egg wash and sprinkple with sugar </p>
+
+<p>Put the blueberries mixture into a baking dish. Make 1/2 thick scone sized dogh patties. Place them on top of the berries. Bake until the topping is brown and the juices bubble thickly around it, about 35 to 40 minutes.</p>
+
+<hr />
+
+<p><br /></p>
+
+<p>cd GitHub/rsabec.github.io/</p>
+
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html"><![CDATA[Blueberry Cobbler Berries]]></summary></entry><entry><title type="html">Tealium Swift sample App Install</title><link href="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html" rel="alternate" type="text/html" title="Tealium Swift sample App Install" /><published>2024-02-04T11:50:00-05:00</published><updated>2024-02-04T11:50:00-05:00</updated><id>http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install</id><content type="html" xml:base="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html"><![CDATA[<p>links for Tealium Swift sample app and Dependencies.</p>
 <ul>
   <li>Github <a href="https://github.com/Tealium/tealium-swift.git">Tealium/tealium-swift</a></li>
   <li><a href="https://brew.sh/">Homebrew</a> - used to install Cocopods.</li>
@@ -570,24 +609,4 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.</p
 
 <p>cd Documents/GitHub/rsabec.github.io/</p>
 
-<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><summary type="html"><![CDATA[Chicken Thighs with Cream Mustard]]></summary></entry><entry><title type="html">Sous Vide Turkey Thighs</title><link href="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html" rel="alternate" type="text/html" title="Sous Vide Turkey Thighs" /><published>2020-12-24T11:27:00-05:00</published><updated>2020-12-24T11:27:00-05:00</updated><id>http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2020/12/24/sous-vide-turkey-thighs.html"><![CDATA[<h1 id="sous-vide-turkey-thighs">Sous Vide Turkey Thighs</h1>
-
-<p>Preheat sous vide - Thighs @ 150F ( Breasts @ 131F )</p>
-
-<p>3 to 4 Turkey Thighs ( or breasts )</p>
-
-<p>3 TBS olive Oil</p>
-
-<p>Herbs of choice - I prefer sage - few leaves per thigh.</p>
-
-<p>Clarified butter</p>
-
-<p>You can choose to sear and brown the turkey thighs before you place in a vacuum sealed bag for the souse vide. This will add a bit more flavor.  You will ultimately sear them at the end to finish for presentation. Dry off your thighs with a paper towel then sear and brown in a hot skillet with olive oil.</p>
-
-<p>Once removed from heat place in bags with sage, salt and sugar.  ( or whatever you want with your turkey ) I will assume you have used a sous vide and are familiar with use and preparing items in a sealed bag.</p>
-
-<p>Sous vide your thighs 12 to 24 hours.  This time span gives you flexibility on when you complete the preration before serving.  They are done at 12 hours but can remain in the sous vide for up to 24 hours.</p>
-
-<p>Remove from sous vide and from bag.  Dry and place in the fridge on a plate or cookie sheet for five to tem minutes right before browning.  ( you can skip the fridge step, it only helps in browning without overcooking ). This final step is for presentation.  Your turkey is already perfectly cooked once you remove from the sous vide.  I usually sear in clarified butter but you can choose to grill, broiler or however to want to put a happy glow on your turkey thighs before serving to your guests.</p>
-
-<p>Serve with your favorite turkey sides. Since your oven has been free there should be less of a traffic jam in the kitchen!!.</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html"><![CDATA[Sous Vide Turkey Thighs]]></summary></entry></feed>
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><summary type="html"><![CDATA[Chicken Thighs with Cream Mustard]]></summary></entry></feed>
