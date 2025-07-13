@@ -33,5 +33,26 @@ testing urls : <br>
 https://robertsabec.com/consentmanager2.html?test=gdpr <br>
  utag.gdpr.showConsentPreferences() <br>
  utag.gdpr.showConsentPreferences()<br>
+
+
+ utag.gdpr.setConsentValue(false) <br>
+utag.gdpr.setConsentValue(true) <br>
+utag.gdpr.setAllCategories(false) <br>
+utag.gdpr.setAllCategories(true)<br>
+
+
+var cats = {'analytics':1, 'affiliates':1, 'display_ads':1, 'search':1, 'email':1, 'personalization':1, 'social':1, 'big_data':1, 'misc':1, 'cookiematch':1, 'cdp':1, 'mobile':1, 'engagement':1, 'monitoring':1, 'crm':1}
+<br>
+utag.gdpr.setPreferencesValues(cats)<br>
+
+var cats = {'analytics':0, 'affiliates':0, 'display_ads':0, 'search':0, 'email':0, 'personalization':0, 'social':0, 'big_data':0, 'misc':1, 'cookiematch':1, 'cdp':1, 'mobile':1, 'engagement':1, 'monitoring':1, 'crm':1}
+<br>
+utag.gdpr.setPreferencesValues(cats)<br>
+var cats = {'analytics':0, 'affiliates':0, 'display_ads':0, 'search':0, 'email':0, 'personalization':0, 'social':0, 'big_data':0, 'misc':0, 'cookiematch':0, 'cdp':0, 'mobile':0, 'engagement':0, 'monitoring':0, 'crm':1}
+<br>
+utag.gdpr.setPreferencesValues(cats)<br>
+
+
+utag.gdpr.setAllCategories(false)<br>
 </body>
 </html>
