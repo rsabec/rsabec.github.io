@@ -32,7 +32,7 @@ categories: Recipes Pie Dough
 	
 	Divide ball into two balls one slight larger then the other .  
 	One will serve as the top.
-	Then the other larger one will cover more teritory and cove the pie dish bottom 
+	Then the other larger one will cover the pie dish bottom 
 	and up over the sides.
 
 # -flatten each ball into disks, wrap with platic saran-
