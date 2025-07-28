@@ -49,14 +49,14 @@ categories: Recipes Pie Dough
 
 # -Add pie filling ( see below ) and cover with similar 12 inch rolled out top-
 	
-	press the overhang together adn trim the excess off leaving 1/2 inch overhang
-	lightly bruch top with warm water and sprinkle with sugar
+	press the overhang together and trim the excess off leaving 1/2 inch overhang
+	lightly brush top with warm water and sprinkle with sugar
 	cut a few slots in top for steam release	 
 
 # -Bake the pie until the filling is bubbling and the crust is golden brown about 2 hours
 	
 	Check on pie during bake and cover outer rim with cut foil to protect edges 
-	Edges and center should be evenly browned 
+	Center and edges should be evenly browned ^
 
 # -Remove and let cool 5 hours 
 	
