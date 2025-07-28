@@ -41,7 +41,7 @@ categories: Recipes Pie Dough
 
 # -Preheat oven to 375℉ -
 	
-	Set rack to the lowe third of the oven	
+	Set rack to the lower third of the oven	
 
 # -Roll Larger dough pirce to a 13 inch round 1/4 inch thick 
 	
