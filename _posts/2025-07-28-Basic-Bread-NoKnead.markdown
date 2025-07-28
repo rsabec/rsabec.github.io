@@ -51,7 +51,7 @@ categories: Recipes Pie Dough
 	
 	press the overhang together adn trim the excess off leaving 1/2 inch overhang
 	lightly bruch top with warm water and sprinkle with sugar
-	cut a few slot in top for steam release	 
+	cut a few slots in top for steam release	 
 
 # -Bake the pie until the filling is bubbling and the crust is golden brown about 2 hours
 	
