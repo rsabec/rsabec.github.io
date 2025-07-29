@@ -28,7 +28,7 @@ categories: Recipes Pie Dough
 	Seperated moistened texture  or dry 'Play-Doh'.
 
 
-# -Remove dough from food processor and press into one ball.-
+# -Remove dough from food processor and press into one ball -
 	
 	Divide ball into two balls one slight larger then the other .  
 	One will serve as the top.
@@ -43,17 +43,17 @@ categories: Recipes Pie Dough
 	
 	Set rack to the lower third of the oven	
 
-# -Roll Larger dough pirce to a 13 inch round 1/4 inch thick 
+# -Roll Larger dough pirce to a 13 inch round 1/4 inch thick -
 	
 	Line the 9.5 inch pie dish and brush overhang with warm water
 
-# -Add pie filling ( see below ) and cover with similar 12 inch rolled out top-
+# -Add pie filling ( see below ) and cover with similar 12 inch rolled out top -
 	
 	press the overhang together and trim the excess off leaving 1/2 inch overhang
 	lightly brush top with warm water and sprinkle with sugar
 	cut a few slots in top for steam release	 
 
-# -Bake the pie until the filling is bubbling and the crust is golden brown about 2 hours
+# -Bake the pie until the filling is bubbling and the crust is golden brown about 2 hours -
 	
 	Check on pie during bake and cover outer rim with cut foil to protect edges 
 	Center and edges should be evenly browned ^
