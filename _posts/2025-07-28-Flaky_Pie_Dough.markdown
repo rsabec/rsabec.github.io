@@ -9,8 +9,8 @@ categories: Recipes Pie Dough
 
 <dl>
   <dt>2 1/2 Cups APF ( 12 1/2 oz ) </dt>
-  <dt> 1/2 teaspoon salt   </dt>
-  <dt>-1 1/2 sticks cold unsalted butter - cut into small cubes </dt>
+  <dt>1/2 teaspoon salt   </dt>
+  <dt>1 1/2 sticks cold unsalted butter - cut into small cubes </dt>
   <dt>1/4 cup ( 2 oz ) frozen lard - cut into small cubes </dt>
  <dt>1/2 cup chilled water ( fridge water dispenser )</dt>
 </dl>
