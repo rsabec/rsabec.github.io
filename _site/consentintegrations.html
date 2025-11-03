@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>consent integrations test</title>
+	<meta name="generator" content="BBEdit 12.6" />
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- The utag.sync.js script should run as early as possible, preferably
+ in the head of the document. See the Sample HTML for more information -->
+<script src="//tags.tiqcdn.com/utag/services-robert-sabec/consentintegrations/prod/utag.sync.js"></script>
+
+<script type="text/javascript">
+var utag_data = {
+}
+</script>
+
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+   a='//tags.tiqcdn.com/utag/services-robert-sabec/consentintegrations/prod/utag.js';
+   //a='/js/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+<h1>consent integrations Google Consent Mode</h1>
+initially check dataLayer object and see initial consent 'default' provided as ['consent', 'default', : <br>
+give consent 'accept all cookie' then check dataLayer object: <br>
+you will see two consent updates not one : <br>
+
+ 
+</body>
+</html>
