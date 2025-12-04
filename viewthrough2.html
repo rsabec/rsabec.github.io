@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>viewthrough code example</title>
+	<meta name="generator" content="BBEdit 15.5">
+	
+	    <script type="text/javascript">
+	        var img = new Image(1, 1); // width, height values are optional params 
+
+	        var ad_names = ['test_advert', 'tealium_advert', 'facebook_advert', 'another_advert', 'floodlight_advert'];
+
+	        var min = 1;
+	        var max = 5;
+	        var random = Math.floor(Math.random() * (+max - +min)) + +min;
+
+
+	        var ad_name = ad_names[random];
+	      //  debugger;
+	        var segment_name = "segment_" + random;
+
+	        img.src = "https://databridge.tdbtrk.com/databridge/a4pjxo4v/tdb.gif?last_campaign_seen=testRun01&all_campaigns_seen=_APP_testRun01&total_impressions=_INC_1&ad_domains=_APP_robertsabec.com&ad_name=" + ad_name + "&impressions=_INC_&segment_name=" + segment_name;
+	    </script>
+	
+</head>
+<body>
+
+   <h1>Test Site</h1>
+
+    <p>Your awesome, highly relevent content here</p>
+
+    <p>Target Ad</p>
+    
+    <div>Sample page to load Full View-Through Tracking Pixel URL
+<br>' The URL below is generated from the settings above. Copy the URL to include it within your ad creative.</div>
+    <img src="/images/indexbg.jpg" />
+
+
+</body>
+</html>
