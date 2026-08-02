@@ -16,10 +16,10 @@ If you're following **Atkins Phase 1 (Induction)**, Korean beef bulgogi is easy 
 ### Ingredients
 
 * 1½ lb flank steak or sirloin, sliced paper-thin (freeze 30–45 minutes first for easier slicing)
-* ¼ cup soy sauce (or coconut aminos if preferred)
+* ¼ cup soy sauce 
 * 2 tbsp sesame oil
-* 1 tbsp vinegar. ( can be rice vinegar but I used champaign vinegar as a substitute )
-* 1 tbsp grated fresh ginger
+* 1 tbsp vinegar ( can be rice vinegar but I used champaign vinegar as a substitute )
+* 1 tbsp grated or minced fresh ginger
 * 4 cloves garlic, minced
 * 2 tsp granulated monk fruit sweetener or erythritol
 * ½ tsp black pepper
