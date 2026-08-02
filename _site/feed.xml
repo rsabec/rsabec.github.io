@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-14T21:58:25-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Flaky Pie Dough</title><link href="http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough.html" rel="alternate" type="text/html" title="Flaky Pie Dough" /><published>2025-07-28T04:00:00-05:00</published><updated>2025-07-28T04:00:00-05:00</updated><id>http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough</id><content type="html" xml:base="http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough.html"><![CDATA[<h1 id="makes-enough-dough-for-one-95-pie-dish">Makes enough dough for one 9.5” pie dish</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-02T16:35:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Korean beef bulgogi</title><link href="http://localhost:4000/recipes/beef/2026/08/02/beef-bulgogi.html" rel="alternate" type="text/html" title="Korean beef bulgogi" /><published>2026-08-02T13:00:00-04:00</published><updated>2026-08-02T13:00:00-04:00</updated><id>http://localhost:4000/recipes/beef/2026/08/02/beef-bulgogi</id><content type="html" xml:base="http://localhost:4000/recipes/beef/2026/08/02/beef-bulgogi.html"><![CDATA[<h1 id="beef-bulgogi">Beef Bulgogi</h1>
+
+<p>If you’re following <strong>Atkins Phase 1 (Induction)</strong>, Korean beef bulgogi is easy to adapt because the biggest carb source in traditional recipes is the sugar (or Asian pear) in the marinade. This version keeps the classic savory, garlicky flavor while staying low-carb.</p>
+
+<h2 id="low-carb-atkins-korean-beef-bulgogi">Low-Carb Atkins Korean Beef Bulgogi</h2>
+
+<p><strong>Servings:</strong> 4</p>
+
+<h3 id="ingredients">Ingredients</h3>
+
+<ul>
+  <li>1½ lb flank steak or sirloin, sliced paper-thin (freeze 30–45 minutes first for easier slicing)</li>
+  <li>¼ cup soy sauce (or coconut aminos if preferred)</li>
+  <li>2 tbsp sesame oil</li>
+  <li>1 tbsp vinegar. ( can be rice vinegar but I used champaign vinegar as a substitute )</li>
+  <li>1 tbsp grated fresh ginger</li>
+  <li>4 cloves garlic, minced</li>
+  <li>2 tsp granulated monk fruit sweetener or erythritol</li>
+  <li>½ tsp black pepper</li>
+  <li>2 green onions, sliced</li>
+  <li>1 tsp sesame seeds (optional)</li>
+</ul>
+
+<h3 id="optional-vegetables-induction-friendly">Optional vegetables (Induction-friendly)</h3>
+
+<ul>
+  <li>Mushrooms</li>
+  <li>Zucchini</li>
+  <li>Bok choy</li>
+  <li>Spinach</li>
+</ul>
+
+<h3 id="instructions">Instructions</h3>
+
+<ol>
+  <li>
+    <p>Whisk together:</p>
+
+    <ul>
+      <li>Soy sauce</li>
+      <li>Sesame oil</li>
+      <li>Rice vinegar</li>
+      <li>Garlic</li>
+      <li>Ginger</li>
+      <li>Sweetener</li>
+      <li>Pepper</li>
+    </ul>
+  </li>
+  <li>
+    <p>Toss the beef with the marinade and refrigerate for <strong>30 minutes to overnight</strong>.</p>
+  </li>
+  <li>
+    <p>Heat a cast-iron skillet or grill pan over high heat.</p>
+  </li>
+  <li>
+    <p>Cook the beef in batches for <strong>2–3 minutes</strong>, just until browned.</p>
+  </li>
+  <li>
+    <p>Stir in the green onions during the last minute.</p>
+  </li>
+  <li>
+    <p>Sprinkle with sesame seeds if using.</p>
+  </li>
+</ol>
+
+<h2 id="serve-with">Serve with</h2>
+
+<ul>
+  <li>Buttered cauliflower rice</li>
+  <li>Lettuce wraps (Boston or romaine lettuce)</li>
+  <li>Sautéed spinach</li>
+  <li>Steamed broccoli</li>
+</ul>
+
+<h2 id="approximate-nutrition-per-serving">Approximate nutrition (per serving)</h2>
+
+<ul>
+  <li><strong>Calories:</strong> ~360</li>
+  <li><strong>Protein:</strong> ~34 g</li>
+  <li><strong>Fat:</strong> ~22 g</li>
+  <li><strong>Net carbs:</strong> ~3–4 g</li>
+</ul>
+
+<h3 id="tips">Tips</h3>
+
+<ul>
+  <li>Thin slicing is the key to authentic bulgogi texture.</li>
+  <li>A very hot pan helps caramelize the meat even without sugar.</li>
+  <li>If you’re not in Atkins Induction, a teaspoon of grated Asian pear can add traditional flavor with only a small increase in carbs.</li>
+</ul>
+
+<p>cd Documents/GitHub/rsabec.github.io/</p>
+
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><summary type="html"><![CDATA[Beef Bulgogi]]></summary></entry><entry><title type="html">Flaky Pie Dough</title><link href="http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough.html" rel="alternate" type="text/html" title="Flaky Pie Dough" /><published>2025-07-28T05:00:00-04:00</published><updated>2025-07-28T05:00:00-04:00</updated><id>http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough</id><content type="html" xml:base="http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough.html"><![CDATA[<h1 id="makes-enough-dough-for-one-95-pie-dish">Makes enough dough for one 9.5” pie dish</h1>
 
 <dl>
   <dt>2 1/2 Cups APF ( 12 1/2 oz ) </dt>
@@ -92,7 +185,23 @@ Center and edges should be evenly browned ^
 
 <p>cd GitHub/rsabec.github.io/</p>
 
-<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Pie" /><category term="Dough" /><summary type="html"><![CDATA[Makes enough dough for one 9.5” pie dish]]></summary></entry><entry><title type="html">Ingredients for Basic Yeasted No Knead Bread</title><link href="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html" rel="alternate" type="text/html" title="Ingredients for Basic Yeasted No Knead Bread" /><published>2024-08-10T04:00:00-05:00</published><updated>2024-08-10T04:00:00-05:00</updated><id>http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead</id><content type="html" xml:base="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html"><![CDATA[<h1 id="no-knead-bread---clay-baker-in-typical-oven"><a href="https://breadtopia.com/no-knead-bread/">No Knead Bread</a> - <a href="https://breadtopia.com/store/oblong-cloche/">Clay Baker</a> in typical oven</h1>
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Pie" /><category term="Dough" /><summary type="html"><![CDATA[Makes enough dough for one 9.5” pie dish]]></summary></entry><entry><title type="html">Water Delivery Tracker</title><link href="http://localhost:4000/tealium/swift/ios/programming/2025/07/28/Simple_iOS_app_for_tealiumTracking_exercise.html" rel="alternate" type="text/html" title="Water Delivery Tracker" /><published>2025-07-28T05:00:00-04:00</published><updated>2025-07-28T05:00:00-04:00</updated><id>http://localhost:4000/tealium/swift/ios/programming/2025/07/28/Simple_iOS_app_for_tealiumTracking_exercise</id><content type="html" xml:base="http://localhost:4000/tealium/swift/ios/programming/2025/07/28/Simple_iOS_app_for_tealiumTracking_exercise.html"><![CDATA[<h1 id="learning-app-for-implementing-and-testing-telium-swift-sdk">Learning app for Implementing and testing Telium Swift SDK</h1>
+
+<p>TrackingService.swift is written to compile safely even before the Tealium SDK is added by using #if canImport(TealiumSwift). To make tracking live, add the Tealium Swift package in Xcode and replace:</p>
+
+<dl>
+  <dt>YOUR_ACCOUNT </dt>
+  <dt>YOUR_PROFILE  </dt>
+  <dt>YOUR_DATASOURCE </dt>
+</dl>
+
+<p>Link to current progression, current design decisions, implementation notes, and recommended next steps. = <a href="/water_delivery_tracker_project_report.html/">Water Delivery Tracker Project Report</a></p>
+
+<p>cd GitHub/rsabec.github.io/</p>
+
+<p>bundle exec jekyll serve</p>
+
+<p>6 Setup Jekyll site on Github -</p>]]></content><author><name>Robert Sabec</name></author><category term="Tealium" /><category term="Swift" /><category term="iOS" /><category term="Programming" /><summary type="html"><![CDATA[Learning app for Implementing and testing Telium Swift SDK]]></summary></entry><entry><title type="html">Ingredients for Basic Yeasted No Knead Bread</title><link href="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html" rel="alternate" type="text/html" title="Ingredients for Basic Yeasted No Knead Bread" /><published>2024-08-10T05:00:00-04:00</published><updated>2024-08-10T05:00:00-04:00</updated><id>http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead</id><content type="html" xml:base="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html"><![CDATA[<h1 id="no-knead-bread---clay-baker-in-typical-oven"><a href="https://breadtopia.com/no-knead-bread/">No Knead Bread</a> - <a href="https://breadtopia.com/store/oblong-cloche/">Clay Baker</a> in typical oven</h1>
 
 <dl>
   <dt>3 Cups Bread</dt>
@@ -154,7 +263,7 @@ Center and edges should be evenly browned ^
 
 <p>cd GitHub/rsabec.github.io/</p>
 
-<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Artisan" /><category term="Bread" /><summary type="html"><![CDATA[No Knead Bread - Clay Baker in typical oven]]></summary></entry><entry><title type="html">Blueberry Cobbler</title><link href="http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler.html" rel="alternate" type="text/html" title="Blueberry Cobbler" /><published>2024-06-05T12:00:00-05:00</published><updated>2024-06-05T12:00:00-05:00</updated><id>http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler.html"><![CDATA[<h1 id="blueberry-cobbler">Blueberry Cobbler</h1>
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Artisan" /><category term="Bread" /><summary type="html"><![CDATA[No Knead Bread - Clay Baker in typical oven]]></summary></entry><entry><title type="html">Blueberry Cobbler</title><link href="http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler.html" rel="alternate" type="text/html" title="Blueberry Cobbler" /><published>2024-06-05T13:00:00-04:00</published><updated>2024-06-05T13:00:00-04:00</updated><id>http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler</id><content type="html" xml:base="http://localhost:4000/recipes/baking/2024/06/05/BlueberryCobbler.html"><![CDATA[<h1 id="blueberry-cobbler">Blueberry Cobbler</h1>
 <hr />
 
 <p>Berries</p>
@@ -193,7 +302,7 @@ Dice up cold to frozen butter and add to mixer on low.  I will typically cover t
 
 <p>cd GitHub/rsabec.github.io/</p>
 
-<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html"><![CDATA[Blueberry Cobbler Berries]]></summary></entry><entry><title type="html">Tealium Swift sample App Install</title><link href="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html" rel="alternate" type="text/html" title="Tealium Swift sample App Install" /><published>2024-02-04T10:50:00-06:00</published><updated>2024-02-04T10:50:00-06:00</updated><id>http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install</id><content type="html" xml:base="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html"><![CDATA[<p>links for Tealium Swift sample app and Dependencies.</p>
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Baking" /><summary type="html"><![CDATA[Blueberry Cobbler Berries]]></summary></entry><entry><title type="html">Tealium Swift sample App Install</title><link href="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html" rel="alternate" type="text/html" title="Tealium Swift sample App Install" /><published>2024-02-04T11:50:00-05:00</published><updated>2024-02-04T11:50:00-05:00</updated><id>http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install</id><content type="html" xml:base="http://localhost:4000/ios/code/tealium/swift/2024/02/04/tealium_sample_swift_app_install.html"><![CDATA[<p>links for Tealium Swift sample app and Dependencies.</p>
 <ul>
   <li>Github <a href="https://github.com/Tealium/tealium-swift.git">Tealium/tealium-swift</a></li>
   <li><a href="https://brew.sh/">Homebrew</a> - used to install Cocopods.</li>
@@ -424,7 +533,7 @@ Adding spec repo <code class="language-plaintext highlighter-rouge">trunk</code>
 	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in </code>&lt;top (required)&gt;’
 	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in <code class="language-plaintext highlighter-rouge">load'
 	from /opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in </code>&lt;main&gt;’
-	 <br /></p>]]></content><author><name>Robert Sabec</name></author><category term="ios" /><category term="code" /><category term="tealium" /><category term="swift" /><summary type="html"><![CDATA[links for Tealium Swift sample app and Dependencies. Github Tealium/tealium-swift Homebrew - used to install Cocopods. Xcode and Xcode Command Line Tools - available behind your apple develpper login - Cocopods]]></summary></entry><entry><title type="html">Lentil Sausage Soup</title><link href="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html" rel="alternate" type="text/html" title="Lentil Sausage Soup" /><published>2023-09-30T12:00:00-05:00</published><updated>2023-09-30T12:00:00-05:00</updated><id>http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup</id><content type="html" xml:base="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html"><![CDATA[<h1 id="lentil-sausage-soup---pressure-cooker-10min--or-slow-cook-4-hours-">Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )</h1>
+	 <br /></p>]]></content><author><name>Robert Sabec</name></author><category term="ios" /><category term="code" /><category term="tealium" /><category term="swift" /><summary type="html"><![CDATA[links for Tealium Swift sample app and Dependencies. Github Tealium/tealium-swift Homebrew - used to install Cocopods. Xcode and Xcode Command Line Tools - available behind your apple develpper login - Cocopods]]></summary></entry><entry><title type="html">Lentil Sausage Soup</title><link href="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html" rel="alternate" type="text/html" title="Lentil Sausage Soup" /><published>2023-09-30T13:00:00-04:00</published><updated>2023-09-30T13:00:00-04:00</updated><id>http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup</id><content type="html" xml:base="http://localhost:4000/recipes/lentil/soup/2023/09/30/lentil-sausage-soup.html"><![CDATA[<h1 id="lentil-sausage-soup---pressure-cooker-10min--or-slow-cook-4-hours-">Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )</h1>
 
 <p>One package of Italian Sausages ( usually 6 )</p>
 
@@ -458,7 +567,7 @@ Adding spec repo <code class="language-plaintext highlighter-rouge">trunk</code>
 
 <p>cd GitHub/rsabec.github.io/</p>
 
-<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Lentil" /><category term="Soup" /><summary type="html"><![CDATA[Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )]]></summary></entry><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T22:51:00-06:00</published><updated>2022-11-29T22:51:00-06:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html"><![CDATA[<p>chile relleno recipe</p>
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Lentil" /><category term="Soup" /><summary type="html"><![CDATA[Lentil Sausage Soup - pressure cooker 10min ( or slow cook 4 hours )]]></summary></entry><entry><title type="html">Chile Rellenos</title><link href="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html" rel="alternate" type="text/html" title="Chile Rellenos" /><published>2022-11-29T23:51:00-05:00</published><updated>2022-11-29T23:51:00-05:00</updated><id>http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno</id><content type="html" xml:base="http://localhost:4000/recipes/mexican/2022/11/29/chili_relleno.html"><![CDATA[<p>chile relleno recipe</p>
 <ul>
   <li>pasilla peppers w/stem</li>
   <li>tomato sauce - delmonte or heintz</li>
@@ -486,7 +595,7 @@ Adding spec repo <code class="language-plaintext highlighter-rouge">trunk</code>
 
     <p>Blend tomato in 1/2 cup water.  add oil into pan - heat and add onion and rice -  toast rice to golden brown.  add tomatoe mixture - boil to cook tomato.  add last 1/2 cup water and 1 cup chx stock.  Bring to a boil then set to simmer.  cover and cook until moister absorbed into rice</p>
   </li>
-</ul>]]></content><author><name>Robert Sabec</name></author><category term="recipes" /><category term="mexican" /><summary type="html"><![CDATA[chile relleno recipe pasilla peppers w/stem tomato sauce - delmonte or heintz yellow or white onion montery jack cheese A.P.F. one egg per pasilla Roast peppers over open flame to blackened in parts - do not over cook. Place peppers into a zip lock bag to steam - then peel off skin of pepper. cut slot in pepper and remove seeds. stuff with jack cheese and dust with A.P.F. separate egg whites and yokes - beat wite to peaks and then incorporate egg yokes back into mixture. dip relleno into egg white and fry in oil. cover holes with mixture. golden brown then turn. remove to plate. Slice onion and saute. Add tomatoe sauce - heat to simmer. then add 1/2 can chicken stock. heat to simer. salt to taste Add chile relleno to sauce. heat and serve. Spanish Rice one cup rice one cup h20 one cup chx stock one tomato one quarter oinion 1/4 cup Oil]]></summary></entry><entry><title type="html">Create and Update Jekyll Posts</title><link href="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html" rel="alternate" type="text/html" title="Create and Update Jekyll Posts" /><published>2022-11-24T22:51:00-06:00</published><updated>2022-11-24T22:51:00-06:00</updated><id>http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts</id><content type="html" xml:base="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html"><![CDATA[<p>Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
+</ul>]]></content><author><name>Robert Sabec</name></author><category term="recipes" /><category term="mexican" /><summary type="html"><![CDATA[chile relleno recipe pasilla peppers w/stem tomato sauce - delmonte or heintz yellow or white onion montery jack cheese A.P.F. one egg per pasilla Roast peppers over open flame to blackened in parts - do not over cook. Place peppers into a zip lock bag to steam - then peel off skin of pepper. cut slot in pepper and remove seeds. stuff with jack cheese and dust with A.P.F. separate egg whites and yokes - beat wite to peaks and then incorporate egg yokes back into mixture. dip relleno into egg white and fry in oil. cover holes with mixture. golden brown then turn. remove to plate. Slice onion and saute. Add tomatoe sauce - heat to simmer. then add 1/2 can chicken stock. heat to simer. salt to taste Add chile relleno to sauce. heat and serve. Spanish Rice one cup rice one cup h20 one cup chx stock one tomato one quarter oinion 1/4 cup Oil]]></summary></entry><entry><title type="html">Create and Update Jekyll Posts</title><link href="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html" rel="alternate" type="text/html" title="Create and Update Jekyll Posts" /><published>2022-11-24T23:51:00-05:00</published><updated>2022-11-24T23:51:00-05:00</updated><id>http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts</id><content type="html" xml:base="http://localhost:4000/personal/website/hosting/jekyll/2022/11/24/create_and_update_jekyll_posts.html"><![CDATA[<p>Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site.
 Find and open an existing post - Copy and ‘save as’ to create a new post.</p>
 
 <p>Documentation - <a href="https://jekyllrb.com/docs/posts/">https://jekyllrb.com/docs/posts/</a></p>
@@ -530,7 +639,7 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.</p
 
 <p><a href="https://pages.github.com/">Github</a> pages <br />
 <a href="https://github.com/jekyll/jekyll">Jekyll</a> Github repo <br />
-<a href="https://jekyllrb.com/">Jekyll</a> website</p>]]></content><author><name>Robert Sabec</name></author><category term="personal" /><category term="website" /><category term="hosting" /><category term="jekyll" /><summary type="html"><![CDATA[Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site. Find and open an existing post - Copy and ‘save as’ to create a new post.]]></summary></entry><entry><title type="html">Homekit Send a notification from the IFTTT</title><link href="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html" rel="alternate" type="text/html" title="Homekit Send a notification from the IFTTT" /><published>2022-08-28T13:56:00-05:00</published><updated>2022-08-28T13:56:00-05:00</updated><id>http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification</id><content type="html" xml:base="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html"><![CDATA[<p>Open the <a href="https://controllerforhomekit.com/">Contoller</a> Application and click on <code class="language-plaintext highlighter-rouge">Add Automation</code> -</p>
+<a href="https://jekyllrb.com/">Jekyll</a> website</p>]]></content><author><name>Robert Sabec</name></author><category term="personal" /><category term="website" /><category term="hosting" /><category term="jekyll" /><summary type="html"><![CDATA[Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site. Find and open an existing post - Copy and ‘save as’ to create a new post.]]></summary></entry><entry><title type="html">Homekit Send a notification from the IFTTT</title><link href="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html" rel="alternate" type="text/html" title="Homekit Send a notification from the IFTTT" /><published>2022-08-28T14:56:00-04:00</published><updated>2022-08-28T14:56:00-04:00</updated><id>http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification</id><content type="html" xml:base="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html"><![CDATA[<p>Open the <a href="https://controllerforhomekit.com/">Contoller</a> Application and click on <code class="language-plaintext highlighter-rouge">Add Automation</code> -</p>
 
 <p><img src="/images/Controller_add.jpg" alt="add Automation" /></p>
 
@@ -600,59 +709,4 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.</p
 <p>get contents of url:
 <img src="/images/getContents.jpg" alt="getContents" /></p>
 
-<p>maker.ifttt.com/trigger/GR_LowTempWarning/with/key/XXXXXXXX</p>]]></content><author><name>Robert Sabec</name></author><category term="Homekit" /><category term="automation" /><summary type="html"><![CDATA[Open the Contoller Application and click on Add Automation -]]></summary></entry><entry><title type="html">Whole Lobster</title><link href="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html" rel="alternate" type="text/html" title="Whole Lobster" /><published>2022-07-01T13:56:00-05:00</published><updated>2022-07-01T13:56:00-05:00</updated><id>http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster</id><content type="html" xml:base="http://localhost:4000/recipes/seafood/2022/07/01/pressure_cook_lobster.html"><![CDATA[<p>Buy two (2) live lobsters around 2 lbs each.</p>
-
-<h1 id="-put-in-large--8-qrt--pressure-cooker--">-Put in large ( 8 QRT ) Pressure Cooker -</h1>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Place steamer basket or platform in bottom of pot. 
-2.5 cups water
-2 Tbsp Kosher Salt
-( substitute fresh seawater if available for water + salt )
-3 to 6lbs of -freshly dispatched- Live Whole Lobster with rubber bands removed.
-</code></pre></div></div>
-
-<h1 id="-set-pressure-cooker--">-Set pressure Cooker -</h1>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4 minutes Pressure Cook - Manual High pressure setting
--Quick Pressure Release-
-</code></pre></div></div>
-
-<h1 id="-serve-hot-with-butter-">-Serve hot with butter-</h1>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Butter heated and clarified 
-</code></pre></div></div>
-
-<p><img src="/images/lobster01.jpeg" alt="Lobster01" /></p>
-
-<p>Enjoy!</p>
-
-<p><img src="/images/lobster02.jpeg" alt="Lobster02" /></p>
-
-<p>resources - 
-	Allen’s Sea Food
-	119 Lookout Point Rd, Harpswell, ME 04079
-	<a href="https://goo.gl/maps/Jh9nAGg5fhPyEjwS9">Allen’s Sea Food</a></p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Seafood" /><summary type="html"><![CDATA[Buy two (2) live lobsters around 2 lbs each.]]></summary></entry><entry><title type="html">Merrit House Information Site</title><link href="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html" rel="alternate" type="text/html" title="Merrit House Information Site" /><published>2021-12-11T10:30:00-06:00</published><updated>2021-12-11T10:30:00-06:00</updated><id>http://localhost:4000/website/2021/12/11/merritthouse_info_site</id><content type="html" xml:base="http://localhost:4000/website/2021/12/11/merritthouse_info_site.html"><![CDATA[<h1 id="creating-a-blog-and-information-site-for-the-historic-merrit-house-on-orrs-island">Creating a blog and information site for the Historic Merrit House on Orr’s Island.</h1>
-
-<p>1 Purchase Domains merritthouse.info and merritthouse.blog</p>
-
-<p>2 Create new repository on GiHhub ‘merritthouse’</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* https://rsabec.github.io/merritthouse
-</code></pre></div></div>
-
-<p>3 Create A records on DNS</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* 185.199.108.153
-* 185.199.109.153
-* 185.199.110.153
-* 185.199.111.153
-</code></pre></div></div>
-
-<p>4 Created CNAME record on DNS</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* www CNAME merritthouse.info
-</code></pre></div></div>
-
-<p>5 Created Domain Pointer to rsabec.github.io/merritthouse</p>
-
-<p>6 Setup Jekyll site on Github - <a href="http://merritthouse.info/">merritthouse.info</a></p>]]></content><author><name>Robert Sabec</name></author><category term="website" /><summary type="html"><![CDATA[Creating a blog and information site for the Historic Merrit House on Orr’s Island.]]></summary></entry></feed>
+<p>maker.ifttt.com/trigger/GR_LowTempWarning/with/key/XXXXXXXX</p>]]></content><author><name>Robert Sabec</name></author><category term="Homekit" /><category term="automation" /><summary type="html"><![CDATA[Open the Contoller Application and click on Add Automation -]]></summary></entry></feed>

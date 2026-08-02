@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Delivery Tracker Project Report</title>
+  <style>
+    :root {
+      --artifact-background: var(--theme-background, #ffffff);
+      --artifact-background-light: var(--theme-background-light, #f6f6f6);
+      --artifact-background-mid: var(--theme-background-mid, #f0f0f0);
+      --artifact-border-light: var(--theme-border-light, #e5e5e5);
+      --artifact-border-dark: var(--theme-border-dark, #cccccc);
+      --artifact-primary-brand: var(--theme-primary-brand, #343ced);
+      --artifact-primary-highlight: var(--theme-primary-highlight, #1b1b1b);
+      --artifact-primary-hover: var(--theme-primary-hover, #404040);
+      --artifact-selected: var(--theme-selected, #e8e8e8);
+      --artifact-text-primary: var(--theme-text-primary, #1b1b1b);
+      --artifact-text-secondary: var(--theme-text-secondary, #727272);
+      --artifact-text-highlight: var(--theme-text-highlight, #fff8e5);
+      --artifact-accent-soft: var(--artifact-selected);
+      --artifact-success-bg: var(--artifact-background-mid);
+      --artifact-success-text: var(--artifact-text-primary);
+      --artifact-warn-bg: var(--artifact-text-highlight);
+      --artifact-warn-text: var(--artifact-text-primary);
+      --artifact-card-shadow: 0 10px 30px rgba(0,0,0,0.06);
+      --artifact-line: var(--artifact-border-light);
+    }
+    html[data-theme='dark'] {
+      --artifact-card-shadow: 0 10px 30px rgba(0,0,0,0.24);
+      --artifact-warn-bg: var(--theme-background-mid, #2f2f2f);
+      --artifact-warn-text: var(--theme-text-primary, #f5f5f5);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--artifact-background);
+      color: var(--artifact-text-primary);
+      line-height: 1.55;
+    }
+    .shell {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 24px;
+      margin-bottom: 28px;
+      align-items: stretch;
+    }
+    .panel {
+      background: var(--artifact-background-light);
+      border: 1px solid var(--artifact-line);
+      border-radius: 20px;
+      box-shadow: var(--artifact-card-shadow);
+      padding: 24px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--artifact-selected);
+      color: var(--artifact-text-secondary);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    h1, h2, h3 {
+      margin: 0 0 12px;
+      font-family: "DM Sans", Inter, ui-sans-serif, system-ui, sans-serif;
+      color: var(--artifact-text-primary);
+    }
+    h1 {
+      font-size: 34px;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: 22px;
+      letter-spacing: -0.02em;
+      margin-bottom: 14px;
+    }
+    h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    p { margin: 0 0 12px; color: var(--artifact-text-primary); }
+    .muted { color: var(--artifact-text-secondary); }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+    .stat {
+      background: var(--artifact-background);
+      border: 1px solid var(--artifact-line);
+      border-radius: 16px;
+      padding: 14px;
+    }
+    .stat .value {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      margin-bottom: 4px;
+    }
+    .stat .label {
+      color: var(--artifact-text-secondary);
+      font-size: 13px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .col-7 { grid-column: span 7; }
+    .col-5 { grid-column: span 5; }
+    .col-6 { grid-column: span 6; }
+    .col-12 { grid-column: span 12; }
+    .timeline {
+      display: grid;
+      gap: 12px;
+    }
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 12px;
+      align-items: start;
+    }
+    .dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 999px;
+      background: var(--artifact-primary-brand);
+      margin-top: 6px;
+      box-shadow: 0 0 0 6px var(--artifact-accent-soft);
+    }
+    .timeline-card {
+      background: var(--artifact-background);
+      border: 1px solid var(--artifact-line);
+      border-radius: 16px;
+      padding: 14px 16px;
+    }
+    .pill-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .pill {
+      border-radius: 999px;
+      padding: 7px 10px;
+      background: var(--artifact-selected);
+      color: var(--artifact-text-primary);
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .list li {
+      background: var(--artifact-background);
+      border: 1px solid var(--artifact-line);
+      border-radius: 14px;
+      padding: 12px 14px;
+    }
+    .callout {
+      background: var(--artifact-warn-bg);
+      color: var(--artifact-warn-text);
+      border: 1px solid var(--artifact-line);
+      border-radius: 16px;
+      padding: 16px;
+    }
+    .two-col {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 16px;
+      border: 1px solid var(--artifact-line);
+      background: var(--artifact-background);
+    }
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--artifact-line);
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th {
+      background: var(--artifact-background-light);
+      color: var(--artifact-text-secondary);
+      font-weight: 700;
+    }
+    tr:last-child td { border-bottom: none; }
+    .footer-note {
+      margin-top: 20px;
+      color: var(--artifact-text-secondary);
+      font-size: 13px;
+    }
+    .code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 13px;
+      background: var(--artifact-background-mid);
+      border-radius: 8px;
+      padding: 2px 6px;
+    }
+    @media screen and (max-width: 900px) {
+      .hero, .grid, .two-col { grid-template-columns: 1fr; }
+      .col-7, .col-5, .col-6, .col-12 { grid-column: span 1; }
+      .stats { grid-template-columns: 1fr 1fr; }
+    }
+    @media screen and (max-width: 620px) {
+      .shell { padding: 18px 14px 48px; }
+      h1 { font-size: 28px; }
+      .stats { grid-template-columns: 1fr; }
+    }
+    @media print {
+      body {
+        margin: 0;
+        padding: 0.4in 0.6in;
+        background: #fff;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+      .shell, .hero, .grid, main {
+        max-width: 100% !important;
+        width: 100% !important;
+      }
+      section, .panel, .timeline-item, table {
+        break-inside: avoid;
+        margin-bottom: 20px !important;
+      }
+      .panel {
+        padding: 18px !important;
+        box-shadow: none !important;
+        border: 1px solid rgba(0,0,0,0.08);
+      }
+      .grid, .hero, .two-col {
+        gap: 10px !important;
+        margin-bottom: 20px !important;
+      }
+      *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+      button, [role="button"], .interactive-only {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <div class="panel">
+        <div class="eyebrow">Project Report</div>
+        <h1>Water Delivery Tracker</h1>
+        <p>This report captures the progression of the iOS class project built in SwiftUI and SwiftData for tracking residential or condo water deliveries, cumulative meter readings, tank forecasts, vendor contact info, and operational planning.</p>
+        <p class="muted">Primary use case: one tracked location such as <span class="code">Merritt House</span>, with a configurable tank capacity, refill tracking, missed-reading recovery, and forecasting for reserve and runout timing.</p>
+        <div class="stats">
+          <div class="stat"><div class="value">iOS</div><div class="label">Target platform</div></div>
+          <div class="stat"><div class="value">SwiftUI</div><div class="label">UI framework</div></div>
+          <div class="stat"><div class="value">SwiftData</div><div class="label">Persistence model</div></div>
+          <div class="stat"><div class="value">Tealium SDK</div><div class="label">Tracking integration</div></div>
+        </div>
+      </div>
+      <div class="panel">
+        <h2>Current scope</h2>
+        <ul class="list">
+          <li>One location profile with editable name, tank settings, vendor info, and baseline values.</li>
+          <li>History logging for meter checks, full-fill deliveries, and gallons-delivered events.</li>
+          <li>Observed tank percentage fallback for missed delivery or missed reading situations.</li>
+          <li>Dashboard forecast for current tank estimate, reserve timing, and out-of-water timing.</li>
+          <li>Monthly and daily usage summaries driven from cumulative meter progression.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="col-7 panel">
+        <h2>Feature progression</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <h3>1. Initial starter app</h3>
+              <p>Started as a beginner-friendly SwiftUI app with a dashboard, settings, and history flow using local persistence so it could be pasted into Xcode and run as a class project.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <h3>2. Delivery model correction</h3>
+              <p>The original assumption of always knowing gallons delivered was replaced with a more realistic model that supports <span class="code">Filled To Full</span> for top-off deliveries, because many real-world deliveries only confirm that the tank was topped off.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <h3>3. Dual delivery modes</h3>
+              <p>The model was expanded to support both <span class="code">Filled To Full</span> and <span class="code">Gallons Delivered</span>, allowing different vendors or record quality over time.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <h3>4. Strict delivery rule</h3>
+              <p>Delivery entries were aligned with the decision that delivery events should require a same-day meter reading for clean and reliable forecasting.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <h3>5. Better starting baseline</h3>
+              <p>The app was updated to start from both a cumulative starting meter value and the current gallons in the tank so the first forecast and usage calculations have a reliable starting anchor.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <h3>6. Form usability improvements</h3>
+              <p>Settings were updated to show visible labels above fields instead of relying only on placeholder text that disappears once values are entered.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <h3>7. Recovery path for missed readings</h3>
+              <p>An observed tank level dropdown in 10% increments was added so a user can manually re-anchor the tank state when one or more deliveries or readings were missed.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <h3>8. Location-aware UX</h3>
+              <p>A location name such as <span class="code">Merritt House</span> was added to settings so the main page can display a meaningful property name instead of only a generic app title.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="timeline-card">
+              <h3>9. Tealium tracking hooks</h3>
+              <p>A <span class="code">TrackingService.swift</span> helper was added to wrap Tealium view and event tracking for dashboard views, history actions, vendor call taps, and settings updates.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-5 panel">
+        <h2>Key product decisions</h2>
+        <ul class="list">
+          <li><strong>One location first:</strong> keeps the class project manageable and easier to understand.</li>
+          <li><strong>SwiftData:</strong> chosen so records persist between launches without building a custom storage layer.</li>
+          <li><strong>Forecasting rule:</strong> reserve warning and estimated runout date are both surfaced.</li>
+          <li><strong>Real-world flexibility:</strong> delivery logging supports both complete and incomplete operational data.</li>
+          <li><strong>Tracking wrapper:</strong> Tealium is initialized once in a shared helper instead of being called directly from every screen.</li>
+        </ul>
+        <div class="pill-row">
+          <span class="pill">Beginner-friendly</span>
+          <span class="pill">Operational use case</span>
+          <span class="pill">Forecasting</span>
+          <span class="pill">Tracking-ready</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="col-6 panel">
+        <h2>Current app structure</h2>
+        <table>
+          <thead>
+            <tr><th>File</th><th>Purpose</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>WaterDeliveryTrackerApp.swift</td><td>App entry point and SwiftData model container setup.</td></tr>
+            <tr><td>ContentView.swift</td><td>Main tab navigation for Dashboard, History, and Settings.</td></tr>
+            <tr><td>WaterModels.swift</td><td>Profile, event types, and persisted event data model.</td></tr>
+            <tr><td>WaterMath.swift</td><td>Calculation logic for usage, tank estimates, reserve timing, and forecasts.</td></tr>
+            <tr><td>DashboardView.swift</td><td>Summary view for location, tank status, usage, reserve warning, and forecast outputs.</td></tr>
+            <tr><td>EventsView.swift</td><td>Reading and delivery entry flow plus event history list.</td></tr>
+            <tr><td>SettingsView.swift</td><td>Location metadata, tank settings, vendor details, and baseline setup.</td></tr>
+            <tr><td>TrackingService.swift</td><td>Tealium wrapper for trackView and trackEvent calls.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-6 panel">
+        <h2>Current event model</h2>
+        <table>
+          <thead>
+            <tr><th>Event type</th><th>What it means</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Meter Check Only</td><td>Records a cumulative meter reading without changing the tank by a delivery action.</td></tr>
+            <tr><td>Filled To Full</td><td>Records a delivery where the tank is known to have been topped off to full capacity.</td></tr>
+            <tr><td>Gallons Delivered</td><td>Records a delivery where a measured delivery amount is known and should be added to the tank level.</td></tr>
+            <tr><td>Observed Tank Level</td><td>Optional manual anchor that sets the estimated tank volume using 10% increments of the configured capacity.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="col-7 panel">
+        <h2>How the calculations work now</h2>
+        <ul class="list">
+          <li><strong>Usage:</strong> based on the difference between cumulative meter readings, similar to an odometer.</li>
+          <li><strong>Starting point:</strong> the app begins from a starting meter reading plus current gallons in the system.</li>
+          <li><strong>Filled To Full delivery:</strong> the tank estimate resets to the configured full capacity.</li>
+          <li><strong>Gallons Delivered delivery:</strong> the tank estimate increases by the logged delivery amount, capped at tank capacity.</li>
+          <li><strong>Observed level fallback:</strong> when readings or deliveries were missed, the observed percent-to-gallons entry can reset the estimated tank state.</li>
+          <li><strong>Reserve forecast:</strong> based on current estimated gallons minus the safety reserve using average daily usage.</li>
+          <li><strong>Runout forecast:</strong> based on total estimated gallons divided by average daily usage.</li>
+        </ul>
+      </div>
+      <div class="col-5 panel">
+        <h2>Example operational workflow</h2>
+        <div class="two-col">
+          <div class="callout">
+            <h3>Normal delivery day</h3>
+            <p>Enter the date, current meter reading, and select either <span class="code">Filled To Full</span> or <span class="code">Gallons Delivered</span>.</p>
+          </div>
+          <div class="callout">
+            <h3>Routine check day</h3>
+            <p>Enter the date and current cumulative meter reading as a meter check only event.</p>
+          </div>
+          <div class="callout">
+            <h3>Missed records</h3>
+            <p>If a delivery or reading was missed, use the observed tank percentage dropdown to re-anchor the tank estimate.</p>
+          </div>
+          <div class="callout">
+            <h3>Vendor action</h3>
+            <p>Store vendor contact info in Settings so the dashboard can surface a one-tap call action.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="col-6 panel">
+        <h2>Tracking plan</h2>
+        <ul class="list">
+          <li><strong>Views:</strong> dashboard, history, and settings screen visits.</li>
+          <li><strong>Events:</strong> meter reading saves, delivery saves, settings updates, vendor call taps, and deletion of logged records.</li>
+          <li><strong>Implementation style:</strong> wrapper helper with <span class="code">trackView</span> and <span class="code">trackEvent</span> methods.</li>
+          <li><strong>Compile safety:</strong> helper was designed so the app can still build before the Tealium package is linked.</li>
+        </ul>
+      </div>
+      <div class="col-6 panel">
+        <h2>Notes and feedback</h2>
+        <ul class="list">
+          <li><strong>Good project choice:</strong> this is a strong learning app because it has real business logic, forms, persistence, summaries, and forecasting without being too abstract.</li>
+          <li><strong>Best improvement made:</strong> moving from a simple gallons-delivered assumption to a mixed real-world delivery model made the app much more useful.</li>
+          <li><strong>Most important technical habit:</strong> keep calculation logic centralized in <span class="code">WaterMath.swift</span> so UI files stay readable.</li>
+          <li><strong>Best beginner pattern:</strong> separate models, math, and views into different files so each file has one clear job.</li>
+          <li><strong>Best future learning step:</strong> add editing of existing events, because that will teach you bindings, state flow, and data updates in SwiftData.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Known constraints and cleanup notes</h2>
+      <ul class="list">
+        <li>After SwiftData model changes, simulator data may become stale. If the app behaves strangely after schema changes, delete the app from the simulator and rerun it.</li>
+        <li>The app should run against an iPhone simulator, not a build-only device destination in Xcode.</li>
+        <li>If the Tealium package is not yet installed, the tracking helper should remain safe but will not send live tracking until the SDK and config values are added.</li>
+        <li>If meter readings are missing on delivery events, forecasting becomes weaker, so the observed tank percent fallback is valuable for recovery.</li>
+      </ul>
+    </section>
+
+    <section class="grid">
+      <div class="col-12 panel">
+        <h2>Recommended next milestones</h2>
+        <table>
+          <thead>
+            <tr><th>Priority</th><th>Next step</th><th>Why it matters</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>High</td><td>Add edit support for existing events</td><td>Fixes bad data without deleting and re-entering rows; teaches SwiftUI forms and data mutation.</td></tr>
+            <tr><td>High</td><td>Add validation summaries and empty-state guidance</td><td>Makes the app easier to understand for non-technical users and helps avoid bad entries.</td></tr>
+            <tr><td>Medium</td><td>Add charts for monthly usage and estimated gallons remaining</td><td>Improves at-a-glance understanding and makes the class project look more polished.</td></tr>
+            <tr><td>Medium</td><td>Add multi-location support later</td><td>Natural expansion once the single-location version is stable.</td></tr>
+            <tr><td>Medium</td><td>Add export or share summary</td><td>Would allow reporting to property managers or keeping a delivery record outside the app.</td></tr>
+            <tr><td>Low</td><td>Add address field and map/vendor notes refinements</td><td>Useful polish after the core tracking flow is stable.</td></tr>
+          </tbody>
+        </table>
+        <p class="footer-note">Overall assessment: the project has evolved from a simple learning app into a practical operations tracker with realistic data entry constraints, a clean growth path, and a strong structure for learning SwiftUI, SwiftData, and SDK instrumentation.</p>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    window.GleanBridge.postMessage({
+      actionId: 'export-pdf',
+      type: 'glean-add-menu',
+      metadata: { label: 'Export as PDF', icon: 'export' }
+    });
+    window.GleanBridge.onMessage('action', function(data) {
+      if (data.actionId === 'export-pdf') window.print();
+    });
+
+    function prepareChartsForPrint() {
+      document.querySelectorAll('[_echarts_instance_]').forEach(function(el) {
+        var chart = echarts.getInstanceByDom(el);
+        if (!chart) return;
+        var img = new Image();
+        img.src = chart.getDataURL({ type: 'png', pixelRatio: 2 });
+        img.className = 'print-chart-img';
+        img.style.cssText = 'width:100%;height:100%;object-fit:contain;position:absolute;top:0;left:0;z-index:10;';
+        el.dataset.prevPosition = el.style.position;
+        el.style.position = 'relative';
+        el.appendChild(img);
+      });
+    }
+
+    function cleanUpAfterPrint() {
+      document.querySelectorAll('[_echarts_instance_]').forEach(function(el) {
+        var img = el.querySelector('.print-chart-img');
+        if (!img) return;
+        img.remove();
+        el.style.position = el.dataset.prevPosition || '';
+        delete el.dataset.prevPosition;
+      });
+    }
+
+    window.addEventListener('beforeprint', prepareChartsForPrint);
+    window.addEventListener('afterprint', cleanUpAfterPrint);
+  </script>
+</body>
+</html>
