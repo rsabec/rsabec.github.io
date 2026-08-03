@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Beef Bulgogi"
+title:  "Atkins Beef Bulgogi"
 date:   2026-08-02 09:00:00 -0800
-categories: Recipes Beef  
+categories: Recipes Beef Atkins 
 ---
 
-# Beef Bulgogi
+# Atkins Beef Bulgogi
 
 If you're following **Atkins Phase 1 (Induction)**, Korean beef bulgogi is easy to adapt because the biggest carb source in traditional recipes is the sugar (or Asian pear) in the marinade. This version keeps the classic savory, garlicky flavor while staying low-carb.
 
