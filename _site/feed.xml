@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-03T09:12:37-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Atkins Beef Bulgogi</title><link href="http://localhost:4000/recipes/beef/atkins/2026/08/02/beef-bulgogi.html" rel="alternate" type="text/html" title="Atkins Beef Bulgogi" /><published>2026-08-02T13:00:00-04:00</published><updated>2026-08-02T13:00:00-04:00</updated><id>http://localhost:4000/recipes/beef/atkins/2026/08/02/beef-bulgogi</id><content type="html" xml:base="http://localhost:4000/recipes/beef/atkins/2026/08/02/beef-bulgogi.html"><![CDATA[<h1 id="atkins-beef-bulgogi">Atkins Beef Bulgogi</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-16T15:50:25-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">robertsabec.com</title><subtitle>Robert is a Senior Solutions Engineer at Tealium in San Diego, CA.</subtitle><author><name>Robert Sabec</name></author><entry><title type="html">Keto Gochujang Wings</title><link href="http://localhost:4000/recipes/chicken/atkins/2026/08/16/Keto-Gochujang-Wings.html" rel="alternate" type="text/html" title="Keto Gochujang Wings" /><published>2026-08-16T13:00:00-04:00</published><updated>2026-08-16T13:00:00-04:00</updated><id>http://localhost:4000/recipes/chicken/atkins/2026/08/16/Keto-Gochujang-Wings</id><content type="html" xml:base="http://localhost:4000/recipes/chicken/atkins/2026/08/16/Keto-Gochujang-Wings.html"><![CDATA[<h1 id="keto-gochujang-wings">Keto Gochujang Wings</h1>
+
+<h2 id="you-can-make-a-delicious-low-carb--keto-gochujang-wings--recipe-that-fits-a-low-sugar-high-protein-lifestyle-inspired-by-low-carb-cooking-principles-1">You can make a delicious, low-carb  Keto Gochujang Wings  recipe that fits a low-sugar, high-protein lifestyle inspired by low-carb cooking principles. [1]</h2>
+<p>Ingredients</p>
+
+<p>• 3 lb chicken wings 
+• 4 tbsp gochujang (Korean red pepper paste) 
+• 2 tbsp soy sauce 
+• 2 tbsp sesame oil 
+• 2 tbsp Shaoxing rice wine (or sherry) 
+• 2 tbsp brown sugar replacement (like Swerve) 
+• 3 cloves garlic, minced 
+• Scallions and sesame seeds for garnish [2]</p>
+
+<h2 id="instructions">Instructions</h2>
+
+<ol>
+  <li>Preheat your oven to 350°F.</li>
+  <li>Score each chicken wing a few times with a knife so the flavor gets inside .</li>
+  <li>Whisk together the gochujang, soy sauce, sesame oil, sweetener, rice wine, and garlic.</li>
+  <li>Pour two-thirds of the marinade into a bag with the wings and coat them well. Save the rest for basting.</li>
+  <li>Bake the wings for 15 minutes.</li>
+  <li>Remove them, brush with the saved marinade, and bake for another 5 minutes. Repeat this basting process three more times.</li>
+  <li>Broil for 2 to 3 minutes until crispy, then garnish with sesame seeds and sliced scallions. [2, 3, 4, 5, 6]</li>
+</ol>
+
+<p>cd Documents/GitHub/rsabec.github.io/</p>
+
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Chicken" /><category term="Atkins" /><summary type="html"><![CDATA[Keto Gochujang Wings]]></summary></entry><entry><title type="html">Atkins Beef Bulgogi</title><link href="http://localhost:4000/recipes/beef/atkins/2026/08/02/beef-bulgogi.html" rel="alternate" type="text/html" title="Atkins Beef Bulgogi" /><published>2026-08-02T13:00:00-04:00</published><updated>2026-08-02T13:00:00-04:00</updated><id>http://localhost:4000/recipes/beef/atkins/2026/08/02/beef-bulgogi</id><content type="html" xml:base="http://localhost:4000/recipes/beef/atkins/2026/08/02/beef-bulgogi.html"><![CDATA[<h1 id="atkins-beef-bulgogi">Atkins Beef Bulgogi</h1>
 
 <p>If you’re following <strong>Atkins Phase 1 (Induction)</strong>, Korean beef bulgogi is easy to adapt because the biggest carb source in traditional recipes is the sugar (or Asian pear) in the marinade. This version keeps the classic savory, garlicky flavor while staying low-carb.</p>
 
@@ -91,7 +119,23 @@
 
 <p>cd Documents/GitHub/rsabec.github.io/</p>
 
-<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Atkins" /><summary type="html"><![CDATA[Atkins Beef Bulgogi]]></summary></entry><entry><title type="html">Flaky Pie Dough</title><link href="http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough.html" rel="alternate" type="text/html" title="Flaky Pie Dough" /><published>2025-07-28T05:00:00-04:00</published><updated>2025-07-28T05:00:00-04:00</updated><id>http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough</id><content type="html" xml:base="http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough.html"><![CDATA[<h1 id="makes-enough-dough-for-one-95-pie-dish">Makes enough dough for one 9.5” pie dish</h1>
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Beef" /><category term="Atkins" /><summary type="html"><![CDATA[Atkins Beef Bulgogi]]></summary></entry><entry><title type="html">Water Delivery Tracker</title><link href="http://localhost:4000/tealium/swift/ios/programming/2025/07/28/Simple_iOS_app_for_tealiumTracking_exercise.html" rel="alternate" type="text/html" title="Water Delivery Tracker" /><published>2025-07-28T05:00:00-04:00</published><updated>2025-07-28T05:00:00-04:00</updated><id>http://localhost:4000/tealium/swift/ios/programming/2025/07/28/Simple_iOS_app_for_tealiumTracking_exercise</id><content type="html" xml:base="http://localhost:4000/tealium/swift/ios/programming/2025/07/28/Simple_iOS_app_for_tealiumTracking_exercise.html"><![CDATA[<h1 id="learning-app-for-implementing-and-testing-telium-swift-sdk">Learning app for Implementing and testing Telium Swift SDK</h1>
+
+<p>TrackingService.swift is written to compile safely even before the Tealium SDK is added by using #if canImport(TealiumSwift). To make tracking live, add the Tealium Swift package in Xcode and replace:</p>
+
+<dl>
+  <dt>YOUR_ACCOUNT </dt>
+  <dt>YOUR_PROFILE  </dt>
+  <dt>YOUR_DATASOURCE </dt>
+</dl>
+
+<p>Link to current progression, current design decisions, implementation notes, and recommended next steps. = <a href="/water_delivery_tracker_project_report.html/">Water Delivery Tracker Project Report</a></p>
+
+<p>cd GitHub/rsabec.github.io/</p>
+
+<p>bundle exec jekyll serve</p>
+
+<p>6 Setup Jekyll site on Github -</p>]]></content><author><name>Robert Sabec</name></author><category term="Tealium" /><category term="Swift" /><category term="iOS" /><category term="Programming" /><summary type="html"><![CDATA[Learning app for Implementing and testing Telium Swift SDK]]></summary></entry><entry><title type="html">Flaky Pie Dough</title><link href="http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough.html" rel="alternate" type="text/html" title="Flaky Pie Dough" /><published>2025-07-28T05:00:00-04:00</published><updated>2025-07-28T05:00:00-04:00</updated><id>http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough</id><content type="html" xml:base="http://localhost:4000/recipes/pie/dough/2025/07/28/Flaky_Pie_Dough.html"><![CDATA[<h1 id="makes-enough-dough-for-one-95-pie-dish">Makes enough dough for one 9.5” pie dish</h1>
 
 <dl>
   <dt>2 1/2 Cups APF ( 12 1/2 oz ) </dt>
@@ -185,23 +229,7 @@ Center and edges should be evenly browned ^
 
 <p>cd GitHub/rsabec.github.io/</p>
 
-<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Pie" /><category term="Dough" /><summary type="html"><![CDATA[Makes enough dough for one 9.5” pie dish]]></summary></entry><entry><title type="html">Water Delivery Tracker</title><link href="http://localhost:4000/tealium/swift/ios/programming/2025/07/28/Simple_iOS_app_for_tealiumTracking_exercise.html" rel="alternate" type="text/html" title="Water Delivery Tracker" /><published>2025-07-28T05:00:00-04:00</published><updated>2025-07-28T05:00:00-04:00</updated><id>http://localhost:4000/tealium/swift/ios/programming/2025/07/28/Simple_iOS_app_for_tealiumTracking_exercise</id><content type="html" xml:base="http://localhost:4000/tealium/swift/ios/programming/2025/07/28/Simple_iOS_app_for_tealiumTracking_exercise.html"><![CDATA[<h1 id="learning-app-for-implementing-and-testing-telium-swift-sdk">Learning app for Implementing and testing Telium Swift SDK</h1>
-
-<p>TrackingService.swift is written to compile safely even before the Tealium SDK is added by using #if canImport(TealiumSwift). To make tracking live, add the Tealium Swift package in Xcode and replace:</p>
-
-<dl>
-  <dt>YOUR_ACCOUNT </dt>
-  <dt>YOUR_PROFILE  </dt>
-  <dt>YOUR_DATASOURCE </dt>
-</dl>
-
-<p>Link to current progression, current design decisions, implementation notes, and recommended next steps. = <a href="/water_delivery_tracker_project_report.html/">Water Delivery Tracker Project Report</a></p>
-
-<p>cd GitHub/rsabec.github.io/</p>
-
-<p>bundle exec jekyll serve</p>
-
-<p>6 Setup Jekyll site on Github -</p>]]></content><author><name>Robert Sabec</name></author><category term="Tealium" /><category term="Swift" /><category term="iOS" /><category term="Programming" /><summary type="html"><![CDATA[Learning app for Implementing and testing Telium Swift SDK]]></summary></entry><entry><title type="html">Ingredients for Basic Yeasted No Knead Bread</title><link href="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html" rel="alternate" type="text/html" title="Ingredients for Basic Yeasted No Knead Bread" /><published>2024-08-10T05:00:00-04:00</published><updated>2024-08-10T05:00:00-04:00</updated><id>http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead</id><content type="html" xml:base="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html"><![CDATA[<h1 id="no-knead-bread---clay-baker-in-typical-oven"><a href="https://breadtopia.com/no-knead-bread/">No Knead Bread</a> - <a href="https://breadtopia.com/store/oblong-cloche/">Clay Baker</a> in typical oven</h1>
+<p>bundle exec jekyll serve</p>]]></content><author><name>Robert Sabec</name></author><category term="Recipes" /><category term="Pie" /><category term="Dough" /><summary type="html"><![CDATA[Makes enough dough for one 9.5” pie dish]]></summary></entry><entry><title type="html">Ingredients for Basic Yeasted No Knead Bread</title><link href="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html" rel="alternate" type="text/html" title="Ingredients for Basic Yeasted No Knead Bread" /><published>2024-08-10T05:00:00-04:00</published><updated>2024-08-10T05:00:00-04:00</updated><id>http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead</id><content type="html" xml:base="http://localhost:4000/recipes/artisan/bread/2024/08/10/Basic-Bread-NoKnead.html"><![CDATA[<h1 id="no-knead-bread---clay-baker-in-typical-oven"><a href="https://breadtopia.com/no-knead-bread/">No Knead Bread</a> - <a href="https://breadtopia.com/store/oblong-cloche/">Clay Baker</a> in typical oven</h1>
 
 <dl>
   <dt>3 Cups Bread</dt>
@@ -639,74 +667,4 @@ Find and open an existing post - Copy and ‘save as’ to create a new post.</p
 
 <p><a href="https://pages.github.com/">Github</a> pages <br />
 <a href="https://github.com/jekyll/jekyll">Jekyll</a> Github repo <br />
-<a href="https://jekyllrb.com/">Jekyll</a> website</p>]]></content><author><name>Robert Sabec</name></author><category term="personal" /><category term="website" /><category term="hosting" /><category term="jekyll" /><summary type="html"><![CDATA[Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site. Find and open an existing post - Copy and ‘save as’ to create a new post.]]></summary></entry><entry><title type="html">Homekit Send a notification from the IFTTT</title><link href="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html" rel="alternate" type="text/html" title="Homekit Send a notification from the IFTTT" /><published>2022-08-28T14:56:00-04:00</published><updated>2022-08-28T14:56:00-04:00</updated><id>http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification</id><content type="html" xml:base="http://localhost:4000/homekit/automation/2022/08/28/iftt_temp_notification.html"><![CDATA[<p>Open the <a href="https://controllerforhomekit.com/">Contoller</a> Application and click on <code class="language-plaintext highlighter-rouge">Add Automation</code> -</p>
-
-<p><img src="/images/Controller_add.jpg" alt="add Automation" /></p>
-
-<p>Name the New Automation and select <code class="language-plaintext highlighter-rouge">Event-Based</code> or <code class="language-plaintext highlighter-rouge">Time-Based</code>. <br />
-<img src="/images/eventbased.jpg" alt="select event-based" /></p>
-
-<p>Here I am going to trigger on motion and select <code class="language-plaintext highlighter-rouge">If one of these events</code>
-<img src="/images/ifOneofTheseevents.jpg" alt="select one of these events" /></p>
-
-<p>Find and select the accessory.
-<img src="/images/selectAccessory.jpg" alt="select an accessory" /></p>
-
-<p>Add conditions for the selected the accessory.
-<img src="/images/addConditions.jpg" alt="add conditions" /></p>
-
-<p>Select an existing scene as a placeholder.  This in only to compelte the automation to be able to save it.  We will update this later.
-<img src="/images/selectScene.jpg" alt="select scene" /></p>
-
-<p>Click the <code class="language-plaintext highlighter-rouge">Close</code> button.
-<img src="/images/placeholderScene.jpg" alt="temp scene" /></p>
-
-<p><code class="language-plaintext highlighter-rouge">Save</code> automation.
-<img src="/images/saveautomation.jpg" alt="save button" /></p>
-
-<p>Since Apple has not exposed <code class="language-plaintext highlighter-rouge">convert to shortcut</code> feature we need to switchback to Apple Home application and go to <code class="language-plaintext highlighter-rouge">Select Accessories and Scenes.</code>
-<img src="/images/selectAccesScenes.jpg" alt="select accessories and scens" /></p>
-
-<p>And then unselect the scene we initially selected as a placeholder.  Go all the way to the bottom and click <code class="language-plaintext highlighter-rouge">Convert to Shortcut</code>.
-<img src="/images/connvToshortcut.jpg" alt="connvToshortcut" /></p>
-
-<p>Delete scene listed:
-<img src="/images/connvToshortcut.jpg" alt="connvToshortcut" /></p>
-
-<p>Add Web action - 
-<img src="/images/selectWeb.jpg" alt="selectWeb" /></p>
-
-<p>Select url for webhook url
-<img src="/images/selectURL.jpg" alt="selectURL" /></p>
-
-<p>Go to IFTTT and create the webhook.
-<img src="/images/createbuttonIFTTT.jpg" alt="createbuttonIFTTT" /></p>
-
-<p><img src="/images/webhookAdd.jpg" alt="webhookAdd" /></p>
-
-<p><img src="/images/webRequest.jpg" alt="webRequest" /></p>
-
-<p><img src="/images/triggerMotionDetected.jpg" alt="triggerMotionDetected" /></p>
-
-<p><img src="/images/ThenThat.jpg" alt="ThenThat" /></p>
-
-<p><img src="/images/notifications.jpg" alt="notifications" /></p>
-
-<p><img src="/images/notificationSimple.jpg" alt="notificationSimple" /></p>
-
-<p><img src="/images/createAction.jpg" alt="createAction" /></p>
-
-<p><img src="/images/notificationSimple.jpg" alt="notificationSimple" /></p>
-
-<p>You should endup with a url for the webhook like this -</p>
-<blockquote>
-  <p>curl -X POST https://maker.ifttt.com/trigger/{event}/with/key/your{key-here}</p>
-</blockquote>
-
-<p>Back in Home app add url
-<img src="/images/webhooookURL.jpg" alt="webhooookURL" /></p>
-
-<p>get contents of url:
-<img src="/images/getContents.jpg" alt="getContents" /></p>
-
-<p>maker.ifttt.com/trigger/GR_LowTempWarning/with/key/XXXXXXXX</p>]]></content><author><name>Robert Sabec</name></author><category term="Homekit" /><category term="automation" /><summary type="html"><![CDATA[Open the Contoller Application and click on Add Automation -]]></summary></entry></feed>
+<a href="https://jekyllrb.com/">Jekyll</a> website</p>]]></content><author><name>Robert Sabec</name></author><category term="personal" /><category term="website" /><category term="hosting" /><category term="jekyll" /><summary type="html"><![CDATA[Updating or adding to your posts in Jeckyll is done with the ‘markdown’ files located in the ‘_posts’ directory in your Jeckll site. Find and open an existing post - Copy and ‘save as’ to create a new post.]]></summary></entry></feed>
